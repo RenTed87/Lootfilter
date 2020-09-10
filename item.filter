@@ -383,6 +383,7 @@ ItemDisplay[MAG !ID ci3 !ETH]: %NAME% %TAN%[%ILVL%]
 ItemDisplay[MAG !ID jew]: %RED%¤¤¤¤¤¤ %BLUE%%NAME% %RED%¤¤¤¤¤¤ %TAN%[%ILVL%]
 ItemDisplay[MAG !ID CL1]: %RED%¤¤ %BLUE%%NAME% %RED%¤¤ %TAN%[%ILVL%]
 ItemDisplay[MAG !ID CL2]: %RED%¤¤ %BLUE%%NAME% %RED%¤¤ %TAN%[%ILVL%]
+ItemDisplay[MAG !ID ama]: %RED%¤¤ %BLUE%%NAME% %RED%¤¤ %TAN%[%ILVL%]
 ItemDisplay[MAG !ID amf]: %RED%¤¤ %BLUE%%NAME% %RED%¤¤ %TAN%[%ILVL%]
 // MAG Filter
 ItemDisplay[MAG !ID aq2]:
