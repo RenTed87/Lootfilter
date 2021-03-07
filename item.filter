@@ -17,14 +17,14 @@ ItemDisplay[cx5]: %GREEN%¤¤¤¤¤¤ %PURPLE%Orb of Corruption %GREEN%¤¤¤¤�
 ItemDisplay[maz]: %GREEN%¤¤¤¤¤¤ %RED%Infernal Trial %GREEN%¤¤¤¤¤¤
 ItemDisplay[ma1]: %GREEN%¤¤¤¤¤¤ %PURPLE%%NAME% %GREEN%¤¤¤¤¤¤
 ItemDisplay[ma2]: %GREEN%¤¤¤¤¤¤ %PURPLE%%NAME% %GREEN%¤¤¤¤¤¤
-ItemDisplay[ma3]: %GREEN%¤¤¤¤¤¤ %PURPLE%%NAME% %GREEN%¤¤¤¤¤¤
+//ItemDisplay[ma3]: %GREEN%¤¤¤¤¤¤ %PURPLE%%NAME% %GREEN%¤¤¤¤¤¤
 ItemDisplay[ma4]: %GREEN%¤¤¤¤¤¤ %PURPLE%%NAME% %GREEN%¤¤¤¤¤¤
 ItemDisplay[ma5]: %GREEN%¤¤¤¤¤¤ %PURPLE%%NAME% %GREEN%¤¤¤¤¤¤
 ItemDisplay[ma6]: %GREEN%¤¤¤¤¤¤ %PURPLE%%NAME% %GREEN%¤¤¤¤¤¤
 ItemDisplay[ma7]: %GREEN%¤¤¤¤¤¤ %PURPLE%%NAME% %GREEN%¤¤¤¤¤¤
 ItemDisplay[ma8]: %GREEN%¤¤¤¤¤¤ %PURPLE%%NAME% %GREEN%¤¤¤¤¤¤
 ItemDisplay[ma9]: %GREEN%¤¤¤¤¤¤ %PURPLE%%NAME% %GREEN%¤¤¤¤¤¤
-ItemDisplay[ma10]: %GREEN%¤¤¤¤¤¤ %PURPLE%%NAME% %GREEN%¤¤¤¤¤¤
+//ItemDisplay[ma10]: %GREEN%¤¤¤¤¤¤ %PURPLE%%NAME% %GREEN%¤¤¤¤¤¤
 ItemDisplay[tes]: %RED%¤¤ %ORANGE%Suffering %RED%[Andariel]
 ItemDisplay[ceh]: %RED%¤¤ %ORANGE%Hatred %RED%[Mephisto]
 ItemDisplay[bet]: %RED%¤¤ %ORANGE%Terror %RED%[Diablo]
