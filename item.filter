@@ -522,7 +522,6 @@ ItemDisplay[RARE !ID wsp !ETH]: %YELLOW%%NAME% %TAN%[%ILVL%]
 // RARE Filter
 ItemDisplay[RARE !ID !ETH ILVL<76]: %YELLOW%%NAME% %TAN%[%ILVL%]
 ItemDisplay[RARE !ID ETH ILVL<76]: %WHITE%ETH %YELLOW%%NAME% %TAN%[%ILVL%]
-ItemDisplay[RARE !ID ILVL>75]:
 //
 //╔════════════╗
 //║ Sets Items ║
