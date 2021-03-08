@@ -63,14 +63,14 @@ ItemDisplay[CLVL>79 mp4]:
 ItemDisplay[CLVL>60 mp3]:
 ItemDisplay[CLVL>30 mp2]:
 ItemDisplay[CLVL>15 mp1]:
-ItemDisplay[CLVL<80 hp4]: %WHITE%Great %WHITE%!%RED%HP
-ItemDisplay[CLVL<49 hp3]: %WHITE%Normal %WHITE%!%RED%HP
-ItemDisplay[CLVL<25 hp2]: %WHITE%Light %WHITE%!%RED%HP
-ItemDisplay[CLVL<13 hp1]: %WHITE%Minor %WHITE%!%RED%HP
-ItemDisplay[CLVL<80 mp4]: %WHITE%Great %WHITE%!%BLUE%MP
-ItemDisplay[CLVL<61 mp3]: %WHITE%Normal %WHITE%!%BLUE%MP
-ItemDisplay[CLVL<31 mp2]: %WHITE%Light %WHITE%!%BLUE%MP
-ItemDisplay[CLVL<16 mp1]: %WHITE%Minor %WHITE%!%BLUE%MP
+ItemDisplay[CLVL<80 hp4]: %WHITE%Great !%RED%HP
+ItemDisplay[CLVL<49 hp3]: %WHITE%Normal !%RED%HP
+ItemDisplay[CLVL<25 hp2]: %WHITE%Light !%RED%HP
+ItemDisplay[CLVL<13 hp1]: %WHITE%Minor !%RED%HP
+ItemDisplay[CLVL<80 mp4]: %WHITE%Great !%BLUE%MP
+ItemDisplay[CLVL<61 mp3]: %WHITE%Normal !%BLUE%MP
+ItemDisplay[CLVL<31 mp2]: %WHITE%Light !%BLUE%MP
+ItemDisplay[CLVL<16 mp1]: %WHITE%Minor !%BLUE%MP
 ItemDisplay[leg]: %NAME% %RED%[%SOCKETS%] %TAN%[%ILVL%]
 ItemDisplay[ear]: %NAME%
 ItemDisplay[yps]: %WHITE%!%GREEN%Ant
