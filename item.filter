@@ -3,6 +3,33 @@
 //If something is missing, let me know I will add it.
 //
 //
+//╔══════════════╗
+//║ Quests Items ║
+//╚══════════════╝
+//
+ItemDisplay[bks]: %NAME% %TAN%[%ILVL%]
+ItemDisplay[bkd]: %NAME% %TAN%[%ILVL%]
+ItemDisplay[hdm]: %NAME% %RED%[%SOCKETS%] %TAN%[%ILVL%]
+ItemDisplay[tr1]: %NAME% %TAN%[%ILVL%]
+ItemDisplay[ass]: %NAME% %TAN%[%ILVL%]
+ItemDisplay[box]: %NAME% %TAN%[%ILVL%]
+ItemDisplay[msf]: %NAME% %RED%[%SOCKETS%] %TAN%[%ILVL%]
+ItemDisplay[vip]: %NAME% %TAN%[%ILVL%]
+ItemDisplay[hst]: %NAME% %RED%[%SOCKETS%] %TAN%[%ILVL%]
+ItemDisplay[j34]: %NAME% %TAN%[%ILVL%]
+ItemDisplay[g34]: %NAME% %TAN%[%ILVL%]
+ItemDisplay[xyz]: %NAME% %TAN%[%ILVL%]
+ItemDisplay[g33]: %NAME% %RED%[%SOCKETS%] %TAN%[%ILVL%]
+ItemDisplay[bbb]: %NAME% %TAN%[%ILVL%]
+ItemDisplay[qbr]: %NAME% %TAN%[%ILVL%]
+ItemDisplay[qey]: %NAME% %TAN%[%ILVL%]
+ItemDisplay[qhr]: %NAME% %TAN%[%ILVL%]
+ItemDisplay[qf1]: %NAME% %RED%[%SOCKETS%] %TAN%[%ILVL%]
+ItemDisplay[qf2]: %NAME% %RED%[%SOCKETS%] %TAN%[%ILVL%]
+ItemDisplay[mss]: %NAME% %TAN%[%ILVL%]
+ItemDisplay[hfh]: %NAME% %RED%[%SOCKETS%] %TAN%[%ILVL%]
+ItemDisplay[ice]: %NAME% %TAN%[%ILVL%]
+ItemDisplay[tr2]: %NAME% %TAN%[%ILVL%]
 //
 //╔═════════════════════╗
 //║ Miscellaneous Items ║
