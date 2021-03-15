@@ -2,7 +2,7 @@
 //Please take a screenshot when reporting something, it will greatly help me fixing it.
 //If something is missing, let me know I will add it.
 //
-ItemDisplay[RARE]: %PURPLE%BASENAME%%NL%%GREEN%%NAME%
+ItemDisplay[RARE ID]: %PURPLE%BASENAME%%NL%%GREEN%%NAME%
 //
 //╔══════════════╗
 //║ Quests Items ║
