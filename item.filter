@@ -2,7 +2,6 @@
 //Please take a screenshot when reporting something, it will greatly help me fixing it.
 //If something is missing, let me know I will add it.
 //
-ItemDisplay[RARE ID]: %PURPLE%%BASENAME%%NL%%GREEN%%NAME%
 //
 //╔══════════════╗
 //║ Quests Items ║
@@ -53,15 +52,15 @@ ItemDisplay[ma7 !ID]: %GREEN%¤¤¤¤¤¤ %PURPLE%%NAME% %RED%T3 %GREEN%¤¤¤¤
 ItemDisplay[ma8 !ID]: %GREEN%¤¤¤¤¤¤ %PURPLE%%NAME% %RED%T2 %GREEN%¤¤¤¤¤¤
 ItemDisplay[ma9 !ID]: %GREEN%¤¤¤¤¤¤ %PURPLE%%NAME% %RED%T2 %GREEN%¤¤¤¤¤¤
 //ItemDisplay[ma10 !ID]: %GREEN%¤¤¤¤¤¤ %PURPLE%%NAME%
-ItemDisplay[ma1 ID]: %PURPLE%%NAME% %RED%T1
-ItemDisplay[ma2 ID]: %PURPLE%%NAME% %RED%T3
+ItemDisplay[ma1 ID]: %PURPLE%%NAME% %GREEN%T1
+ItemDisplay[ma2 ID]: %PURPLE%%NAME% %GREEN%T3
 //ItemDisplay[ma3 ID]: %PURPLE%%NAME%
-ItemDisplay[ma4 ID]: %PURPLE%%NAME% %RED%T2
-ItemDisplay[ma5 ID]: %PURPLE%%NAME% %RED%T1
-ItemDisplay[ma6 ID]: %PURPLE%%NAME% %RED%T3
-ItemDisplay[ma7 ID]: %PURPLE%%NAME% %RED%T3
-ItemDisplay[ma8 ID]: %PURPLE%%NAME% %RED%T2
-ItemDisplay[ma9 ID]: %PURPLE%%NAME% %RED%T2
+ItemDisplay[ma4 ID]: %PURPLE%%NAME% %GREEN%T2
+ItemDisplay[ma5 ID]: %PURPLE%%NAME% %GREEN%T1
+ItemDisplay[ma6 ID]: %PURPLE%%NAME% %GREEN%T3
+ItemDisplay[ma7 ID]: %PURPLE%%NAME% %GREEN%T3
+ItemDisplay[ma8 ID]: %PURPLE%%NAME% %GREEN%T2
+ItemDisplay[ma9 ID]: %PURPLE%%NAME% %GREEN%T2
 //ItemDisplay[ma10 ID]: %PURPLE%%NAME%
 ItemDisplay[tes]: %RED%¤¤ %ORANGE%Suffering %RED%[Andariel]
 ItemDisplay[ceh]: %RED%¤¤ %ORANGE%Hatred %RED%[Mephisto]
