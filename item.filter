@@ -42,15 +42,15 @@ ItemDisplay[CLVL>19 GOLD<250]:
 ItemDisplay[CLVL<20 GOLD<1]:
 ItemDisplay[cx5]: %GREEN%¤¤¤¤¤¤ %PURPLE%Orb of Corruption %GREEN%¤¤¤¤¤¤
 ItemDisplay[maz]: %GREEN%¤¤¤¤¤¤ %RED%Infernal Trial %GREEN%¤¤¤¤¤¤
-ItemDisplay[ma1]: %GREEN%¤¤¤¤¤¤ %PURPLE%%NAME% %GREEN%¤¤¤¤¤¤
-ItemDisplay[ma2]: %GREEN%¤¤¤¤¤¤ %PURPLE%%NAME% %GREEN%¤¤¤¤¤¤
+ItemDisplay[ma1]: %GREEN%¤¤¤¤¤¤ %PURPLE%%NAME% %RED%T1 %GREEN%¤¤¤¤¤¤
+ItemDisplay[ma2]: %GREEN%¤¤¤¤¤¤ %PURPLE%%NAME% %RED%T3 %GREEN%¤¤¤¤¤¤
 //ItemDisplay[ma3]: %GREEN%¤¤¤¤¤¤ %PURPLE%%NAME% %GREEN%¤¤¤¤¤¤
-ItemDisplay[ma4]: %GREEN%¤¤¤¤¤¤ %PURPLE%%NAME% %GREEN%¤¤¤¤¤¤
-ItemDisplay[ma5]: %GREEN%¤¤¤¤¤¤ %PURPLE%%NAME% %GREEN%¤¤¤¤¤¤
-ItemDisplay[ma6]: %GREEN%¤¤¤¤¤¤ %PURPLE%%NAME% %GREEN%¤¤¤¤¤¤
-ItemDisplay[ma7]: %GREEN%¤¤¤¤¤¤ %PURPLE%%NAME% %GREEN%¤¤¤¤¤¤
-ItemDisplay[ma8]: %GREEN%¤¤¤¤¤¤ %PURPLE%%NAME% %GREEN%¤¤¤¤¤¤
-ItemDisplay[ma9]: %GREEN%¤¤¤¤¤¤ %PURPLE%%NAME% %GREEN%¤¤¤¤¤¤
+ItemDisplay[ma4]: %GREEN%¤¤¤¤¤¤ %PURPLE%%NAME% %RED%T2 %GREEN%¤¤¤¤¤¤
+ItemDisplay[ma5]: %GREEN%¤¤¤¤¤¤ %PURPLE%%NAME% %RED%T1 %GREEN%¤¤¤¤¤¤
+ItemDisplay[ma6]: %GREEN%¤¤¤¤¤¤ %PURPLE%%NAME% %RED%T3 %GREEN%¤¤¤¤¤¤
+ItemDisplay[ma7]: %GREEN%¤¤¤¤¤¤ %PURPLE%%NAME% %RED%T3 %GREEN%¤¤¤¤¤¤
+ItemDisplay[ma8]: %GREEN%¤¤¤¤¤¤ %PURPLE%%NAME% %RED%T2 %GREEN%¤¤¤¤¤¤
+ItemDisplay[ma9]: %GREEN%¤¤¤¤¤¤ %PURPLE%%NAME% %RED%T2 %GREEN%¤¤¤¤¤¤
 //ItemDisplay[ma10]: %GREEN%¤¤¤¤¤¤ %PURPLE%%NAME% %GREEN%¤¤¤¤¤¤
 ItemDisplay[tes]: %RED%¤¤ %ORANGE%Suffering %RED%[Andariel]
 ItemDisplay[ceh]: %RED%¤¤ %ORANGE%Hatred %RED%[Mephisto]
@@ -68,16 +68,15 @@ ItemDisplay[cx6]: %RED%¤¤ %PURPLE%%NAME% %RED%¤¤
 ItemDisplay[std]: %TAN%%NAME%
 ItemDisplay[cx9]: %NAME%
 //
-//╔═══════════════════════════════╗
-//║ Inventory Miscellaneous Items ║
-//╚═══════════════════════════════╝
+//╔══════════════════╗
+//║ Consumable Items ║
+//╚══════════════════╝
 //
 ItemDisplay[ibk]: %RED%ID %WHITE%Book
 ItemDisplay[tbk]: %BLUE%TP %WHITE%Book
 ItemDisplay[isc]: %WHITE%!%RED%ID
 ItemDisplay[tsc]: %WHITE%!%BLUE%TP
 ItemDisplay[key]: %WHITE%!%ORANGE%Key
-ItemDisplay[box]: %NAME%
 ItemDisplay[hp5]: %WHITE%!%RED%HP%WHITE%+
 ItemDisplay[mp5]: %WHITE%!%BLUE%MP%WHITE%+
 ItemDisplay[rvs]: %WHITE%!%PURPLE%Low
