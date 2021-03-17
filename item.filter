@@ -395,6 +395,7 @@ ItemDisplay[ID UNI !SOCK=0 ETH]: %WHITE%ETH %GOLD%%NAME% %RED%[%SOCKETS%] %TAN%[
 //║ Magical Items ║
 //╚═══════════════╝
 //
+ItemDisplay[MAG !ID aq2]: %RED%¤¤ %BLUE%%NAME% %RED%¤¤ %TAN%[%ILVL%]
 ItemDisplay[MAG !ID amu]: %NAME% %TAN%[%ILVL%]
 ItemDisplay[MAG !ID rin]: %NAME% %TAN%[%ILVL%]
 ItemDisplay[MAG !ID cm1]: %BLUE%¤¤¤¤ %ORANGE%%NAME% %BLUE%¤¤¤¤ %TAN%[%ILVL%]
