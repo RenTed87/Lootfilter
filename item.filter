@@ -39,17 +39,17 @@ ItemDisplay[CLVL>59 GOLD<1000]:
 ItemDisplay[CLVL>39 GOLD<500]:
 ItemDisplay[CLVL>19 GOLD<250]:
 ItemDisplay[CLVL<20 GOLD<0]:
-ItemDisplay[cx5]: %GREEN%¤¤¤¤¤¤ %PURPLE%Orb of Corruption %GREEN%¤¤¤¤¤¤
-ItemDisplay[maz]: %GREEN%¤¤¤¤¤¤ %RED%Infernal Trial %GREEN%¤¤¤¤¤¤
-ItemDisplay[ma1 !ID]: %GREEN%¤¤¤¤¤¤ %PURPLE%%NAME% %RED%T1 %GREEN%¤¤¤¤¤¤
-ItemDisplay[ma2 !ID]: %GREEN%¤¤¤¤¤¤ %PURPLE%%NAME% %RED%T3 %GREEN%¤¤¤¤¤¤
+ItemDisplay[cx5]: %MAP%%NL%%GREEN%¤¤¤¤¤¤ %PURPLE%Orb of Corruption %GREEN%¤¤¤¤¤¤%NL%
+ItemDisplay[maz]: %MAP%%NL%%GREEN%¤¤¤¤¤¤ %RED%Infernal Trial %GREEN%¤¤¤¤¤¤%NL%
+ItemDisplay[ma1 !ID]: %MAP%%NL%%GREEN%¤¤¤¤¤¤ %PURPLE%%NAME% %RED%T1 %GREEN%¤¤¤¤¤¤%NL%
+ItemDisplay[ma2 !ID]: %MAP%%NL%%GREEN%¤¤¤¤¤¤ %PURPLE%%NAME% %RED%T3 %GREEN%¤¤¤¤¤¤%NL%
 //ItemDisplay[ma3 !ID]: %GREEN%¤¤¤¤¤¤ %PURPLE%%NAME% %GREEN%¤¤¤¤¤¤
-ItemDisplay[ma4 !ID]: %GREEN%¤¤¤¤¤¤ %PURPLE%%NAME% %RED%T2 %GREEN%¤¤¤¤¤¤
-ItemDisplay[ma5 !ID]: %GREEN%¤¤¤¤¤¤ %PURPLE%%NAME% %RED%T1 %GREEN%¤¤¤¤¤¤
-ItemDisplay[ma6 !ID]: %GREEN%¤¤¤¤¤¤ %PURPLE%%NAME% %RED%T3 %GREEN%¤¤¤¤¤¤
-ItemDisplay[ma7 !ID]: %GREEN%¤¤¤¤¤¤ %PURPLE%%NAME% %RED%T3 %GREEN%¤¤¤¤¤¤
-ItemDisplay[ma8 !ID]: %GREEN%¤¤¤¤¤¤ %PURPLE%%NAME% %RED%T2 %GREEN%¤¤¤¤¤¤
-ItemDisplay[ma9 !ID]: %GREEN%¤¤¤¤¤¤ %PURPLE%%NAME% %RED%T2 %GREEN%¤¤¤¤¤¤
+ItemDisplay[ma4 !ID]: %MAP%%NL%%GREEN%¤¤¤¤¤¤ %PURPLE%%NAME% %RED%T2 %GREEN%¤¤¤¤¤¤%NL%
+ItemDisplay[ma5 !ID]: %MAP%%NL%%GREEN%¤¤¤¤¤¤ %PURPLE%%NAME% %RED%T1 %GREEN%¤¤¤¤¤¤%NL%
+ItemDisplay[ma6 !ID]: %MAP%%NL%%GREEN%¤¤¤¤¤¤ %PURPLE%%NAME% %RED%T3 %GREEN%¤¤¤¤¤¤%NL%
+ItemDisplay[ma7 !ID]: %MAP%%NL%%GREEN%¤¤¤¤¤¤ %PURPLE%%NAME% %RED%T3 %GREEN%¤¤¤¤¤¤%NL%
+ItemDisplay[ma8 !ID]: %MAP%%NL%%GREEN%¤¤¤¤¤¤ %PURPLE%%NAME% %RED%T2 %GREEN%¤¤¤¤¤¤%NL%
+ItemDisplay[ma9 !ID]: %MAP%%NL%%GREEN%¤¤¤¤¤¤ %PURPLE%%NAME% %RED%T2 %GREEN%¤¤¤¤¤¤%NL%
 //ItemDisplay[ma10 !ID]: %GREEN%¤¤¤¤¤¤ %PURPLE%%NAME%
 ItemDisplay[ma1 ID]: %PURPLE%%NAME% %GREEN%T1
 ItemDisplay[ma2 ID]: %PURPLE%%NAME% %GREEN%T3
@@ -61,19 +61,19 @@ ItemDisplay[ma7 ID]: %PURPLE%%NAME% %GREEN%T3
 ItemDisplay[ma8 ID]: %PURPLE%%NAME% %GREEN%T2
 ItemDisplay[ma9 ID]: %PURPLE%%NAME% %GREEN%T2
 //ItemDisplay[ma10 ID]: %PURPLE%%NAME%
-ItemDisplay[tes]: %RED%¤¤ %ORANGE%Suffering %RED%[Andariel]
-ItemDisplay[ceh]: %RED%¤¤ %ORANGE%Hatred %RED%[Mephisto]
-ItemDisplay[bet]: %RED%¤¤ %ORANGE%Terror %RED%[Diablo]
-ItemDisplay[fed]: %RED%¤¤ %ORANGE%Destruction %RED%[Baal]
-ItemDisplay[toa]: %RED%¤¤ %PURPLE%Token of Absolution %RED%¤¤
-ItemDisplay[cx7]: %RED%¤¤ %PURPLE%%NAME% %RED%¤¤
-ItemDisplay[pk1]: %RED%¤¤ %ORANGE%Terror %RED%[Countess]
-ItemDisplay[pk2]: %RED%¤¤ %ORANGE%Hate %RED%[Summoner]
-ItemDisplay[pk3]: %RED%¤¤ %ORANGE%Destruction %RED%[Nihlathak]
-ItemDisplay[dhn]: %RED%¤¤ %PURPLE%Diablo's Horn
-ItemDisplay[bey]: %RED%¤¤ %PURPLE%Baal's Eye
-ItemDisplay[mbr]: %RED%¤¤ %PURPLE%Mephisto's Brain
-ItemDisplay[cx6]: %RED%¤¤ %PURPLE%%NAME% %RED%¤¤
+ItemDisplay[tes]: %MAP%%NL%%RED%¤¤ %ORANGE%Suffering %RED%[Andariel]%NL%
+ItemDisplay[ceh]: %MAP%%NL%%RED%¤¤ %ORANGE%Hatred %RED%[Mephisto]%NL%
+ItemDisplay[bet]: %MAP%%NL%%RED%¤¤ %ORANGE%Terror %RED%[Diablo]%NL%
+ItemDisplay[fed]: %MAP%%NL%%RED%¤¤ %ORANGE%Destruction %RED%[Baal]%NL%
+ItemDisplay[toa]: %MAP%%NL%%RED%¤¤ %PURPLE%Token of Absolution %RED%¤¤%NL%
+ItemDisplay[cx7]: %MAP%%NL%%RED%¤¤ %PURPLE%%NAME% %RED%¤¤%NL%
+ItemDisplay[pk1]: %MAP%%NL%%RED%¤¤ %ORANGE%Terror %RED%[Countess]%NL%
+ItemDisplay[pk2]: %MAP%%NL%%RED%¤¤ %ORANGE%Hate %RED%[Summoner]%NL%
+ItemDisplay[pk3]: %MAP%%NL%%RED%¤¤ %ORANGE%Destruction %RED%[Nihlathak]%NL%
+ItemDisplay[dhn]: %MAP%%NL%%RED%¤¤ %PURPLE%Diablo's Horn%NL%
+ItemDisplay[bey]: %MAP%%NL%%RED%¤¤ %PURPLE%Baal's Eye%NL%
+ItemDisplay[mbr]: %MAP%%NL%%RED%¤¤ %PURPLE%Mephisto's Brain%NL%
+ItemDisplay[cx6]: %MAP%%NL%%RED%¤¤ %PURPLE%%NAME% %RED%¤¤%NL%
 ItemDisplay[std]: %TAN%%NAME%
 ItemDisplay[cx9]: %NAME%
 //
@@ -234,32 +234,32 @@ ItemDisplay[r04]: %ORANGE%%RUNENAME% %TAN%[4]
 ItemDisplay[r05]: %ORANGE%%RUNENAME% %TAN%[5]
 ItemDisplay[r06]: %ORANGE%%RUNENAME% %TAN%[6]
 ItemDisplay[r07]: %ORANGE%%RUNENAME% %TAN%[7]
-ItemDisplay[r08]: %RED%¤¤¤¤ %ORANGE%%RUNENAME% %RED%¤¤¤¤ %TAN%[8]
+ItemDisplay[r08]: %MAP%%NL%%RED%¤¤¤¤ %ORANGE%%RUNENAME% %RED%¤¤¤¤ %TAN%[8]%NL%
 ItemDisplay[r09]: %ORANGE%%RUNENAME% %TAN%[9]
 ItemDisplay[r10]: %ORANGE%%RUNENAME% %TAN%[10]
 ItemDisplay[r11]: %ORANGE%%RUNENAME% %TAN%[11]
-ItemDisplay[r12]: %RED%¤¤¤¤ %ORANGE%%RUNENAME% %RED%¤¤¤¤ %TAN%[12]
+ItemDisplay[r12]: %MAP%%NL%%RED%¤¤¤¤ %ORANGE%%RUNENAME% %RED%¤¤¤¤ %TAN%[12]%NL%
 ItemDisplay[r13]: %ORANGE%%RUNENAME% %TAN%[13]
 ItemDisplay[r14]: %ORANGE%%RUNENAME% %TAN%[14]
-ItemDisplay[r15]: %RED%¤¤¤¤ %ORANGE%%RUNENAME% %RED%¤¤¤¤ %TAN%[15]
+ItemDisplay[r15]: %MAP%%NL%%RED%¤¤¤¤ %ORANGE%%RUNENAME% %RED%¤¤¤¤ %TAN%[15]%NL%
 ItemDisplay[r16]: %ORANGE%%RUNENAME% %TAN%[16]
 ItemDisplay[r17]: %ORANGE%%RUNENAME% %TAN%[17]
 ItemDisplay[r18]: %ORANGE%%RUNENAME% %TAN%[18]
 ItemDisplay[r19]: %ORANGE%%RUNENAME% %TAN%[19]
-ItemDisplay[r20]: %RED%¤¤¤¤¤¤¤ %PURPLE%%RUNENAME% %RED%¤¤¤¤¤¤¤ %TAN%[20]
-ItemDisplay[r21]: %RED%¤¤¤¤¤¤¤ %PURPLE%%RUNENAME% %RED%¤¤¤¤¤¤¤ %TAN%[21]
-ItemDisplay[r22]: %RED%¤¤¤¤¤¤¤ %PURPLE%%RUNENAME% %RED%¤¤¤¤¤¤¤ %TAN%[22]
-ItemDisplay[r23]: %RED%¤¤¤¤¤¤¤ %PURPLE%%RUNENAME% %RED%¤¤¤¤¤¤¤ %TAN%[23]
-ItemDisplay[r24]: %RED%¤¤¤¤¤¤¤ %PURPLE%%RUNENAME% %RED%¤¤¤¤¤¤¤ %TAN%[24]
-ItemDisplay[r25]: %RED%¤¤¤¤¤¤¤ %PURPLE%%RUNENAME% %RED%¤¤¤¤¤¤¤ %TAN%[25]
-ItemDisplay[r26]: %GREEN%¤¤¤¤¤¤¤¤¤¤ %PURPLE%%RUNENAME% %GREEN%¤¤¤¤¤¤¤¤¤¤ %TAN%[26]
-ItemDisplay[r27]: %GREEN%¤¤¤¤¤¤¤¤¤¤ %PURPLE%%RUNENAME% %GREEN%¤¤¤¤¤¤¤¤¤¤ %TAN%[27]
-ItemDisplay[r28]: %GREEN%¤¤¤¤¤¤¤¤¤¤ %PURPLE%%RUNENAME% %GREEN%¤¤¤¤¤¤¤¤¤¤ %TAN%[28]
-ItemDisplay[r29]: %GREEN%¤¤¤¤¤¤¤¤¤¤ %PURPLE%%RUNENAME% %GREEN%¤¤¤¤¤¤¤¤¤¤ %TAN%[29]
-ItemDisplay[r30]: %GREEN%¤¤¤¤¤¤¤¤¤¤ %PURPLE%%RUNENAME% %GREEN%¤¤¤¤¤¤¤¤¤¤ %TAN%[30]
-ItemDisplay[r31]: %GREEN%¤¤¤¤¤¤¤¤¤¤ %PURPLE%%RUNENAME% %GREEN%¤¤¤¤¤¤¤¤¤¤ %TAN%[31]
-ItemDisplay[r32]: %GREEN%¤¤¤¤¤¤¤¤¤¤ %PURPLE%%RUNENAME% %GREEN%¤¤¤¤¤¤¤¤¤¤ %TAN%[32]
-ItemDisplay[r33]: %GREEN%¤¤¤¤¤¤¤¤¤¤ %PURPLE%%RUNENAME% %GREEN%¤¤¤¤¤¤¤¤¤¤ %TAN%[33]
+ItemDisplay[r20]: %MAP%%NL%%RED%¤¤¤¤¤¤¤ %PURPLE%%RUNENAME% %RED%¤¤¤¤¤¤¤ %TAN%[20]%NL%
+ItemDisplay[r21]: %MAP%%NL%%RED%¤¤¤¤¤¤¤ %PURPLE%%RUNENAME% %RED%¤¤¤¤¤¤¤ %TAN%[21]%NL%
+ItemDisplay[r22]: %MAP%%NL%%RED%¤¤¤¤¤¤¤ %PURPLE%%RUNENAME% %RED%¤¤¤¤¤¤¤ %TAN%[22]%NL%
+ItemDisplay[r23]: %MAP%%NL%%RED%¤¤¤¤¤¤¤ %PURPLE%%RUNENAME% %RED%¤¤¤¤¤¤¤ %TAN%[23]%NL%
+ItemDisplay[r24]: %MAP%%NL%%RED%¤¤¤¤¤¤¤ %PURPLE%%RUNENAME% %RED%¤¤¤¤¤¤¤ %TAN%[24]%NL%
+ItemDisplay[r25]: %MAP%%NL%%RED%¤¤¤¤¤¤¤ %PURPLE%%RUNENAME% %RED%¤¤¤¤¤¤¤ %TAN%[25]%NL%
+ItemDisplay[r26]: %MAP%%NL%%GREEN%¤¤¤¤¤¤¤¤¤¤ %PURPLE%%RUNENAME% %GREEN%¤¤¤¤¤¤¤¤¤¤ %TAN%[26]%NL%
+ItemDisplay[r27]: %MAP%%NL%%GREEN%¤¤¤¤¤¤¤¤¤¤ %PURPLE%%RUNENAME% %GREEN%¤¤¤¤¤¤¤¤¤¤ %TAN%[27]%NL%
+ItemDisplay[r28]: %MAP%%NL%%GREEN%¤¤¤¤¤¤¤¤¤¤ %PURPLE%%RUNENAME% %GREEN%¤¤¤¤¤¤¤¤¤¤ %TAN%[28]%NL%
+ItemDisplay[r29]: %MAP%%NL%%GREEN%¤¤¤¤¤¤¤¤¤¤ %PURPLE%%RUNENAME% %GREEN%¤¤¤¤¤¤¤¤¤¤ %TAN%[29]%NL%
+ItemDisplay[r30]: %MAP%%NL%%GREEN%¤¤¤¤¤¤¤¤¤¤ %PURPLE%%RUNENAME% %GREEN%¤¤¤¤¤¤¤¤¤¤ %TAN%[30]%NL%
+ItemDisplay[r31]: %MAP%%NL%%GREEN%¤¤¤¤¤¤¤¤¤¤ %PURPLE%%RUNENAME% %GREEN%¤¤¤¤¤¤¤¤¤¤ %TAN%[31]%NL%
+ItemDisplay[r32]: %MAP%%NL%%GREEN%¤¤¤¤¤¤¤¤¤¤ %PURPLE%%RUNENAME% %GREEN%¤¤¤¤¤¤¤¤¤¤ %TAN%[32]%NL%
+ItemDisplay[r33]: %MAP%%NL%%GREEN%¤¤¤¤¤¤¤¤¤¤ %PURPLE%%RUNENAME% %GREEN%¤¤¤¤¤¤¤¤¤¤ %TAN%[33]%NL%
 //
 //╔════════════════════════╗
 //║ Crafting Magical Items ║
@@ -394,21 +394,20 @@ ItemDisplay[ID UNI !SOCK=0 ETH]: %WHITE%ETH %GOLD%%NAME% %RED%[%SOCKETS%] %TAN%[
 //║ Magical Items ║
 //╚═══════════════╝
 //
-ItemDisplay[MAG !ID aq2]: %RED%¤¤ %BLUE%%NAME% %RED%¤¤ %TAN%[%ILVL%]
+//ItemDisplay[MAG !ID aq2]: %RED%¤¤ %BLUE%%NAME% %RED%¤¤ %TAN%[%ILVL%]
 ItemDisplay[MAG !ID amu]: %NAME% %TAN%[%ILVL%]
 ItemDisplay[MAG !ID rin]: %NAME% %TAN%[%ILVL%]
-ItemDisplay[MAG !ID cm1]: %BLUE%¤¤¤¤ %ORANGE%%NAME% %BLUE%¤¤¤¤ %TAN%[%ILVL%]
-ItemDisplay[MAG !ID cm3]: %BLUE%¤¤¤¤ %ORANGE%%NAME% %BLUE%¤¤¤¤ %TAN%[%ILVL%]
-ItemDisplay[MAG !ID cm2]: %BLUE%¤¤ %ORANGE%%NAME% %BLUE%¤¤ %TAN%[%ILVL%]
+ItemDisplay[MAG !ID cm1]: %MAP%%NL%%BLUE%¤¤¤¤ %ORANGE%%NAME% %BLUE%¤¤¤¤ %TAN%[%ILVL%]%NL%
+ItemDisplay[MAG !ID cm3]: %MAP%%NL%%BLUE%¤¤¤¤ %ORANGE%%NAME% %BLUE%¤¤¤¤ %TAN%[%ILVL%]%NL%
+ItemDisplay[MAG !ID cm2]: %MAP%%NL%%BLUE%¤¤ %ORANGE%%NAME% %BLUE%¤¤ %TAN%[%ILVL%]%NL%
 ItemDisplay[MAG !ID ci0 !ETH]: %NAME% %TAN%[%ILVL%]
 ItemDisplay[MAG !ID ci1 !ETH]: %NAME% %TAN%[%ILVL%]
 ItemDisplay[MAG !ID ci2 !ETH]: %NAME% %TAN%[%ILVL%]
 ItemDisplay[MAG !ID ci3 !ETH]: %NAME% %TAN%[%ILVL%]
-ItemDisplay[MAG !ID jew]: %RED%¤¤¤¤¤¤ %BLUE%%NAME% %RED%¤¤¤¤¤¤ %TAN%[%ILVL%]
+ItemDisplay[MAG !ID jew]: %MAP%%NL%%RED%¤¤¤¤¤¤ %BLUE%%NAME% %RED%¤¤¤¤¤¤ %TAN%[%ILVL%]%NL%
 ItemDisplay[MAG !ID CL1]: %RED%¤¤ %BLUE%%NAME% %RED%¤¤ %TAN%[%ILVL%]
 ItemDisplay[MAG !ID CL2]: %RED%¤¤ %BLUE%%NAME% %RED%¤¤ %TAN%[%ILVL%]
 ItemDisplay[MAG !ID ama]: %RED%¤¤ %BLUE%%NAME% %RED%¤¤ %TAN%[%ILVL%]
-ItemDisplay[MAG !ID amf]: %RED%¤¤ %BLUE%%NAME% %RED%¤¤ %TAN%[%ILVL%]
 // MAG Catchall
 ItemDisplay[MAG CLVL<50 !ID]: %NAME% %TAN%[%ILVL%]
 //
@@ -416,34 +415,26 @@ ItemDisplay[MAG CLVL<50 !ID]: %NAME% %TAN%[%ILVL%]
 //║ Rare Items ║
 //╚════════════╝
 //
-ItemDisplay[RARE !ID aq2]: %RED%¤¤¤¤¤¤ %YELLOW%%NAME% %RED%¤¤¤¤¤¤ %TAN%[%ILVL%]
-ItemDisplay[RARE !ID cq2]: %RED%¤ %YELLOW%%NAME% %RED%¤ %TAN%[%ILVL%]
-ItemDisplay[RARE !ID amu]: %RED%¤¤¤¤¤¤ %YELLOW%%NAME% %RED%¤¤¤¤¤¤ %TAN%[%ILVL%]
-ItemDisplay[RARE !ID rin]: %RED%¤¤¤¤¤¤ %YELLOW%%NAME% %RED%¤¤¤¤¤¤ %TAN%[%ILVL%]
-ItemDisplay[RARE !ID jew]: %RED%¤¤¤¤¤¤ %YELLOW%%NAME% %RED%¤¤¤¤¤¤ %TAN%[%ILVL%]
+ItemDisplay[RARE !ID aq2]: %MAP%%NL%%RED%¤¤¤¤¤¤ %YELLOW%%NAME% %RED%¤¤¤¤¤¤ %TAN%[%ILVL%]%NL%
+ItemDisplay[RARE !ID amu]: %MAP%%NL%%RED%¤¤¤¤¤¤ %YELLOW%%NAME% %RED%¤¤¤¤¤¤ %TAN%[%ILVL%]%NL%
+ItemDisplay[RARE !ID rin]: %MAP%%NL%%RED%¤¤¤¤¤¤ %YELLOW%%NAME% %RED%¤¤¤¤¤¤ %TAN%[%ILVL%]%NL%
+ItemDisplay[RARE !ID jew]: %MAP%%NL%%RED%¤¤¤¤¤¤ %YELLOW%%NAME% %RED%¤¤¤¤¤¤ %TAN%[%ILVL%]%NL%
 // Class
-ItemDisplay[RARE !ID CL1 !ETH]: %RED%¤¤¤ %YELLOW%%NAME% %RED%¤¤¤ %TAN%[%ILVL%]
+ItemDisplay[RARE !ID CL1 !ETH]: %MAP%%NL%%RED%¤¤¤ %YELLOW%%NAME% %RED%¤¤¤ %TAN%[%ILVL%]%NL%
 ItemDisplay[RARE !ID CL2 !ETH]: %RED%¤¤¤ %YELLOW%%NAME% %RED%¤¤¤ %TAN%[%ILVL%]
-ItemDisplay[RARE !ID (9tw OR 7tw) !ETH]: %RED%¤¤¤ %YELLOW%%NAME% %RED%¤¤¤ %TAN%[%ILVL%]
-ItemDisplay[RARE !ID (9lw OR 7lw) !ETH]: %RED%¤¤¤ %YELLOW%%NAME% %RED%¤¤¤ %TAN%[%ILVL%]
-ItemDisplay[RARE !ID (9qr OR 7qr) !ETH]: %RED%¤¤¤ %YELLOW%%NAME% %RED%¤¤¤ %TAN%[%ILVL%]
-ItemDisplay[RARE !ID (7ar OR 7wb) !ETH]: %RED%¤¤¤ %YELLOW%%NAME% %RED%¤¤¤ %TAN%[%ILVL%]
+ItemDisplay[RARE !ID (9tw OR 7tw) !ETH]: %MAP%%NL%%RED%¤¤¤ %YELLOW%%NAME% %RED%¤¤¤ %TAN%[%ILVL%]%NL%
+ItemDisplay[RARE !ID (9lw OR 7lw) !ETH]: %MAP%%NL%%RED%¤¤¤ %YELLOW%%NAME% %RED%¤¤¤ %TAN%[%ILVL%]%NL%
+ItemDisplay[RARE !ID (9qr OR 7qr) !ETH]: %MAP%%NL%%RED%¤¤¤ %YELLOW%%NAME% %RED%¤¤¤ %TAN%[%ILVL%]%NL%
+ItemDisplay[RARE !ID (7ar OR 7wb) !ETH]: %MAP%%NL%%RED%¤¤¤ %YELLOW%%NAME% %RED%¤¤¤ %TAN%[%ILVL%]%NL%
 // Equip
-ItemDisplay[RARE !ID (ulg OR uvg) !ETH]: %RED%¤¤¤ %YELLOW%%NAME% %RED%¤¤¤ %TAN%[%ILVL%]
-ItemDisplay[RARE !ID (xlg OR xvg) !ETH]: %RED%¤¤¤ %YELLOW%%NAME% %RED%¤¤¤ %TAN%[%ILVL%]
-ItemDisplay[RARE !ID (lgl OR vgl OR mgl OR tgl) !ETH]: %RED%¤¤¤ %YELLOW%%NAME% %RED%¤¤¤ %TAN%[%ILVL%]
-ItemDisplay[RARE !ID EQ4 !ETH]: %RED%¤¤¤ %YELLOW%%NAME% %RED%¤¤¤ %TAN%[%ILVL%]
-ItemDisplay[RARE !ID EQ4 ETH]: %RED%¤¤¤ %WHITE%ETH %YELLOW%%NAME% %RED%¤¤¤ %TAN%[%ILVL%]
-ItemDisplay[RARE !ID ulb !ETH]: %RED%¤¤¤ %YELLOW%%NAME% %RED%¤¤¤ %TAN%[%ILVL%]
-ItemDisplay[RARE !ID (xlb OR xvb) !ETH]: %RED%¤¤¤ %YELLOW%%NAME% %RED%¤¤¤ %TAN%[%ILVL%]
-ItemDisplay[RARE !ID (lbt OR vbt OR mbt OR tbt) !ETH]: %RED%¤¤¤ %YELLOW%%NAME% %RED%¤¤¤ %TAN%[%ILVL%]
-ItemDisplay[RARE !ID EQ5 !ETH]: %RED%¤¤¤ %YELLOW%%NAME% %RED%¤¤¤ %TAN%[%ILVL%]
-ItemDisplay[RARE !ID EQ5 ETH]: %RED%¤¤¤ %WHITE%ETH %YELLOW%%NAME% %RED%¤¤¤ %TAN%[%ILVL%]
-ItemDisplay[RARE !ID EQ6 ETH]: %WHITE%ETH %YELLOW%%NAME% %TAN%[%ILVL%]
-ItemDisplay[RARE !ID ci2 !ETH]: %RED%¤¤¤¤¤ %YELLOW%%NAME% %RED%¤¤¤¤¤ %TAN%[%ILVL%]
-ItemDisplay[RARE !ID ci3 !ETH]: %RED%¤¤¤¤¤ %YELLOW%%NAME% %RED%¤¤¤¤¤ %TAN%[%ILVL%]
-ItemDisplay[RARE !ID EQ7 !ETH]: %RED%¤¤¤¤¤ %YELLOW%%NAME% %RED%¤¤¤¤¤ %TAN%[%ILVL%]
-ItemDisplay[RARE !ID EQ7 ETH]: %RED%¤¤¤¤¤ %WHITE%ETH %YELLOW%%NAME% %RED%¤¤¤¤¤ %TAN%[%ILVL%]
+ItemDisplay[RARE !ID EQ4 !ETH]: %MAP%%NL%%RED%¤¤¤ %YELLOW%%NAME% %RED%¤¤¤ %TAN%[%ILVL%]%NL%
+ItemDisplay[RARE !ID EQ4 ETH]: %MAP%%NL%%RED%¤¤¤ %WHITE%ETH %YELLOW%%NAME% %RED%¤¤¤ %TAN%[%ILVL%]%NL%
+ItemDisplay[RARE !ID EQ5 !ETH]: %MAP%%NL%%RED%¤¤¤ %YELLOW%%NAME% %RED%¤¤¤ %TAN%[%ILVL%]%NL%
+ItemDisplay[RARE !ID EQ5 ETH]: %MAP%%NL%%RED%¤¤¤ %WHITE%ETH %YELLOW%%NAME% %RED%¤¤¤ %TAN%[%ILVL%]%NL%
+ItemDisplay[RARE !ID EQ6 !ETH]: %MAP%%NL%%RED%¤¤¤ %YELLOW%%NAME% %RED%¤¤¤ %TAN%[%ILVL%]%NL%
+ItemDisplay[RARE !ID EQ6 ETH]: %MAP%%NL%%RED%¤¤¤ %WHITE%ETH %YELLOW%%NAME% %RED%¤¤¤ %TAN%[%ILVL%]%NL%
+ItemDisplay[RARE !ID EQ7 !ETH]: %MAP%%NL%%RED%¤¤¤¤¤ %YELLOW%%NAME% %RED%¤¤¤¤¤ %TAN%[%ILVL%]%NL%
+ItemDisplay[RARE !ID EQ7 ETH]: %MAP%%NL%%RED%¤¤¤¤¤ %WHITE%ETH %YELLOW%%NAME% %RED%¤¤¤¤¤ %TAN%[%ILVL%]%NL%
 // Axe
 ItemDisplay[RARE !ID 7wa !ETH]: %RED%¤¤¤ %YELLOW%%NAME% %RED%¤¤¤ %TAN%[%ILVL%]
 // RARE Catchall
@@ -454,16 +445,14 @@ ItemDisplay[RARE !ID ETH]: %WHITE%ETH %YELLOW%%NAME% %TAN%[%ILVL%]
 //║ Sets Items ║
 //╚════════════╝
 //
-ItemDisplay[SET !ID amu]: %RED%¤¤¤¤¤¤¤¤ %GREEN%%NAME% %RED%¤¤¤¤¤¤¤¤ %TAN%[%ILVL%]
-ItemDisplay[SET !ID rin]: %RED%¤¤¤¤¤ %GREEN%%NAME% %RED%¤¤¤¤¤ %TAN%[%ILVL%]
-ItemDisplay[SET !ID uar]: %RED%¤¤¤¤¤¤¤¤ %GREEN%%NAME% %RED%¤¤¤¤¤¤¤¤ %TAN%[%ILVL%]
-ItemDisplay[SET !ID uth]: %RED%¤¤¤¤¤¤¤¤ %GREEN%%NAME% %RED%¤¤¤¤¤¤¤¤ %TAN%[%ILVL%]
-ItemDisplay[SET !ID 7qr]: %NAME% %TAN%[%ILVL%]
-ItemDisplay[SET !ID uhm]: %NAME% %TAN%[%ILVL%]
-ItemDisplay[SET !ID xtb]: %RED%¤¤¤¤¤¤¤¤ %GREEN%%NAME% %RED%¤¤¤¤¤¤¤¤ %TAN%[%ILVL%]
-ItemDisplay[SET !ID ulg]: %RED%¤¤¤¤¤¤¤¤ %GREEN%%NAME% %RED%¤¤¤¤¤¤¤¤ %TAN%[%ILVL%]
-ItemDisplay[SET !ID xhm]: %RED%¤¤¤¤¤¤¤¤ %GREEN%%NAME% %RED%¤¤¤¤¤¤¤¤ %TAN%[%ILVL%]
-ItemDisplay[SET !ID xmg]: %RED%¤¤¤¤¤¤¤¤ %GREEN%%NAME% %RED%¤¤¤¤¤¤¤¤ %TAN%[%ILVL%]
+ItemDisplay[SET !ID amu]: %MAP%%NL%%RED%¤¤¤¤¤¤¤¤ %GREEN%%NAME% %RED%¤¤¤¤¤¤¤¤ %TAN%[%ILVL%]%NL%
+ItemDisplay[SET !ID rin]: %MAP%%NL%%RED%¤¤ %GREEN%%NAME% %RED%¤¤ %TAN%[%ILVL%]%NL%
+ItemDisplay[SET !ID uar]: %MAP%%NL%%RED%¤¤¤¤¤¤¤¤ %GREEN%%NAME% %RED%¤¤¤¤¤¤¤¤ %TAN%[%ILVL%]%NL%
+ItemDisplay[SET !ID uth]: %MAP%%NL%%RED%¤¤¤¤¤¤¤¤ %GREEN%%NAME% %RED%¤¤¤¤¤¤¤¤ %TAN%[%ILVL%]%NL%
+ItemDisplay[SET !ID xtb]: %MAP%%NL%%RED%¤¤¤¤¤¤¤¤ %GREEN%%NAME% %RED%¤¤¤¤¤¤¤¤ %TAN%[%ILVL%]%NL%
+ItemDisplay[SET !ID ulg]: %MAP%%NL%%RED%¤¤¤¤¤¤¤¤ %GREEN%%NAME% %RED%¤¤¤¤¤¤¤¤ %TAN%[%ILVL%]%NL%
+ItemDisplay[SET !ID xhm]: %MAP%%NL%%RED%¤¤¤¤¤¤¤¤ %GREEN%%NAME% %RED%¤¤¤¤¤¤¤¤ %TAN%[%ILVL%]%NL%
+ItemDisplay[SET !ID xmg]: %MAP%%NL%%RED%¤¤¤¤¤¤¤¤ %GREEN%%NAME% %RED%¤¤¤¤¤¤¤¤ %TAN%[%ILVL%]%NL%
 // SET Catchall
 ItemDisplay[SET !ID]: %NAME% %TAN%[%ILVL%]
 //
@@ -647,34 +636,9 @@ ItemDisplay[NMAG SK46>1 SOCK>1 WP11]: %DARK_GREEN%%NAME% %ORANGE%Immolate %RED%[
 ItemDisplay[NMAG SK47>1 SOCK>1 WP11]: %DARK_GREEN%%NAME% %ORANGE%Fireball %RED%[%SOCKETS%] %TAN%[%ILVL%]
 ItemDisplay[NMAG SK62>1 SOCK>1 WP11]: %DARK_GREEN%%NAME% %ORANGE%Hydra %RED%[%SOCKETS%] %TAN%[%ILVL%]
 // CL7
-ItemDisplay[NMAG ame SOCK=0 TABSK2=3 !ETH !SUP]: %DARK_GREEN%%NAME% %ORANGE%Java %RED%[%SOCKETS%] %TAN%[%ILVL%]
-ItemDisplay[NMAG ame SOCK>2 TABSK2=3 !ETH !SUP]: %DARK_GREEN%%NAME% %ORANGE%Java %RED%[%SOCKETS%] %TAN%[%ILVL%]
-ItemDisplay[NMAG ame SOCK=0 TABSK2=3 ETH !SUP]: %WHITE%ETH %DARK_GREEN%%NAME% %ORANGE%Java %RED%[%SOCKETS%] %TAN%[%ILVL%]
-ItemDisplay[NMAG ame SOCK>4 TABSK2=3 ETH !SUP]: %WHITE%ETH %DARK_GREEN%%NAME% %ORANGE%Java %RED%[%SOCKETS%] %TAN%[%ILVL%]
-ItemDisplay[NMAG amd SOCK=0 TABSK2=3 !ETH !SUP]: %DARK_GREEN%%NAME% %ORANGE%Java %RED%[%SOCKETS%] %TAN%[%ILVL%]
-ItemDisplay[NMAG amd SOCK>2 TABSK2=3 !ETH !SUP]: %DARK_GREEN%%NAME% %ORANGE%Java %RED%[%SOCKETS%] %TAN%[%ILVL%]
-ItemDisplay[NMAG amd SOCK=0 TABSK2=3 ETH !SUP]: %WHITE%ETH %DARK_GREEN%%NAME% %ORANGE%Java %RED%[%SOCKETS%] %TAN%[%ILVL%]
-ItemDisplay[NMAG amd SOCK>4 TABSK2=3 ETH !SUP]: %WHITE%ETH %DARK_GREEN%%NAME% %ORANGE%Java %RED%[%SOCKETS%] %TAN%[%ILVL%]
-ItemDisplay[NMAG amc SOCK=0 TABSK0=3 !SUP]: %DARK_GREEN%%NAME% %ORANGE%Bow %RED%[%SOCKETS%] %TAN%[%ILVL%]
-ItemDisplay[NMAG amc SOCK=4 TABSK0=3 !SUP]: %DARK_GREEN%%NAME% %ORANGE%Bow %RED%[%SOCKETS%] %TAN%[%ILVL%]
-ItemDisplay[NMAG amc SOCK>2 TABSK0=3 !SUP]: %DARK_GREEN%%NAME% %ORANGE%Bow %RED%[%SOCKETS%] %TAN%[%ILVL%]
-ItemDisplay[NMAG amb SOCK=0 TABSK0=3 !SUP]: %DARK_GREEN%%NAME% %ORANGE%Bow %RED%[%SOCKETS%] %TAN%[%ILVL%]
-ItemDisplay[NMAG amb SOCK=4 TABSK0=3 !SUP]: %DARK_GREEN%%NAME% %ORANGE%Bow %RED%[%SOCKETS%] %TAN%[%ILVL%]
-ItemDisplay[NMAG amb SOCK>2 TABSK0=3 !SUP]: %DARK_GREEN%%NAME% %ORANGE%Bow %RED%[%SOCKETS%] %TAN%[%ILVL%]
-ItemDisplay[NMAG ame SOCK=0 TABSK2=3 ETH ED>9]: %WHITE%ETH %DARK_GREEN%%NAME% %ORANGE%Java+Damages %RED%[%SOCKETS%] %TAN%[%ILVL%]
-ItemDisplay[NMAG ame SOCK>4 TABSK2=3 ETH ED>9]: %WHITE%ETH %DARK_GREEN%%NAME% %ORANGE%Java+Damages %RED%[%SOCKETS%] %TAN%[%ILVL%]
-ItemDisplay[NMAG amd SOCK=0 TABSK2=3 ETH ED>9]: %WHITE%ETH %DARK_GREEN%%NAME% %ORANGE%Java+Damages %RED%[%SOCKETS%] %TAN%[%ILVL%]
-ItemDisplay[NMAG amd SOCK>4 TABSK2=3 ETH ED>9]: %WHITE%ETH %DARK_GREEN%%NAME% %ORANGE%Java+Damages %RED%[%SOCKETS%] %TAN%[%ILVL%]
-ItemDisplay[NMAG amc SOCK=0 TABSK0=3 ED>9]: %DARK_GREEN%%NAME% %ORANGE%Bow+Damages %RED%[%SOCKETS%] %TAN%[%ILVL%]
+ItemDisplay[NMAG amc SOCK=0 TABSK0=3]: %DARK_GREEN%%NAME% %ORANGE%Bow %RED%[%SOCKETS%] %TAN%[%ILVL%]
+ItemDisplay[NMAG amc SOCK=4 TABSK0=3]: %DARK_GREEN%%NAME% %ORANGE%Bow %RED%[%SOCKETS%] %TAN%[%ILVL%]
 ItemDisplay[NMAG amc SOCK=4 TABSK0=3 ED>9]: %DARK_GREEN%%NAME% %ORANGE%Bow+Damages %RED%[%SOCKETS%] %TAN%[%ILVL%]
-ItemDisplay[NMAG amc SOCK>2 TABSK0=3 ED>9]: %DARK_GREEN%%NAME% %ORANGE%Bow+Damages %RED%[%SOCKETS%] %TAN%[%ILVL%]
-ItemDisplay[NMAG amb SOCK=0 TABSK0=3 ED>9]: %DARK_GREEN%%NAME% %ORANGE%Bow+Damages %RED%[%SOCKETS%] %TAN%[%ILVL%]
-ItemDisplay[NMAG amb SOCK=4 TABSK0=3 ED>9]: %DARK_GREEN%%NAME% %ORANGE%Bow+Damages %RED%[%SOCKETS%] %TAN%[%ILVL%]
-ItemDisplay[NMAG amb SOCK>2 TABSK0=3 ED>9]: %DARK_GREEN%%NAME% %ORANGE%Bow+Damages %RED%[%SOCKETS%] %TAN%[%ILVL%]
-ItemDisplay[NMAG CL7 SOCK=0 !ETH ELT ED>9]: %DARK_GREEN%%NAME% %ORANGE%Damages %RED%[%SOCKETS%] %TAN%[%ILVL%]
-ItemDisplay[NMAG CL7 SOCK>2 !ETH ELT ED>9]: %DARK_GREEN%%NAME% %ORANGE%Damages %RED%[%SOCKETS%] %TAN%[%ILVL%]
-ItemDisplay[NMAG CL7 SOCK=0 ETH ELT ED>9]: %WHITE%ETH %DARK_GREEN%%NAME% %ORANGE%Damages %RED%[%SOCKETS%] %TAN%[%ILVL%]
-ItemDisplay[NMAG CL7 SOCK>1 ETH ELT ED>9]: %WHITE%ETH %DARK_GREEN%%NAME% %ORANGE%Damages %RED%[%SOCKETS%] %TAN%[%ILVL%]
 //
 //╔═══════════════════════════╗
 //║ Equipments Runeword Bases ║
@@ -729,13 +693,9 @@ ItemDisplay[NMAG uit SOCK=0 !ETH]: %DARK_GREEN%%NAME% %RED%[%SOCKETS%] %TAN%[%IL
 ItemDisplay[NMAG uit SOCK=0 ETH ED>9]: %WHITE%ETH %DARK_GREEN%%NAME% %ORANGE%Defense %RED%[%SOCKETS%] %TAN%[%ILVL%]
 ItemDisplay[NMAG uit SOCK=4 ETH ED>9]: %WHITE%ETH %DARK_GREEN%%NAME% %ORANGE%Defense %RED%[%SOCKETS%] %TAN%[%ILVL%]
 ItemDisplay[NMAG uit SOCK=4 ETH]: %WHITE%ETH %DARK_GREEN%%NAME% %RED%[%SOCKETS%] %TAN%[%ILVL%]
-ItemDisplay[NMAG uit SOCK=3 ETH]: %WHITE%ETH %DARK_GREEN%%NAME% %RED%[%SOCKETS%] %TAN%[%ILVL%]
 ItemDisplay[NMAG uit SOCK=0 ETH]: %WHITE%ETH %DARK_GREEN%%NAME% %RED%[%SOCKETS%] %TAN%[%ILVL%]
 ItemDisplay[NMAG kit SOCK=3 !ETH !SUP]: %DARK_GREEN%%NAME% %RED%[%SOCKETS%] %TAN%[%ILVL%]
 ItemDisplay[NMAG kit SOCK=3 !ETH ED>9]: %DARK_GREEN%%NAME% %ORANGE%Defense %RED%[%SOCKETS%] %TAN%[%ILVL%]
-ItemDisplay[NMAG ush SOCK=3 !ETH ED>9]: %DARK_GREEN%%NAME% %ORANGE%Defense %RED%[%SOCKETS%] %TAN%[%ILVL%]
-ItemDisplay[NMAG EQ3 SOCK>2 !ETH (ELT OR EXC) ED>9]: %DARK_GREEN%%NAME% %ORANGE%Defense %RED%[%SOCKETS%] %TAN%[%ILVL%]
-ItemDisplay[NMAG EQ3 SOCK>2 ETH (ELT OR EXC) ED>9]: %WHITE%ETH %DARK_GREEN%%NAME% %ORANGE%Defense %RED%[%SOCKETS%] %TAN%[%ILVL%]
 // EQ7 Circlets
 ItemDisplay[NMAG EQ7 !ETH (SOCK=2 OR SOCK=3) ED>9]: %DARK_GREEN%%NAME% %ORANGE%Defense %RED%[%SOCKETS%] %TAN%[%ILVL%]
 ItemDisplay[NMAG EQ7 ETH (SOCK=2 OR SOCK=3) ED>9]: %WHITE%ETH %DARK_GREEN%%NAME% %ORANGE%Defense %RED%[%SOCKETS%] %TAN%[%ILVL%]
@@ -755,22 +715,6 @@ ItemDisplay[NMAG 7wa SOCK=0 !ETH !INF]: %DARK_GREEN%%NAME% %RED%[%SOCKETS%] %TAN
 ItemDisplay[NMAG 7wa SOCK>3 !ETH !INF]: %DARK_GREEN%%NAME% %RED%[%SOCKETS%] %TAN%[%ILVL%]
 ItemDisplay[NMAG 7wa SOCK=0 ETH !INF]: %WHITE%ETH %DARK_GREEN%%NAME% %RED%[%SOCKETS%] %TAN%[%ILVL%]
 ItemDisplay[NMAG 7wa SOCK>3 ETH !INF]: %WHITE%ETH %DARK_GREEN%%NAME% %RED%[%SOCKETS%] %TAN%[%ILVL%]
-ItemDisplay[NMAG 72a SOCK=0 !ETH ED>9]: %DARK_GREEN%%NAME% %ORANGE%Damages %RED%[%SOCKETS%] %TAN%[%ILVL%]
-ItemDisplay[NMAG 72a SOCK>3 !ETH ED>9]: %DARK_GREEN%%NAME% %ORANGE%Damages %RED%[%SOCKETS%] %TAN%[%ILVL%]
-ItemDisplay[NMAG 72a SOCK=0 ETH ED>9]: %WHITE%ETH %DARK_GREEN%%NAME% %ORANGE%Damages %RED%[%SOCKETS%] %TAN%[%ILVL%]
-ItemDisplay[NMAG 72a SOCK>3 ETH ED>9]: %WHITE%ETH %DARK_GREEN%%NAME% %ORANGE%Damages %RED%[%SOCKETS%] %TAN%[%ILVL%]
-ItemDisplay[NMAG 72a SOCK=0 !ETH !INF]: %DARK_GREEN%%NAME% %RED%[%SOCKETS%] %TAN%[%ILVL%]
-ItemDisplay[NMAG 72a SOCK>3 !ETH !INF]: %DARK_GREEN%%NAME% %RED%[%SOCKETS%] %TAN%[%ILVL%]
-ItemDisplay[NMAG 72a SOCK=0 ETH !INF]: %WHITE%ETH %DARK_GREEN%%NAME% %RED%[%SOCKETS%] %TAN%[%ILVL%]
-ItemDisplay[NMAG 72a SOCK>3 ETH !INF]: %WHITE%ETH %DARK_GREEN%%NAME% %RED%[%SOCKETS%] %TAN%[%ILVL%]
-ItemDisplay[NMAG 7gi SOCK=0 !ETH ED>9]: %DARK_GREEN%%NAME% %ORANGE%Damages %RED%[%SOCKETS%] %TAN%[%ILVL%]
-ItemDisplay[NMAG 7gi SOCK>3 !ETH ED>9]: %DARK_GREEN%%NAME% %ORANGE%Damages %RED%[%SOCKETS%] %TAN%[%ILVL%]
-ItemDisplay[NMAG 7gi SOCK=0 ETH ED>9]: %WHITE%ETH %DARK_GREEN%%NAME% %ORANGE%Damages %RED%[%SOCKETS%] %TAN%[%ILVL%]
-ItemDisplay[NMAG 7gi SOCK>3 ETH ED>9]: %WHITE%ETH %DARK_GREEN%%NAME% %ORANGE%Damages %RED%[%SOCKETS%] %TAN%[%ILVL%]
-ItemDisplay[NMAG 7gi SOCK=0 !ETH !INF]: %DARK_GREEN%%NAME% %RED%[%SOCKETS%] %TAN%[%ILVL%]
-ItemDisplay[NMAG 7gi SOCK>3 !ETH !INF]: %DARK_GREEN%%NAME% %RED%[%SOCKETS%] %TAN%[%ILVL%]
-ItemDisplay[NMAG 7gi SOCK=0 ETH !INF]: %WHITE%ETH %DARK_GREEN%%NAME% %RED%[%SOCKETS%] %TAN%[%ILVL%]
-ItemDisplay[NMAG 7gi SOCK>3 ETH !INF]: %WHITE%ETH %DARK_GREEN%%NAME% %RED%[%SOCKETS%] %TAN%[%ILVL%]
 // WP2
 ItemDisplay[NMAG fla SOCK>3 !ETH]: %DARK_GREEN%%NAME% %RED%[%SOCKETS%] %TAN%[%ILVL%]
 ItemDisplay[NMAG fla SOCK>3 ETH]: %WHITE%ETH %DARK_GREEN%%NAME% %RED%[%SOCKETS%] %TAN%[%ILVL%]
@@ -789,12 +733,8 @@ ItemDisplay[NMAG crs SOCK>3 !ETH]: %DARK_GREEN%%NAME% %RED%[%SOCKETS%] %TAN%[%IL
 ItemDisplay[NMAG crs SOCK>3 ETH]: %WHITE%ETH %DARK_GREEN%%NAME% %RED%[%SOCKETS%] %TAN%[%ILVL%]
 ItemDisplay[NMAG 7cr SOCK=0 !ETH ED>9]: %DARK_GREEN%%NAME% %ORANGE%Damages %RED%[%SOCKETS%] %TAN%[%ILVL%]
 ItemDisplay[NMAG 7cr SOCK>3 !ETH ED>9]: %DARK_GREEN%%NAME% %ORANGE%Damages %RED%[%SOCKETS%] %TAN%[%ILVL%]
-ItemDisplay[NMAG 7cr SOCK=0 ETH ED>9]: %WHITE%ETH %DARK_GREEN%%NAME% %ORANGE%Damages %RED%[%SOCKETS%] %TAN%[%ILVL%]
-ItemDisplay[NMAG 7cr SOCK>3 ETH ED>9]: %WHITE%ETH %DARK_GREEN%%NAME% %ORANGE%Damages %RED%[%SOCKETS%] %TAN%[%ILVL%]
 ItemDisplay[NMAG 7cr SOCK=0 !ETH !INF]: %DARK_GREEN%%NAME% %RED%[%SOCKETS%] %TAN%[%ILVL%]
 ItemDisplay[NMAG 7cr SOCK>3 !ETH !INF]: %DARK_GREEN%%NAME% %RED%[%SOCKETS%] %TAN%[%ILVL%]
-ItemDisplay[NMAG 7cr SOCK=0 ETH !INF]: %WHITE%ETH %DARK_GREEN%%NAME% %RED%[%SOCKETS%] %TAN%[%ILVL%]
-ItemDisplay[NMAG 7cr SOCK>3 ETH !INF]: %WHITE%ETH %DARK_GREEN%%NAME% %RED%[%SOCKETS%] %TAN%[%ILVL%]
 ItemDisplay[NMAG 7ls SOCK=0 !ETH ED>9]: %DARK_GREEN%%NAME% %ORANGE%Damages %RED%[%SOCKETS%] %TAN%[%ILVL%]
 ItemDisplay[NMAG 7ls SOCK>3 !ETH ED>9]: %DARK_GREEN%%NAME% %ORANGE%Damages %RED%[%SOCKETS%] %TAN%[%ILVL%]
 ItemDisplay[NMAG 7ls SOCK=0 ETH ED>9]: %WHITE%ETH %DARK_GREEN%%NAME% %ORANGE%Damages %RED%[%SOCKETS%] %TAN%[%ILVL%]
@@ -837,22 +777,10 @@ ItemDisplay[NMAG 7p7 SOCK>3 !ETH !INF]: %DARK_GREEN%%NAME% %RED%[%SOCKETS%] %TAN
 ItemDisplay[NMAG 7p7 SOCK=0 ETH !INF]: %WHITE%ETH %DARK_GREEN%%NAME% %RED%[%SOCKETS%] %TAN%[%ILVL%]
 ItemDisplay[NMAG 7p7 SOCK>3 ETH !INF]: %WHITE%ETH %DARK_GREEN%%NAME% %RED%[%SOCKETS%] %TAN%[%ILVL%]
 // WP8
-ItemDisplay[NMAG 9pa SOCK=0 !ETH ED>9]: %DARK_GREEN%%NAME% %ORANGE%Damages %RED%[%SOCKETS%] %TAN%[%ILVL%]
-ItemDisplay[NMAG 9pa SOCK>3 !ETH ED>9]: %DARK_GREEN%%NAME% %ORANGE%Damages %RED%[%SOCKETS%] %TAN%[%ILVL%]
-ItemDisplay[NMAG 9pa SOCK=0 ETH ED>9]: %WHITE%ETH %DARK_GREEN%%NAME% %ORANGE%Damages %RED%[%SOCKETS%] %TAN%[%ILVL%]
-ItemDisplay[NMAG 9pa SOCK>3 ETH ED>9]: %WHITE%ETH %DARK_GREEN%%NAME% %ORANGE%Damages %RED%[%SOCKETS%] %TAN%[%ILVL%]
-ItemDisplay[NMAG 9pa SOCK=0 !ETH !INF]: %DARK_GREEN%%NAME% %RED%[%SOCKETS%] %TAN%[%ILVL%]
-ItemDisplay[NMAG 9pa SOCK>3 !ETH !INF]: %DARK_GREEN%%NAME% %RED%[%SOCKETS%] %TAN%[%ILVL%]
-ItemDisplay[NMAG 9pa SOCK=0 ETH !INF]: %WHITE%ETH %DARK_GREEN%%NAME% %RED%[%SOCKETS%] %TAN%[%ILVL%]
-ItemDisplay[NMAG 9pa SOCK>3 ETH !INF]: %WHITE%ETH %DARK_GREEN%%NAME% %RED%[%SOCKETS%] %TAN%[%ILVL%]
 ItemDisplay[NMAG 7vo SOCK=0 !ETH ED>9]: %DARK_GREEN%%NAME% %ORANGE%Damages %RED%[%SOCKETS%] %TAN%[%ILVL%]
 ItemDisplay[NMAG 7vo SOCK>3 !ETH ED>9]: %DARK_GREEN%%NAME% %ORANGE%Damages %RED%[%SOCKETS%] %TAN%[%ILVL%]
 ItemDisplay[NMAG 7vo SOCK=0 ETH ED>9]: %WHITE%ETH %DARK_GREEN%%NAME% %ORANGE%Damages %RED%[%SOCKETS%] %TAN%[%ILVL%]
 ItemDisplay[NMAG 7vo SOCK>3 ETH ED>9]: %WHITE%ETH %DARK_GREEN%%NAME% %ORANGE%Damages %RED%[%SOCKETS%] %TAN%[%ILVL%]
-ItemDisplay[NMAG 7vo SOCK=0 !ETH !INF]: %DARK_GREEN%%NAME% %RED%[%SOCKETS%] %TAN%[%ILVL%]
-ItemDisplay[NMAG 7vo SOCK>3 !ETH !INF]: %DARK_GREEN%%NAME% %RED%[%SOCKETS%] %TAN%[%ILVL%]
-ItemDisplay[NMAG 7vo SOCK=0 ETH !INF]: %WHITE%ETH %DARK_GREEN%%NAME% %RED%[%SOCKETS%] %TAN%[%ILVL%]
-ItemDisplay[NMAG 7vo SOCK>3 ETH !INF]: %WHITE%ETH %DARK_GREEN%%NAME% %RED%[%SOCKETS%] %TAN%[%ILVL%]
 ItemDisplay[NMAG 7s8 SOCK=0 !ETH ED>9]: %DARK_GREEN%%NAME% %ORANGE%Damages %RED%[%SOCKETS%] %TAN%[%ILVL%]
 ItemDisplay[NMAG 7s8 SOCK>3 !ETH ED>9]: %DARK_GREEN%%NAME% %ORANGE%Damages %RED%[%SOCKETS%] %TAN%[%ILVL%]
 ItemDisplay[NMAG 7s8 SOCK=0 ETH ED>9]: %WHITE%ETH %DARK_GREEN%%NAME% %ORANGE%Damages %RED%[%SOCKETS%] %TAN%[%ILVL%]
@@ -883,15 +811,6 @@ ItemDisplay[NMAG 6hb SOCK=0 ED>9]: %DARK_GREEN%%NAME% %ORANGE%Damages %RED%[%SOC
 ItemDisplay[NMAG 6hb SOCK=4 ED>9]: %DARK_GREEN%%NAME% %ORANGE%Damages %RED%[%SOCKETS%] %TAN%[%ILVL%]
 ItemDisplay[NMAG 6hb SOCK=0]: %DARK_GREEN%%NAME% %RED%[%SOCKETS%] %TAN%[%ILVL%]
 ItemDisplay[NMAG 6hb SOCK=4]: %DARK_GREEN%%NAME% %RED%[%SOCKETS%] %TAN%[%ILVL%]
-ItemDisplay[NMAG 6s7 SOCK=0 ED>9]: %DARK_GREEN%%NAME% %ORANGE%Damages %RED%[%SOCKETS%] %TAN%[%ILVL%]
-ItemDisplay[NMAG 6s7 SOCK=4 ED>9]: %DARK_GREEN%%NAME% %ORANGE%Damages %RED%[%SOCKETS%] %TAN%[%ILVL%]
-ItemDisplay[NMAG 6s7 SOCK=0]: %DARK_GREEN%%NAME% %RED%[%SOCKETS%] %TAN%[%ILVL%]
-ItemDisplay[NMAG 6s7 SOCK=4]: %DARK_GREEN%%NAME% %RED%[%SOCKETS%] %TAN%[%ILVL%]
-// WP13
-ItemDisplay[NMAG 7ws SOCK=0 !ETH ED>9]: %DARK_GREEN%%NAME% %ORANGE%Damages %RED%[%SOCKETS%] %TAN%[%ILVL%]
-ItemDisplay[NMAG 7ws SOCK>2 !ETH ED>9]: %DARK_GREEN%%NAME% %ORANGE%Damages %RED%[%SOCKETS%] %TAN%[%ILVL%]
-ItemDisplay[NMAG 7ws SOCK=0 ETH ED>9]: %WHITE%ETH %DARK_GREEN%%NAME% %ORANGE%Damages %RED%[%SOCKETS%] %TAN%[%ILVL%]
-ItemDisplay[NMAG 7ws SOCK>2 ETH ED>9]: %WHITE%ETH %DARK_GREEN%%NAME% %ORANGE%Damages %RED%[%SOCKETS%] %TAN%[%ILVL%]
 //
 //╔═════════════╗
 //║ White Items ║
@@ -905,195 +824,195 @@ ItemDisplay[NMAG (wnd OR ywn OR 9wn) (SK91>1 OR SK92>0 OR SK93>1 OR SK94>1 OR SK
 //║ Gears Unique ║
 //╚══════════════╝
 //
-ItemDisplay[UNI !ID rin]: %GREEN%¤¤¤¤¤¤¤¤¤¤ %PURPLE%%NAME% %GREEN%¤¤¤¤¤¤¤¤¤¤ %TAN%[%ILVL%]
-ItemDisplay[UNI !ID amu]: %GREEN%¤¤¤¤¤¤¤¤¤¤ %PURPLE%%NAME% %GREEN%¤¤¤¤¤¤¤¤¤¤ %TAN%[%ILVL%]
-ItemDisplay[UNI !ID jew]: %GREEN%¤¤¤¤¤¤¤¤¤¤ %PURPLE%%NAME% %GREEN%¤¤¤¤¤¤¤¤¤¤ %TAN%[%ILVL%]
-ItemDisplay[UNI !ID cm1]: %GREEN%¤¤¤¤¤¤¤¤¤¤ %PURPLE%%NAME% %GREEN%¤¤¤¤¤¤¤¤¤¤ %TAN%[%ILVL%]
-ItemDisplay[UNI !ID cm2]: %GREEN%¤¤¤¤¤¤¤¤¤¤ %PURPLE%%NAME% %GREEN%¤¤¤¤¤¤¤¤¤¤ %TAN%[%ILVL%]
-ItemDisplay[UNI !ID cm3]: %RED%¤¤¤¤¤¤¤ %PURPLE%%NAME% %RED%¤¤¤¤¤¤¤ %TAN%[%ILVL%]
+ItemDisplay[UNI !ID rin]: %MAP%%NL%%GREEN%¤¤¤¤¤¤¤¤¤¤ %PURPLE%%NAME% %GREEN%¤¤¤¤¤¤¤¤¤¤ %TAN%[%ILVL%]%NL%
+ItemDisplay[UNI !ID amu]: %MAP%%NL%%GREEN%¤¤¤¤¤¤¤¤¤¤ %PURPLE%%NAME% %GREEN%¤¤¤¤¤¤¤¤¤¤ %TAN%[%ILVL%]%NL%
+ItemDisplay[UNI !ID jew]: %MAP%%NL%%GREEN%¤¤¤¤¤¤¤¤¤¤ %PURPLE%%NAME% %GREEN%¤¤¤¤¤¤¤¤¤¤ %TAN%[%ILVL%]%NL%
+ItemDisplay[UNI !ID cm1]: %MAP%%NL%%GREEN%¤¤¤¤¤¤¤¤¤¤ %PURPLE%%NAME% %GREEN%¤¤¤¤¤¤¤¤¤¤ %TAN%[%ILVL%]%NL%
+ItemDisplay[UNI !ID cm2]: %MAP%%NL%%GREEN%¤¤¤¤¤¤¤¤¤¤ %PURPLE%%NAME% %GREEN%¤¤¤¤¤¤¤¤¤¤ %TAN%[%ILVL%]%NL%
+ItemDisplay[UNI !ID cm3]: %MAP%%NL%%RED%¤¤¤¤¤¤¤ %PURPLE%%NAME% %RED%¤¤¤¤¤¤¤ %TAN%[%ILVL%]%NL%
 // EQ1
-ItemDisplay[UNI !ID uhm !ETH]: %GREEN%¤¤¤¤¤¤¤¤¤¤ %PURPLE%%NAME% %GREEN%¤¤¤¤¤¤¤¤¤¤ %TAN%[%ILVL%]
-ItemDisplay[UNI !ID uap !ETH]: %GREEN%¤¤¤¤¤¤¤¤¤¤ %PURPLE%%NAME% %GREEN%¤¤¤¤¤¤¤¤¤¤ %TAN%[%ILVL%]
-ItemDisplay[UNI !ID usk !ETH]: %GREEN%¤¤¤¤¤¤¤¤¤¤ %PURPLE%%NAME% %GREEN%¤¤¤¤¤¤¤¤¤¤ %TAN%[%ILVL%]
-ItemDisplay[UNI !ID urn !ETH]: %RED%¤¤¤¤¤¤¤ %PURPLE%%NAME% %RED%¤¤¤¤¤¤¤ %TAN%[%ILVL%]
-ItemDisplay[UNI !ID xh9 !ETH]: %GREEN%¤¤¤¤¤¤¤¤¤¤ %PURPLE%%NAME% %GREEN%¤¤¤¤¤¤¤¤¤¤ %TAN%[%ILVL%]
-ItemDisplay[UNI !ID ulm !ETH]: %GREEN%¤¤¤¤¤¤¤¤¤¤ %PURPLE%%NAME% %GREEN%¤¤¤¤¤¤¤¤¤¤ %TAN%[%ILVL%]
-ItemDisplay[UNI !ID xhm !ETH]: %RED%¤¤¤¤¤¤¤ %PURPLE%%NAME% %RED%¤¤¤¤¤¤¤ %TAN%[%ILVL%]
-ItemDisplay[UNI ETH !ID uhm]: %RED%¤¤¤ %WHITE%ETH %ORANGE%%NAME% %RED%¤¤¤ %TAN%[%ILVL%]
-ItemDisplay[UNI ETH !ID uap]: %RED%¤¤¤ %WHITE%ETH %ORANGE%%NAME% %RED%¤¤¤ %TAN%[%ILVL%]
-ItemDisplay[UNI ETH !ID usk]: %RED%¤¤¤ %WHITE%ETH %ORANGE%%NAME% %RED%¤¤¤ %TAN%[%ILVL%]
-ItemDisplay[UNI ETH !ID urn]: %RED%¤¤¤ %WHITE%ETH %ORANGE%%NAME% %RED%¤¤¤ %TAN%[%ILVL%]
-ItemDisplay[UNI ETH !ID xh9]: %RED%¤¤¤ %WHITE%ETH %ORANGE%%NAME% %RED%¤¤¤ %TAN%[%ILVL%]
-ItemDisplay[UNI ETH !ID ulm]: %RED%¤¤¤ %WHITE%ETH %ORANGE%%NAME% %RED%¤¤¤ %TAN%[%ILVL%]
-ItemDisplay[UNI ETH !ID xhm]: %RED%¤¤¤ %WHITE%ETH %ORANGE%%NAME% %RED%¤¤¤ %TAN%[%ILVL%]
+ItemDisplay[UNI !ID uhm !ETH]: %MAP%%NL%%GREEN%¤¤¤¤¤¤¤¤¤¤ %PURPLE%%NAME% %GREEN%¤¤¤¤¤¤¤¤¤¤ %TAN%[%ILVL%]%NL%
+ItemDisplay[UNI !ID uap !ETH]: %MAP%%NL%%GREEN%¤¤¤¤¤¤¤¤¤¤ %PURPLE%%NAME% %GREEN%¤¤¤¤¤¤¤¤¤¤ %TAN%[%ILVL%]%NL%
+ItemDisplay[UNI !ID usk !ETH]: %MAP%%NL%%GREEN%¤¤¤¤¤¤¤¤¤¤ %PURPLE%%NAME% %GREEN%¤¤¤¤¤¤¤¤¤¤ %TAN%[%ILVL%]%NL%
+ItemDisplay[UNI !ID urn !ETH]: %MAP%%NL%%RED%¤¤¤¤¤¤¤ %PURPLE%%NAME% %RED%¤¤¤¤¤¤¤ %TAN%[%ILVL%]%NL%
+ItemDisplay[UNI !ID xh9 !ETH]: %MAP%%NL%%GREEN%¤¤¤¤¤¤¤¤¤¤ %PURPLE%%NAME% %GREEN%¤¤¤¤¤¤¤¤¤¤ %TAN%[%ILVL%]%NL%
+ItemDisplay[UNI !ID ulm !ETH]: %MAP%%NL%%GREEN%¤¤¤¤¤¤¤¤¤¤ %PURPLE%%NAME% %GREEN%¤¤¤¤¤¤¤¤¤¤ %TAN%[%ILVL%]%NL%
+ItemDisplay[UNI !ID xhm !ETH]: %MAP%%NL%%RED%¤¤¤¤¤¤¤ %PURPLE%%NAME% %RED%¤¤¤¤¤¤¤ %TAN%[%ILVL%]%NL%
+ItemDisplay[UNI ETH !ID uhm]: %MAP%%NL%%RED%¤¤¤ %WHITE%ETH %ORANGE%%NAME% %RED%¤¤¤ %TAN%[%ILVL%]%NL%
+ItemDisplay[UNI ETH !ID uap]: %MAP%%NL%%RED%¤¤¤ %WHITE%ETH %ORANGE%%NAME% %RED%¤¤¤ %TAN%[%ILVL%]%NL%
+ItemDisplay[UNI ETH !ID usk]: %MAP%%NL%%RED%¤¤¤ %WHITE%ETH %ORANGE%%NAME% %RED%¤¤¤ %TAN%[%ILVL%]%NL%
+ItemDisplay[UNI ETH !ID urn]: %MAP%%NL%%RED%¤¤¤ %WHITE%ETH %ORANGE%%NAME% %RED%¤¤¤ %TAN%[%ILVL%]%NL%
+ItemDisplay[UNI ETH !ID xh9]: %MAP%%NL%%RED%¤¤¤ %WHITE%ETH %ORANGE%%NAME% %RED%¤¤¤ %TAN%[%ILVL%]%NL%
+ItemDisplay[UNI ETH !ID ulm]: %MAP%%NL%%RED%¤¤¤ %WHITE%ETH %ORANGE%%NAME% %RED%¤¤¤ %TAN%[%ILVL%]%NL%
+ItemDisplay[UNI ETH !ID xhm]: %MAP%%NL%%RED%¤¤¤ %WHITE%ETH %ORANGE%%NAME% %RED%¤¤¤ %TAN%[%ILVL%]%NL%
 // EQ2
-ItemDisplay[UNI !ID uar !ETH]: %GREEN%¤¤¤¤¤¤¤¤¤¤ %PURPLE%%NAME% %GREEN%¤¤¤¤¤¤¤¤¤¤ %TAN%[%ILVL%]
-ItemDisplay[UNI !ID uui !ETH]: %RED%¤¤¤¤¤¤¤ %PURPLE%%NAME% %RED%¤¤¤¤¤¤¤ %TAN%[%ILVL%]
-ItemDisplay[UNI !ID xhn !ETH]: %GREEN%¤¤¤¤¤¤¤¤¤¤ %PURPLE%%NAME% %GREEN%¤¤¤¤¤¤¤¤¤¤ %TAN%[%ILVL%]
-ItemDisplay[UNI !ID upl !ETH]: %RED%¤¤¤¤¤¤¤ %GOLD%%NAME% %RED%¤¤¤¤¤¤¤ %TAN%[%ILVL%]
-ItemDisplay[UNI !ID xea !ETH]: %GREEN%¤¤¤¤¤¤¤¤¤¤ %PURPLE%%NAME% %GREEN%¤¤¤¤¤¤¤¤¤¤ %TAN%[%ILVL%]
-ItemDisplay[UNI !ID xlt !ETH]: %RED%¤¤¤¤¤¤¤ %PURPLE%%NAME% %RED%¤¤¤¤¤¤¤ %TAN%[%ILVL%]
-ItemDisplay[UNI !ID xpl !ETH]: %RED%¤¤¤¤¤¤¤ %PURPLE%%NAME% %RED%¤¤¤¤¤¤¤ %TAN%[%ILVL%]
-ItemDisplay[UNI !ID utu !ETH]: %RED%¤¤¤¤¤¤¤ %PURPLE%%NAME% %RED%¤¤¤¤¤¤¤ %TAN%[%ILVL%]
-ItemDisplay[UNI !ID uld !ETH]: %RED%¤¤¤¤¤¤¤ %GOLD%%NAME% %RED%¤¤¤¤¤¤¤ %TAN%[%ILVL%]
-ItemDisplay[UNI !ID xrs !ETH]: %RED%¤¤¤¤¤¤¤ %PURPLE%%NAME% %RED%¤¤¤¤¤¤¤ %TAN%[%ILVL%]
-ItemDisplay[UNI !ID stu !ETH]: %RED%¤¤¤¤¤¤¤ %GOLD%%NAME% %RED%¤¤¤¤¤¤¤ %TAN%[%ILVL%]
-ItemDisplay[UNI !ID uar ETH]: %RED%¤¤¤ %WHITE%ETH %ORANGE%%NAME% %RED%¤¤¤ %TAN%[%ILVL%]
-ItemDisplay[UNI !ID xpl ETH]: %RED%¤¤¤ %WHITE%ETH %ORANGE%%NAME% %RED%¤¤¤ %TAN%[%ILVL%]
-ItemDisplay[UNI !ID xea ETH]: %RED%¤¤¤ %WHITE%ETH %ORANGE%%NAME% %RED%¤¤¤ %TAN%[%ILVL%]
-ItemDisplay[UNI !ID utu ETH]: %RED%¤¤¤ %WHITE%ETH %ORANGE%%NAME% %RED%¤¤¤ %TAN%[%ILVL%]
-ItemDisplay[UNI !ID upl ETH]: %RED%¤¤¤ %WHITE%ETH %ORANGE%%NAME% %RED%¤¤¤ %TAN%[%ILVL%]
-ItemDisplay[UNI !ID xlt ETH]: %RED%¤¤¤ %WHITE%ETH %ORANGE%%NAME% %RED%¤¤¤ %TAN%[%ILVL%]
-ItemDisplay[UNI !ID uui ETH]: %RED%¤¤¤ %WHITE%ETH %ORANGE%%NAME% %RED%¤¤¤ %TAN%[%ILVL%]
-ItemDisplay[UNI !ID xhn ETH]: %RED%¤¤¤ %WHITE%ETH %ORANGE%%NAME% %RED%¤¤¤ %TAN%[%ILVL%]
+ItemDisplay[UNI !ID uar !ETH]: %MAP%%NL%%GREEN%¤¤¤¤¤¤¤¤¤¤ %PURPLE%%NAME% %GREEN%¤¤¤¤¤¤¤¤¤¤ %TAN%[%ILVL%]%NL%
+ItemDisplay[UNI !ID uui !ETH]: %MAP%%NL%%RED%¤¤¤¤¤¤¤ %PURPLE%%NAME% %RED%¤¤¤¤¤¤¤ %TAN%[%ILVL%]%NL%
+ItemDisplay[UNI !ID xhn !ETH]: %MAP%%NL%%GREEN%¤¤¤¤¤¤¤¤¤¤ %PURPLE%%NAME% %GREEN%¤¤¤¤¤¤¤¤¤¤ %TAN%[%ILVL%]%NL%
+ItemDisplay[UNI !ID upl !ETH]: %MAP%%NL%%RED%¤¤¤¤¤¤¤ %GOLD%%NAME% %RED%¤¤¤¤¤¤¤ %TAN%[%ILVL%]%NL%
+ItemDisplay[UNI !ID xea !ETH]: %MAP%%NL%%GREEN%¤¤¤¤¤¤¤¤¤¤ %PURPLE%%NAME% %GREEN%¤¤¤¤¤¤¤¤¤¤ %TAN%[%ILVL%]%NL%
+ItemDisplay[UNI !ID xlt !ETH]: %MAP%%NL%%RED%¤¤¤¤¤¤¤ %PURPLE%%NAME% %RED%¤¤¤¤¤¤¤ %TAN%[%ILVL%]%NL%
+ItemDisplay[UNI !ID xpl !ETH]: %MAP%%NL%%RED%¤¤¤¤¤¤¤ %PURPLE%%NAME% %RED%¤¤¤¤¤¤¤ %TAN%[%ILVL%]%NL%
+ItemDisplay[UNI !ID utu !ETH]: %MAP%%NL%%RED%¤¤¤¤¤¤¤ %PURPLE%%NAME% %RED%¤¤¤¤¤¤¤ %TAN%[%ILVL%]%NL%
+ItemDisplay[UNI !ID uld !ETH]: %MAP%%NL%%RED%¤¤¤¤¤¤¤ %GOLD%%NAME% %RED%¤¤¤¤¤¤¤ %TAN%[%ILVL%]%NL%
+ItemDisplay[UNI !ID xrs !ETH]: %MAP%%NL%%RED%¤¤¤¤¤¤¤ %PURPLE%%NAME% %RED%¤¤¤¤¤¤¤ %TAN%[%ILVL%]%NL%
+ItemDisplay[UNI !ID stu !ETH]: %MAP%%NL%%RED%¤¤¤¤¤¤¤ %GOLD%%NAME% %RED%¤¤¤¤¤¤¤ %TAN%[%ILVL%]%NL%
+ItemDisplay[UNI !ID uar ETH]: %MAP%%NL%%RED%¤¤¤ %WHITE%ETH %ORANGE%%NAME% %RED%¤¤¤ %TAN%[%ILVL%]%NL%
+ItemDisplay[UNI !ID xpl ETH]: %MAP%%NL%%RED%¤¤¤ %WHITE%ETH %ORANGE%%NAME% %RED%¤¤¤ %TAN%[%ILVL%]%NL%
+ItemDisplay[UNI !ID xea ETH]: %MAP%%NL%%RED%¤¤¤ %WHITE%ETH %ORANGE%%NAME% %RED%¤¤¤ %TAN%[%ILVL%]%NL%
+ItemDisplay[UNI !ID utu ETH]: %MAP%%NL%%RED%¤¤¤ %WHITE%ETH %ORANGE%%NAME% %RED%¤¤¤ %TAN%[%ILVL%]%NL%
+ItemDisplay[UNI !ID upl ETH]: %MAP%%NL%%RED%¤¤¤ %WHITE%ETH %ORANGE%%NAME% %RED%¤¤¤ %TAN%[%ILVL%]%NL%
+ItemDisplay[UNI !ID xlt ETH]: %MAP%%NL%%RED%¤¤¤ %WHITE%ETH %ORANGE%%NAME% %RED%¤¤¤ %TAN%[%ILVL%]%NL%
+ItemDisplay[UNI !ID uui ETH]: %MAP%%NL%%RED%¤¤¤ %WHITE%ETH %ORANGE%%NAME% %RED%¤¤¤ %TAN%[%ILVL%]%NL%
+ItemDisplay[UNI !ID xhn ETH]: %MAP%%NL%%RED%¤¤¤ %WHITE%ETH %ORANGE%%NAME% %RED%¤¤¤ %TAN%[%ILVL%]%NL%
 // EQ3
-ItemDisplay[UNI !ID uit !ETH]: %GREEN%¤¤¤¤¤¤¤¤¤¤ %PURPLE%%NAME% %GREEN%¤¤¤¤¤¤¤¤¤¤ %TAN%[%ILVL%]
-ItemDisplay[UNI !ID xow !ETH]: %RED%¤¤¤¤¤¤¤ %PURPLE%%NAME% %RED%¤¤¤¤¤¤¤ %TAN%[%ILVL%]
-ItemDisplay[UNI !ID uow !ETH]: %RED%¤¤¤¤¤¤¤ %PURPLE%%NAME% %RED%¤¤¤¤¤¤¤ %TAN%[%ILVL%]
-ItemDisplay[UNI !ID xsh !ETH]: %RED%¤¤¤¤¤¤¤ %PURPLE%%NAME% %RED%¤¤¤¤¤¤¤ %TAN%[%ILVL%]
-ItemDisplay[UNI !ID uit ETH]: %RED%¤¤¤ %WHITE%ETH %ORANGE%%NAME% %RED%¤¤¤ %TAN%[%ILVL%]
-ItemDisplay[UNI !ID uow ETH]: %RED%¤¤¤ %WHITE%ETH %ORANGE%%NAME% %RED%¤¤¤ %TAN%[%ILVL%]
-ItemDisplay[UNI !ID xsh ETH]: %RED%¤¤¤ %WHITE%ETH %ORANGE%%NAME% %RED%¤¤¤ %TAN%[%ILVL%]
-ItemDisplay[UNI !ID xow ETH]: %RED%¤¤¤ %WHITE%ETH %ORANGE%%NAME% %RED%¤¤¤ %TAN%[%ILVL%]
+ItemDisplay[UNI !ID uit !ETH]: %MAP%%NL%%GREEN%¤¤¤¤¤¤¤¤¤¤ %PURPLE%%NAME% %GREEN%¤¤¤¤¤¤¤¤¤¤ %TAN%[%ILVL%]%NL%
+ItemDisplay[UNI !ID xow !ETH]: %MAP%%NL%%RED%¤¤¤¤¤¤¤ %PURPLE%%NAME% %RED%¤¤¤¤¤¤¤ %TAN%[%ILVL%]%NL%
+ItemDisplay[UNI !ID uow !ETH]: %MAP%%NL%%RED%¤¤¤¤¤¤¤ %PURPLE%%NAME% %RED%¤¤¤¤¤¤¤ %TAN%[%ILVL%]%NL%
+ItemDisplay[UNI !ID xsh !ETH]: %MAP%%NL%%RED%¤¤¤¤¤¤¤ %PURPLE%%NAME% %RED%¤¤¤¤¤¤¤ %TAN%[%ILVL%]%NL%
+ItemDisplay[UNI !ID uit ETH]: %MAP%%NL%%RED%¤¤¤ %WHITE%ETH %ORANGE%%NAME% %RED%¤¤¤ %TAN%[%ILVL%]%NL%
+ItemDisplay[UNI !ID uow ETH]: %MAP%%NL%%RED%¤¤¤ %WHITE%ETH %ORANGE%%NAME% %RED%¤¤¤ %TAN%[%ILVL%]%NL%
+ItemDisplay[UNI !ID xsh ETH]: %MAP%%NL%%RED%¤¤¤ %WHITE%ETH %ORANGE%%NAME% %RED%¤¤¤ %TAN%[%ILVL%]%NL%
+ItemDisplay[UNI !ID xow ETH]: %MAP%%NL%%RED%¤¤¤ %WHITE%ETH %ORANGE%%NAME% %RED%¤¤¤ %TAN%[%ILVL%]%NL%
 // EQ4
-ItemDisplay[UNI !ID uvg !ETH]: %GREEN%¤¤¤¤¤¤¤¤¤¤ %PURPLE%%NAME% %GREEN%¤¤¤¤¤¤¤¤¤¤ %TAN%[%ILVL%]
-ItemDisplay[UNI !ID hgl !ETH]: %RED%¤¤¤¤¤¤¤ %PURPLE%%NAME% %RED%¤¤¤¤¤¤¤ %TAN%[%ILVL%]
-ItemDisplay[UNI !ID tgl !ETH]: %RED%¤¤¤¤¤¤¤ %PURPLE%%NAME% %RED%¤¤¤¤¤¤¤ %TAN%[%ILVL%]
-ItemDisplay[UNI !ID xtg !ETH]: %RED%¤¤¤¤¤¤¤ %PURPLE%%NAME% %RED%¤¤¤¤¤¤¤ %TAN%[%ILVL%]
-ItemDisplay[UNI !ID xmg !ETH]: %GREEN%¤¤¤¤¤¤¤¤¤¤ %PURPLE%%NAME% %GREEN%¤¤¤¤¤¤¤¤¤¤ %TAN%[%ILVL%]
-ItemDisplay[UNI !ID uhg !ETH]: %RED%¤¤¤¤¤¤¤ %PURPLE%%NAME% %RED%¤¤¤¤¤¤¤ %TAN%[%ILVL%]
-ItemDisplay[UNI !ID mgl !ETH]: %RED%¤¤¤¤¤¤¤ %PURPLE%%NAME% %RED%¤¤¤¤¤¤¤ %TAN%[%ILVL%]
-ItemDisplay[UNI !ID tgl ETH]: %RED%¤¤¤ %WHITE%ETH %ORANGE%%NAME% %RED%¤¤¤ %TAN%[%ILVL%]
-ItemDisplay[UNI !ID uvg ETH]: %RED%¤¤¤ %WHITE%ETH %ORANGE%%NAME% %RED%¤¤¤ %TAN%[%ILVL%]
-ItemDisplay[UNI !ID uhg ETH]: %RED%¤¤¤ %WHITE%ETH %ORANGE%%NAME% %RED%¤¤¤ %TAN%[%ILVL%]
-ItemDisplay[UNI !ID xtg ETH]: %RED%¤¤¤ %WHITE%ETH %ORANGE%%NAME% %RED%¤¤¤ %TAN%[%ILVL%]
+ItemDisplay[UNI !ID uvg !ETH]: %MAP%%NL%%GREEN%¤¤¤¤¤¤¤¤¤¤ %PURPLE%%NAME% %GREEN%¤¤¤¤¤¤¤¤¤¤ %TAN%[%ILVL%]%NL%
+ItemDisplay[UNI !ID hgl !ETH]: %MAP%%NL%%RED%¤¤¤¤¤¤¤ %PURPLE%%NAME% %RED%¤¤¤¤¤¤¤ %TAN%[%ILVL%]%NL%
+ItemDisplay[UNI !ID tgl !ETH]: %MAP%%NL%%RED%¤¤¤¤¤¤¤ %PURPLE%%NAME% %RED%¤¤¤¤¤¤¤ %TAN%[%ILVL%]%NL%
+ItemDisplay[UNI !ID xtg !ETH]: %MAP%%NL%%RED%¤¤¤¤¤¤¤ %PURPLE%%NAME% %RED%¤¤¤¤¤¤¤ %TAN%[%ILVL%]%NL%
+ItemDisplay[UNI !ID xmg !ETH]: %MAP%%NL%%GREEN%¤¤¤¤¤¤¤¤¤¤ %PURPLE%%NAME% %GREEN%¤¤¤¤¤¤¤¤¤¤ %TAN%[%ILVL%]%NL%
+ItemDisplay[UNI !ID uhg !ETH]: %MAP%%NL%%RED%¤¤¤¤¤¤¤ %PURPLE%%NAME% %RED%¤¤¤¤¤¤¤ %TAN%[%ILVL%]%NL%
+ItemDisplay[UNI !ID mgl !ETH]: %MAP%%NL%%RED%¤¤¤¤¤¤¤ %PURPLE%%NAME% %RED%¤¤¤¤¤¤¤ %TAN%[%ILVL%]%NL%
+ItemDisplay[UNI !ID tgl ETH]: %MAP%%NL%%RED%¤¤¤ %WHITE%ETH %ORANGE%%NAME% %RED%¤¤¤ %TAN%[%ILVL%]%NL%
+ItemDisplay[UNI !ID uvg ETH]: %MAP%%NL%%RED%¤¤¤ %WHITE%ETH %ORANGE%%NAME% %RED%¤¤¤ %TAN%[%ILVL%]%NL%
+ItemDisplay[UNI !ID uhg ETH]: %MAP%%NL%%RED%¤¤¤ %WHITE%ETH %ORANGE%%NAME% %RED%¤¤¤ %TAN%[%ILVL%]%NL%
+ItemDisplay[UNI !ID xtg ETH]: %MAP%%NL%%RED%¤¤¤ %WHITE%ETH %ORANGE%%NAME% %RED%¤¤¤ %TAN%[%ILVL%]%NL%
 // EQ5
-ItemDisplay[UNI !ID xtb !ETH]: %GREEN%¤¤¤¤¤¤¤¤¤¤ %PURPLE%%NAME% %GREEN%¤¤¤¤¤¤¤¤¤¤ %TAN%[%ILVL%]
-ItemDisplay[UNI !ID xhb !ETH]: %GREEN%¤¤¤¤¤¤¤¤¤¤ %PURPLE%%NAME% %GREEN%¤¤¤¤¤¤¤¤¤¤ %TAN%[%ILVL%]
-ItemDisplay[UNI !ID xmb !ETH]: %GREEN%¤¤¤¤¤¤¤¤¤¤ %PURPLE%%NAME% %GREEN%¤¤¤¤¤¤¤¤¤¤ %TAN%[%ILVL%]
-ItemDisplay[UNI !ID uvb !ETH]: %GREEN%¤¤¤¤¤¤¤¤¤¤ %PURPLE%%NAME% %GREEN%¤¤¤¤¤¤¤¤¤¤ %TAN%[%ILVL%]
-ItemDisplay[UNI !ID lbt !ETH]: %RED%¤¤¤¤¤¤¤ %PURPLE%%NAME% %RED%¤¤¤¤¤¤¤ %TAN%[%ILVL%]
-ItemDisplay[UNI !ID uhb !ETH]: %RED%¤¤¤¤¤¤¤ %PURPLE%%NAME% %RED%¤¤¤¤¤¤¤ %TAN%[%ILVL%]
-ItemDisplay[UNI !ID xvb !ETH]: %RED%¤¤¤¤¤¤¤ %PURPLE%%NAME% %RED%¤¤¤¤¤¤¤ %TAN%[%ILVL%]
-ItemDisplay[UNI !ID umb !ETH]: %RED%¤¤¤¤¤¤¤ %PURPLE%%NAME% %RED%¤¤¤¤¤¤¤ %TAN%[%ILVL%]
-ItemDisplay[UNI !ID uvb ETH]: %RED%¤¤¤ %WHITE%ETH %ORANGE%%NAME% %RED%¤¤¤ %TAN%[%ILVL%]
-ItemDisplay[UNI !ID uhb ETH]: %RED%¤¤¤ %WHITE%ETH %ORANGE%%NAME% %RED%¤¤¤ %TAN%[%ILVL%]
-ItemDisplay[UNI !ID umb ETH]: %RED%¤¤¤ %WHITE%ETH %ORANGE%%NAME% %RED%¤¤¤ %TAN%[%ILVL%]
-ItemDisplay[UNI !ID xtb ETH]: %RED%¤¤¤ %WHITE%ETH %ORANGE%%NAME% %RED%¤¤¤ %TAN%[%ILVL%]
-ItemDisplay[UNI !ID xhb ETH]: %RED%¤¤¤ %WHITE%ETH %ORANGE%%NAME% %RED%¤¤¤ %TAN%[%ILVL%]
-ItemDisplay[UNI !ID lbt ETH]: %RED%¤¤¤ %WHITE%ETH %ORANGE%%NAME% %RED%¤¤¤ %TAN%[%ILVL%]
+ItemDisplay[UNI !ID xtb !ETH]: %MAP%%NL%%GREEN%¤¤¤¤¤¤¤¤¤¤ %PURPLE%%NAME% %GREEN%¤¤¤¤¤¤¤¤¤¤ %TAN%[%ILVL%]%NL%
+ItemDisplay[UNI !ID xhb !ETH]: %MAP%%NL%%GREEN%¤¤¤¤¤¤¤¤¤¤ %PURPLE%%NAME% %GREEN%¤¤¤¤¤¤¤¤¤¤ %TAN%[%ILVL%]%NL%
+ItemDisplay[UNI !ID xmb !ETH]: %MAP%%NL%%GREEN%¤¤¤¤¤¤¤¤¤¤ %PURPLE%%NAME% %GREEN%¤¤¤¤¤¤¤¤¤¤ %TAN%[%ILVL%]%NL%
+ItemDisplay[UNI !ID uvb !ETH]: %MAP%%NL%%GREEN%¤¤¤¤¤¤¤¤¤¤ %PURPLE%%NAME% %GREEN%¤¤¤¤¤¤¤¤¤¤ %TAN%[%ILVL%]%NL%
+ItemDisplay[UNI !ID lbt !ETH]: %MAP%%NL%%RED%¤¤¤¤¤¤¤ %PURPLE%%NAME% %RED%¤¤¤¤¤¤¤ %TAN%[%ILVL%]%NL%
+ItemDisplay[UNI !ID uhb !ETH]: %MAP%%NL%%RED%¤¤¤¤¤¤¤ %PURPLE%%NAME% %RED%¤¤¤¤¤¤¤ %TAN%[%ILVL%]%NL%
+ItemDisplay[UNI !ID xvb !ETH]: %MAP%%NL%%RED%¤¤¤¤¤¤¤ %PURPLE%%NAME% %RED%¤¤¤¤¤¤¤ %TAN%[%ILVL%]%NL%
+ItemDisplay[UNI !ID umb !ETH]: %MAP%%NL%%RED%¤¤¤¤¤¤¤ %PURPLE%%NAME% %RED%¤¤¤¤¤¤¤ %TAN%[%ILVL%]%NL%
+ItemDisplay[UNI !ID uvb ETH]: %MAP%%NL%%RED%¤¤¤ %WHITE%ETH %ORANGE%%NAME% %RED%¤¤¤ %TAN%[%ILVL%]%NL%
+ItemDisplay[UNI !ID uhb ETH]: %MAP%%NL%%RED%¤¤¤ %WHITE%ETH %ORANGE%%NAME% %RED%¤¤¤ %TAN%[%ILVL%]%NL%
+ItemDisplay[UNI !ID umb ETH]: %MAP%%NL%%RED%¤¤¤ %WHITE%ETH %ORANGE%%NAME% %RED%¤¤¤ %TAN%[%ILVL%]%NL%
+ItemDisplay[UNI !ID xtb ETH]: %MAP%%NL%%RED%¤¤¤ %WHITE%ETH %ORANGE%%NAME% %RED%¤¤¤ %TAN%[%ILVL%]%NL%
+ItemDisplay[UNI !ID xhb ETH]: %MAP%%NL%%RED%¤¤¤ %WHITE%ETH %ORANGE%%NAME% %RED%¤¤¤ %TAN%[%ILVL%]%NL%
+ItemDisplay[UNI !ID lbt ETH]: %MAP%%NL%%RED%¤¤¤ %WHITE%ETH %ORANGE%%NAME% %RED%¤¤¤ %TAN%[%ILVL%]%NL%
 // EQ6
-ItemDisplay[UNI !ID ulc !ETH]: %GREEN%¤¤¤¤¤¤¤¤¤¤ %PURPLE%%NAME% %GREEN%¤¤¤¤¤¤¤¤¤¤ %TAN%[%ILVL%]
-ItemDisplay[UNI !ID umc !ETH]: %GREEN%¤¤¤¤¤¤¤¤¤¤ %PURPLE%%NAME% %GREEN%¤¤¤¤¤¤¤¤¤¤ %TAN%[%ILVL%]
-ItemDisplay[UNI !ID zhb !ETH]: %GREEN%¤¤¤¤¤¤¤¤¤¤ %PURPLE%%NAME% %GREEN%¤¤¤¤¤¤¤¤¤¤ %TAN%[%ILVL%]
-ItemDisplay[UNI !ID zlb !ETH]: %GREEN%¤¤¤¤¤¤¤¤¤¤ %PURPLE%%NAME% %GREEN%¤¤¤¤¤¤¤¤¤¤ %TAN%[%ILVL%]
-ItemDisplay[UNI !ID zvb !ETH]: %GREEN%¤¤¤¤¤¤¤¤¤¤ %PURPLE%%NAME% %GREEN%¤¤¤¤¤¤¤¤¤¤ %TAN%[%ILVL%]
-ItemDisplay[UNI !ID uvc !ETH]: %RED%¤¤¤¤¤¤¤ %PURPLE%%NAME% %RED%¤¤¤¤¤¤¤ %TAN%[%ILVL%]
-ItemDisplay[UNI !ID ulc ETH]: %RED%¤¤¤ %WHITE%ETH %ORANGE%%NAME% %RED%¤¤¤ %TAN%[%ILVL%]
-ItemDisplay[UNI !ID umc ETH]: %RED%¤¤¤ %WHITE%ETH %ORANGE%%NAME% %RED%¤¤¤ %TAN%[%ILVL%]
-ItemDisplay[UNI !ID uvc ETH]: %RED%¤¤¤ %WHITE%ETH %ORANGE%%NAME% %RED%¤¤¤ %TAN%[%ILVL%]
-ItemDisplay[UNI !ID zhb ETH]: %RED%¤¤¤ %WHITE%ETH %ORANGE%%NAME% %RED%¤¤¤ %TAN%[%ILVL%]
-ItemDisplay[UNI !ID zlb ETH]: %RED%¤¤¤ %WHITE%ETH %ORANGE%%NAME% %RED%¤¤¤ %TAN%[%ILVL%]
+ItemDisplay[UNI !ID ulc !ETH]: %MAP%%NL%%GREEN%¤¤¤¤¤¤¤¤¤¤ %PURPLE%%NAME% %GREEN%¤¤¤¤¤¤¤¤¤¤ %TAN%[%ILVL%]%NL%
+ItemDisplay[UNI !ID umc !ETH]: %MAP%%NL%%GREEN%¤¤¤¤¤¤¤¤¤¤ %PURPLE%%NAME% %GREEN%¤¤¤¤¤¤¤¤¤¤ %TAN%[%ILVL%]%NL%
+ItemDisplay[UNI !ID zhb !ETH]: %MAP%%NL%%GREEN%¤¤¤¤¤¤¤¤¤¤ %PURPLE%%NAME% %GREEN%¤¤¤¤¤¤¤¤¤¤ %TAN%[%ILVL%]%NL%
+ItemDisplay[UNI !ID zlb !ETH]: %MAP%%NL%%GREEN%¤¤¤¤¤¤¤¤¤¤ %PURPLE%%NAME% %GREEN%¤¤¤¤¤¤¤¤¤¤ %TAN%[%ILVL%]%NL%
+ItemDisplay[UNI !ID zvb !ETH]: %MAP%%NL%%GREEN%¤¤¤¤¤¤¤¤¤¤ %PURPLE%%NAME% %GREEN%¤¤¤¤¤¤¤¤¤¤ %TAN%[%ILVL%]%NL%
+ItemDisplay[UNI !ID uvc !ETH]: %MAP%%NL%%RED%¤¤¤¤¤¤¤ %PURPLE%%NAME% %RED%¤¤¤¤¤¤¤ %TAN%[%ILVL%]%NL%
+ItemDisplay[UNI !ID ulc ETH]: %MAP%%NL%%RED%¤¤¤ %WHITE%ETH %ORANGE%%NAME% %RED%¤¤¤ %TAN%[%ILVL%]%NL%
+ItemDisplay[UNI !ID umc ETH]: %MAP%%NL%%RED%¤¤¤ %WHITE%ETH %ORANGE%%NAME% %RED%¤¤¤ %TAN%[%ILVL%]%NL%
+ItemDisplay[UNI !ID uvc ETH]: %MAP%%NL%%RED%¤¤¤ %WHITE%ETH %ORANGE%%NAME% %RED%¤¤¤ %TAN%[%ILVL%]%NL%
+ItemDisplay[UNI !ID zhb ETH]: %MAP%%NL%%RED%¤¤¤ %WHITE%ETH %ORANGE%%NAME% %RED%¤¤¤ %TAN%[%ILVL%]%NL%
+ItemDisplay[UNI !ID zlb ETH]: %MAP%%NL%%RED%¤¤¤ %WHITE%ETH %ORANGE%%NAME% %RED%¤¤¤ %TAN%[%ILVL%]%NL%
 // EQ7
-ItemDisplay[UNI !ID ci3 !ETH]: %GREEN%¤¤¤¤¤¤¤¤¤¤ %PURPLE%%NAME% %GREEN%¤¤¤¤¤¤¤¤¤¤ %TAN%[%ILVL%]
-ItemDisplay[UNI !ID ci2 !ETH]: %RED%¤¤¤¤¤¤¤ %PURPLE%%NAME% %RED%¤¤¤¤¤¤¤ %TAN%[%ILVL%]
-ItemDisplay[UNI !ID ci3 ETH]: %RED%¤¤¤ %WHITE%ETH %ORANGE%%NAME% %RED%¤¤¤ %TAN%[%ILVL%]
-ItemDisplay[UNI !ID ci2 ETH]: %RED%¤¤¤ %WHITE%ETH %ORANGE%%NAME% %RED%¤¤¤ %TAN%[%ILVL%]
+ItemDisplay[UNI !ID ci3 !ETH]: %MAP%%NL%%GREEN%¤¤¤¤¤¤¤¤¤¤ %PURPLE%%NAME% %GREEN%¤¤¤¤¤¤¤¤¤¤ %TAN%[%ILVL%]%NL%
+ItemDisplay[UNI !ID ci2 !ETH]: %MAP%%NL%%RED%¤¤¤¤¤¤¤ %PURPLE%%NAME% %RED%¤¤¤¤¤¤¤ %TAN%[%ILVL%]%NL%
+ItemDisplay[UNI !ID ci3 ETH]: %MAP%%NL%%RED%¤¤¤ %WHITE%ETH %ORANGE%%NAME% %RED%¤¤¤ %TAN%[%ILVL%]%NL%
+ItemDisplay[UNI !ID ci2 ETH]: %MAP%%NL%%RED%¤¤¤ %WHITE%ETH %ORANGE%%NAME% %RED%¤¤¤ %TAN%[%ILVL%]%NL%
 //
 //╔════════════════╗
 //║ Weapons Unique ║
 //╚════════════════╝
 //
 // WP1
-ItemDisplay[UNI !ID 7wa !ETH]: %GREEN%¤¤¤¤¤¤¤¤¤¤ %PURPLE%%NAME% %GREEN%¤¤¤¤¤¤¤¤¤¤ %TAN%[%ILVL%]
+ItemDisplay[UNI !ID 7wa !ETH]: %MAP%%NL%%GREEN%¤¤¤¤¤¤¤¤¤¤ %PURPLE%%NAME% %GREEN%¤¤¤¤¤¤¤¤¤¤ %TAN%[%ILVL%]%NL%
 // WP2
 //
 // WP3
-ItemDisplay[UNI !ID 7cr]: %GREEN%¤¤¤¤¤¤¤¤¤¤ %PURPLE%%NAME% %GREEN%¤¤¤¤¤¤¤¤¤¤ %TAN%[%ILVL%]
-ItemDisplay[UNI !ID 7gd !ETH]: %RED%¤¤¤¤¤¤¤ %PURPLE%%NAME% %RED%¤¤¤¤¤¤¤ %TAN%[%ILVL%]
-ItemDisplay[UNI !ID 9fc !ETH]: %RED%¤¤¤¤¤¤¤ %PURPLE%%NAME% %RED%¤¤¤¤¤¤¤ %TAN%[%ILVL%]
-ItemDisplay[UNI !ID 9bs !ETH]: %RED%¤¤¤¤¤¤¤ %PURPLE%%NAME% %RED%¤¤¤¤¤¤¤ %TAN%[%ILVL%]
+ItemDisplay[UNI !ID 7cr]: %MAP%%NL%%GREEN%¤¤¤¤¤¤¤¤¤¤ %PURPLE%%NAME% %GREEN%¤¤¤¤¤¤¤¤¤¤ %TAN%[%ILVL%]%NL%
+ItemDisplay[UNI !ID 7gd !ETH]: %MAP%%NL%%RED%¤¤¤¤¤¤¤ %PURPLE%%NAME% %RED%¤¤¤¤¤¤¤ %TAN%[%ILVL%]%NL%
+ItemDisplay[UNI !ID 9fc !ETH]: %MAP%%NL%%RED%¤¤¤¤¤¤¤ %PURPLE%%NAME% %RED%¤¤¤¤¤¤¤ %TAN%[%ILVL%]%NL%
+ItemDisplay[UNI !ID 9bs !ETH]: %MAP%%NL%%RED%¤¤¤¤¤¤¤ %PURPLE%%NAME% %RED%¤¤¤¤¤¤¤ %TAN%[%ILVL%]%NL%
 // WP4
-ItemDisplay[UNI !ID 7kr !ETH]: %GREEN%¤¤¤¤¤¤¤¤¤¤ %PURPLE%%NAME% %GREEN%¤¤¤¤¤¤¤¤¤¤ %TAN%[%ILVL%]
+ItemDisplay[UNI !ID 7kr !ETH]: %MAP%%NL%%GREEN%¤¤¤¤¤¤¤¤¤¤ %PURPLE%%NAME% %GREEN%¤¤¤¤¤¤¤¤¤¤ %TAN%[%ILVL%]%NL%
 // WP5
-ItemDisplay[UNI !ID 7bk !ETH]: %GREEN%¤¤¤¤¤¤¤¤¤¤ %PURPLE%%NAME% %GREEN%¤¤¤¤¤¤¤¤¤¤ %TAN%[%ILVL%]
-ItemDisplay[UNI !ID 7b8 !ETH]: %RED%¤¤¤¤¤¤¤ %PURPLE%%NAME% %RED%¤¤¤¤¤¤¤ %TAN%[%ILVL%]
-ItemDisplay[UNI !ID 7bk ETH]: %RED%¤¤¤ %WHITE%ETH %ORANGE%%NAME% %RED%¤¤¤ %TAN%[%ILVL%]
-ItemDisplay[UNI !ID 7b8 ETH]: %RED%¤¤¤ %WHITE%ETH %ORANGE%%NAME% %RED%¤¤¤ %TAN%[%ILVL%]
+ItemDisplay[UNI !ID 7bk !ETH]: %MAP%%NL%%GREEN%¤¤¤¤¤¤¤¤¤¤ %PURPLE%%NAME% %GREEN%¤¤¤¤¤¤¤¤¤¤ %TAN%[%ILVL%]%NL%
+ItemDisplay[UNI !ID 7b8 !ETH]: %MAP%%NL%%RED%¤¤¤¤¤¤¤ %PURPLE%%NAME% %RED%¤¤¤¤¤¤¤ %TAN%[%ILVL%]%NL%
+ItemDisplay[UNI !ID 7bk ETH]: %MAP%%NL%%RED%¤¤¤ %WHITE%ETH %ORANGE%%NAME% %RED%¤¤¤ %TAN%[%ILVL%]%NL%
+ItemDisplay[UNI !ID 7b8 ETH]: %MAP%%NL%%RED%¤¤¤ %WHITE%ETH %ORANGE%%NAME% %RED%¤¤¤ %TAN%[%ILVL%]%NL%
 // WP6
 //
 // WP7
 //
 // WP8
-ItemDisplay[UNI !ID 7s8 !ETH]: %GREEN%¤¤¤¤¤¤¤¤¤¤ %PURPLE%%NAME% %GREEN%¤¤¤¤¤¤¤¤¤¤ %TAN%[%ILVL%]
-ItemDisplay[UNI !ID 7pa !ETH]: %RED%¤¤¤¤¤¤¤ %PURPLE%%NAME% %RED%¤¤¤¤¤¤¤ %TAN%[%ILVL%]
-ItemDisplay[UNI !ID 7o7 !ETH]: %RED%¤¤¤¤¤¤¤ %PURPLE%%NAME% %RED%¤¤¤¤¤¤¤ %TAN%[%ILVL%]
-ItemDisplay[UNI !ID 7pa ETH]: %RED%¤¤¤ %WHITE%ETH %ORANGE%%NAME% %RED%¤¤¤ %TAN%[%ILVL%]
-ItemDisplay[UNI !ID 7o7 ETH]: %RED%¤¤¤ %WHITE%ETH %ORANGE%%NAME% %RED%¤¤¤ %TAN%[%ILVL%]
+ItemDisplay[UNI !ID 7s8 !ETH]: %MAP%%NL%%GREEN%¤¤¤¤¤¤¤¤¤¤ %PURPLE%%NAME% %GREEN%¤¤¤¤¤¤¤¤¤¤ %TAN%[%ILVL%]%NL%
+ItemDisplay[UNI !ID 7pa !ETH]: %MAP%%NL%%RED%¤¤¤¤¤¤¤ %PURPLE%%NAME% %RED%¤¤¤¤¤¤¤ %TAN%[%ILVL%]%NL%
+ItemDisplay[UNI !ID 7o7 !ETH]: %MAP%%NL%%RED%¤¤¤¤¤¤¤ %PURPLE%%NAME% %RED%¤¤¤¤¤¤¤ %TAN%[%ILVL%]%NL%
+ItemDisplay[UNI !ID 7pa ETH]: %MAP%%NL%%RED%¤¤¤ %WHITE%ETH %ORANGE%%NAME% %RED%¤¤¤ %TAN%[%ILVL%]%NL%
+ItemDisplay[UNI !ID 7o7 ETH]: %MAP%%NL%%RED%¤¤¤ %WHITE%ETH %ORANGE%%NAME% %RED%¤¤¤ %TAN%[%ILVL%]%NL%
 // WP9
-ItemDisplay[UNI !ID 6lw]: %GREEN%¤¤¤¤¤¤¤¤¤¤ %PURPLE%%NAME% %GREEN%¤¤¤¤¤¤¤¤¤¤ %TAN%[%ILVL%]
+ItemDisplay[UNI !ID 6lw]: %MAP%%NL%%GREEN%¤¤¤¤¤¤¤¤¤¤ %PURPLE%%NAME% %GREEN%¤¤¤¤¤¤¤¤¤¤ %TAN%[%ILVL%]%NL%
 // WP10
-ItemDisplay[UNI !ID rxb]: %GREEN%¤¤¤¤¤¤¤¤¤¤ %PURPLE%%NAME% %GREEN%¤¤¤¤¤¤¤¤¤¤ %TAN%[%ILVL%]
-ItemDisplay[UNI !ID 8hx]: %RED%¤¤¤¤¤¤¤ %PURPLE%%NAME% %RED%¤¤¤¤¤¤¤ %TAN%[%ILVL%]
+ItemDisplay[UNI !ID rxb]: %MAP%%NL%%GREEN%¤¤¤¤¤¤¤¤¤¤ %PURPLE%%NAME% %GREEN%¤¤¤¤¤¤¤¤¤¤ %TAN%[%ILVL%]%NL%
+ItemDisplay[UNI !ID 8hx]: %MAP%%NL%%RED%¤¤¤¤¤¤¤ %PURPLE%%NAME% %RED%¤¤¤¤¤¤¤ %TAN%[%ILVL%]%NL%
 // WP11
-ItemDisplay[UNI !ID 6ws !ETH]: %RED%¤¤¤¤¤¤¤ %PURPLE%%NAME% %RED%¤¤¤¤¤¤¤ %TAN%[%ILVL%]
-ItemDisplay[UNI !ID 6cs !ETH]: %GREEN%¤¤¤¤¤¤¤¤¤¤ %PURPLE%%NAME% %GREEN%¤¤¤¤¤¤¤¤¤¤ %TAN%[%ILVL%]
-ItemDisplay[UNI !ID 8ls !ETH]: %RED%¤¤¤¤¤¤¤ %PURPLE%%NAME% %RED%¤¤¤¤¤¤¤ %TAN%[%ILVL%]
-ItemDisplay[UNI !ID 6ws ETH]: %RED%¤¤¤ %WHITE%ETH %ORANGE%%NAME% %RED%¤¤¤ %TAN%[%ILVL%]
-ItemDisplay[UNI !ID 6cs ETH]: %RED%¤¤¤ %WHITE%ETH %ORANGE%%NAME% %RED%¤¤¤ %TAN%[%ILVL%]
+ItemDisplay[UNI !ID 6ws !ETH]: %MAP%%NL%%RED%¤¤¤¤¤¤¤ %PURPLE%%NAME% %RED%¤¤¤¤¤¤¤ %TAN%[%ILVL%]%NL%
+ItemDisplay[UNI !ID 6cs !ETH]: %MAP%%NL%%GREEN%¤¤¤¤¤¤¤¤¤¤ %PURPLE%%NAME% %GREEN%¤¤¤¤¤¤¤¤¤¤ %TAN%[%ILVL%]%NL%
+ItemDisplay[UNI !ID 8ls !ETH]: %MAP%%NL%%RED%¤¤¤¤¤¤¤ %PURPLE%%NAME% %RED%¤¤¤¤¤¤¤ %TAN%[%ILVL%]%NL%
+ItemDisplay[UNI !ID 6ws ETH]: %MAP%%NL%%RED%¤¤¤ %WHITE%ETH %ORANGE%%NAME% %RED%¤¤¤ %TAN%[%ILVL%]%NL%
+ItemDisplay[UNI !ID 6cs ETH]: %MAP%%NL%%RED%¤¤¤ %WHITE%ETH %ORANGE%%NAME% %RED%¤¤¤ %TAN%[%ILVL%]%NL%
 // WP12
-ItemDisplay[UNI !ID 7gw !ETH]: %GREEN%¤¤¤¤¤¤¤¤¤¤ %PURPLE%%NAME% %GREEN%¤¤¤¤¤¤¤¤¤¤ %TAN%[%ILVL%]
-ItemDisplay[UNI !ID 9bw !ETH]: %GREEN%¤¤¤¤¤¤¤¤¤¤ %PURPLE%%NAME% %GREEN%¤¤¤¤¤¤¤¤¤¤ %TAN%[%ILVL%]
-ItemDisplay[UNI !ID 7gw ETH]: %RED%¤¤¤ %WHITE%ETH %ORANGE%%NAME% %RED%¤¤¤ %TAN%[%ILVL%]
-ItemDisplay[UNI !ID 9bw ETH]: %RED%¤¤¤ %WHITE%ETH %ORANGE%%NAME% %RED%¤¤¤ %TAN%[%ILVL%]
+ItemDisplay[UNI !ID 7gw !ETH]: %MAP%%NL%%GREEN%¤¤¤¤¤¤¤¤¤¤ %PURPLE%%NAME% %GREEN%¤¤¤¤¤¤¤¤¤¤ %TAN%[%ILVL%]%NL%
+ItemDisplay[UNI !ID 9bw !ETH]: %MAP%%NL%%GREEN%¤¤¤¤¤¤¤¤¤¤ %PURPLE%%NAME% %GREEN%¤¤¤¤¤¤¤¤¤¤ %TAN%[%ILVL%]%NL%
+ItemDisplay[UNI !ID 7gw ETH]: %MAP%%NL%%RED%¤¤¤ %WHITE%ETH %ORANGE%%NAME% %RED%¤¤¤ %TAN%[%ILVL%]%NL%
+ItemDisplay[UNI !ID 9bw ETH]: %MAP%%NL%%RED%¤¤¤ %WHITE%ETH %ORANGE%%NAME% %RED%¤¤¤ %TAN%[%ILVL%]%NL%
 // WP13
-ItemDisplay[UNI !ID 7sc !ETH]: %RED%¤¤¤¤¤¤¤ %PURPLE%%NAME% %RED%¤¤¤¤¤¤¤ %TAN%[%ILVL%]
-ItemDisplay[UNI !ID 7ws !ETH]: %RED%¤¤¤¤¤¤¤ %PURPLE%%NAME% %RED%¤¤¤¤¤¤¤ %TAN%[%ILVL%]
-ItemDisplay[UNI !ID 7sc ETH]: %RED%¤¤¤ %WHITE%ETH %ORANGE%%NAME% %RED%¤¤¤ %TAN%[%ILVL%]
-ItemDisplay[UNI !ID 7ws ETH]: %RED%¤¤¤ %WHITE%ETH %ORANGE%%NAME% %RED%¤¤¤ %TAN%[%ILVL%]
+ItemDisplay[UNI !ID 7sc !ETH]: %MAP%%NL%%RED%¤¤¤¤¤¤¤ %PURPLE%%NAME% %RED%¤¤¤¤¤¤¤ %TAN%[%ILVL%]%NL%
+ItemDisplay[UNI !ID 7ws !ETH]: %MAP%%NL%%RED%¤¤¤¤¤¤¤ %PURPLE%%NAME% %RED%¤¤¤¤¤¤¤ %TAN%[%ILVL%]%NL%
+ItemDisplay[UNI !ID 7sc ETH]: %MAP%%NL%%RED%¤¤¤ %WHITE%ETH %ORANGE%%NAME% %RED%¤¤¤ %TAN%[%ILVL%]%NL%
+ItemDisplay[UNI !ID 7ws ETH]: %MAP%%NL%%RED%¤¤¤ %WHITE%ETH %ORANGE%%NAME% %RED%¤¤¤ %TAN%[%ILVL%]%NL%
 //
 //╔════════════════╗
 //║ Classes Unique ║
 //╚════════════════╝
 //
 // CL1
-ItemDisplay[UNI !ID dra !ETH]: %GREEN%¤¤¤¤¤¤¤¤¤¤ %PURPLE%%NAME% %GREEN%¤¤¤¤¤¤¤¤¤¤ %TAN%[%ILVL%]
-ItemDisplay[UNI !ID dre !ETH]: %RED%¤¤¤¤¤¤¤ %PURPLE%%NAME% %RED%¤¤¤¤¤¤¤ %TAN%[%ILVL%]
-ItemDisplay[UNI !ID dra ETH]: %RED%¤¤¤ %WHITE%ETH %ORANGE%%NAME% %RED%¤¤¤ %TAN%[%ILVL%]
-ItemDisplay[UNI !ID dre ETH]: %RED%¤¤¤ %WHITE%ETH %ORANGE%%NAME% %RED%¤¤¤ %TAN%[%ILVL%]
+ItemDisplay[UNI !ID dra !ETH]: %MAP%%NL%%GREEN%¤¤¤¤¤¤¤¤¤¤ %PURPLE%%NAME% %GREEN%¤¤¤¤¤¤¤¤¤¤ %TAN%[%ILVL%]%NL%
+ItemDisplay[UNI !ID dre !ETH]: %MAP%%NL%%RED%¤¤¤¤¤¤¤ %PURPLE%%NAME% %RED%¤¤¤¤¤¤¤ %TAN%[%ILVL%]%NL%
+ItemDisplay[UNI !ID dra ETH]: %MAP%%NL%%RED%¤¤¤ %WHITE%ETH %ORANGE%%NAME% %RED%¤¤¤ %TAN%[%ILVL%]%NL%
+ItemDisplay[UNI !ID dre ETH]: %MAP%%NL%%RED%¤¤¤ %WHITE%ETH %ORANGE%%NAME% %RED%¤¤¤ %TAN%[%ILVL%]%NL%
 // CL2
-ItemDisplay[UNI !ID baa !ETH]: %GREEN%¤¤¤¤¤¤¤¤¤¤ %PURPLE%%NAME% %GREEN%¤¤¤¤¤¤¤¤¤¤ %TAN%[%ILVL%]
-ItemDisplay[UNI !ID bac !ETH]: %GREEN%¤¤¤¤¤¤¤¤¤¤ %PURPLE%%NAME% %GREEN%¤¤¤¤¤¤¤¤¤¤ %TAN%[%ILVL%]
-ItemDisplay[UNI !ID bae !ETH]: %RED%¤¤¤¤¤¤¤ %PURPLE%%NAME% %RED%¤¤¤¤¤¤¤ %TAN%[%ILVL%]
-ItemDisplay[UNI !ID baa ETH]: %RED%¤¤¤ %WHITE%ETH %ORANGE%%NAME% %RED%¤¤¤ %TAN%[%ILVL%]
-ItemDisplay[UNI !ID bac ETH]: %RED%¤¤¤ %WHITE%ETH %ORANGE%%NAME% %RED%¤¤¤ %TAN%[%ILVL%]
-ItemDisplay[UNI !ID bae ETH]: %RED%¤¤¤ %WHITE%ETH %ORANGE%%NAME% %RED%¤¤¤ %TAN%[%ILVL%]
+ItemDisplay[UNI !ID baa !ETH]: %MAP%%NL%%GREEN%¤¤¤¤¤¤¤¤¤¤ %PURPLE%%NAME% %GREEN%¤¤¤¤¤¤¤¤¤¤ %TAN%[%ILVL%]%NL%
+ItemDisplay[UNI !ID bac !ETH]: %MAP%%NL%%GREEN%¤¤¤¤¤¤¤¤¤¤ %PURPLE%%NAME% %GREEN%¤¤¤¤¤¤¤¤¤¤ %TAN%[%ILVL%]%NL%
+ItemDisplay[UNI !ID bae !ETH]: %MAP%%NL%%RED%¤¤¤¤¤¤¤ %PURPLE%%NAME% %RED%¤¤¤¤¤¤¤ %TAN%[%ILVL%]%NL%
+ItemDisplay[UNI !ID baa ETH]: %MAP%%NL%%RED%¤¤¤ %WHITE%ETH %ORANGE%%NAME% %RED%¤¤¤ %TAN%[%ILVL%]%NL%
+ItemDisplay[UNI !ID bac ETH]: %MAP%%NL%%RED%¤¤¤ %WHITE%ETH %ORANGE%%NAME% %RED%¤¤¤ %TAN%[%ILVL%]%NL%
+ItemDisplay[UNI !ID bae ETH]: %MAP%%NL%%RED%¤¤¤ %WHITE%ETH %ORANGE%%NAME% %RED%¤¤¤ %TAN%[%ILVL%]%NL%
 // CL3
-ItemDisplay[UNI !ID pac !ETH]: %GREEN%¤¤¤¤¤¤¤¤¤¤ %PURPLE%%NAME% %GREEN%¤¤¤¤¤¤¤¤¤¤ %TAN%[%ILVL%]
-ItemDisplay[UNI !ID pa9 !ETH]: %GREEN%¤¤¤¤¤¤¤¤¤¤ %PURPLE%%NAME% %GREEN%¤¤¤¤¤¤¤¤¤¤ %TAN%[%ILVL%]
-ItemDisplay[UNI !ID pac ETH]: %RED%¤¤¤ %WHITE%ETH %ORANGE%%NAME% %RED%¤¤¤ %TAN%[%ILVL%]
-ItemDisplay[UNI !ID pa9 ETH]: %RED%¤¤¤ %WHITE%ETH %ORANGE%%NAME% %RED%¤¤¤ %TAN%[%ILVL%]
+ItemDisplay[UNI !ID pac !ETH]: %MAP%%NL%%GREEN%¤¤¤¤¤¤¤¤¤¤ %PURPLE%%NAME% %GREEN%¤¤¤¤¤¤¤¤¤¤ %TAN%[%ILVL%]%NL%
+ItemDisplay[UNI !ID pa9 !ETH]: %MAP%%NL%%GREEN%¤¤¤¤¤¤¤¤¤¤ %PURPLE%%NAME% %GREEN%¤¤¤¤¤¤¤¤¤¤ %TAN%[%ILVL%]%NL%
+ItemDisplay[UNI !ID pac ETH]: %MAP%%NL%%RED%¤¤¤ %WHITE%ETH %ORANGE%%NAME% %RED%¤¤¤ %TAN%[%ILVL%]%NL%
+ItemDisplay[UNI !ID pa9 ETH]: %MAP%%NL%%RED%¤¤¤ %WHITE%ETH %ORANGE%%NAME% %RED%¤¤¤ %TAN%[%ILVL%]%NL%
 // CL4
-ItemDisplay[UNI !ID nea !ETH]: %GREEN%¤¤¤¤¤¤¤¤¤¤ %PURPLE%%NAME% %GREEN%¤¤¤¤¤¤¤¤¤¤ %TAN%[%ILVL%]
-ItemDisplay[UNI !ID nef !ETH]: %RED%¤¤¤¤¤¤¤ %PURPLE%%NAME% %RED%¤¤¤¤¤¤¤ %TAN%[%ILVL%]
-ItemDisplay[UNI !ID nee !ETH]: %RED%¤¤¤¤¤¤¤ %PURPLE%%NAME% %RED%¤¤¤¤¤¤¤ %TAN%[%ILVL%]
-ItemDisplay[UNI !ID nea ETH]: %RED%¤¤¤ %WHITE%ETH %ORANGE%%NAME% %RED%¤¤¤ %TAN%[%ILVL%]
-ItemDisplay[UNI !ID nef ETH]: %RED%¤¤¤ %WHITE%ETH %ORANGE%%NAME% %RED%¤¤¤ %TAN%[%ILVL%]
-ItemDisplay[UNI !ID nee ETH]: %RED%¤¤¤ %WHITE%ETH %ORANGE%%NAME% %RED%¤¤¤ %TAN%[%ILVL%]
+ItemDisplay[UNI !ID nea !ETH]: %MAP%%NL%%GREEN%¤¤¤¤¤¤¤¤¤¤ %PURPLE%%NAME% %GREEN%¤¤¤¤¤¤¤¤¤¤ %TAN%[%ILVL%]%NL%
+ItemDisplay[UNI !ID nef !ETH]: %MAP%%NL%%RED%¤¤¤¤¤¤¤ %PURPLE%%NAME% %RED%¤¤¤¤¤¤¤ %TAN%[%ILVL%]%NL%
+ItemDisplay[UNI !ID nee !ETH]: %MAP%%NL%%RED%¤¤¤¤¤¤¤ %PURPLE%%NAME% %RED%¤¤¤¤¤¤¤ %TAN%[%ILVL%]%NL%
+ItemDisplay[UNI !ID nea ETH]: %MAP%%NL%%RED%¤¤¤ %WHITE%ETH %ORANGE%%NAME% %RED%¤¤¤ %TAN%[%ILVL%]%NL%
+ItemDisplay[UNI !ID nef ETH]: %MAP%%NL%%RED%¤¤¤ %WHITE%ETH %ORANGE%%NAME% %RED%¤¤¤ %TAN%[%ILVL%]%NL%
+ItemDisplay[UNI !ID nee ETH]: %MAP%%NL%%RED%¤¤¤ %WHITE%ETH %ORANGE%%NAME% %RED%¤¤¤ %TAN%[%ILVL%]%NL%
 // CL5
-ItemDisplay[UNI !ID 9tw !ETH]: %RED%¤¤¤¤¤¤¤ %PURPLE%%NAME% %RED%¤¤¤¤¤¤¤ %TAN%[%ILVL%]
+ItemDisplay[UNI !ID 9tw !ETH]: %MAP%%NL%%RED%¤¤¤¤¤¤¤ %PURPLE%%NAME% %RED%¤¤¤¤¤¤¤ %TAN%[%ILVL%]%NL%
 // CL6
-ItemDisplay[UNI !ID obf !ETH]: %GREEN%¤¤¤¤¤¤¤¤¤¤ %PURPLE%%NAME% %GREEN%¤¤¤¤¤¤¤¤¤¤ %TAN%[%ILVL%]
-ItemDisplay[UNI !ID obc !ETH]: %GREEN%¤¤¤¤¤¤¤¤¤¤ %PURPLE%%NAME% %GREEN%¤¤¤¤¤¤¤¤¤¤ %TAN%[%ILVL%]
-ItemDisplay[UNI !ID oba !ETH]: %RED%¤¤¤¤¤¤¤ %PURPLE%%NAME% %RED%¤¤¤¤¤¤¤ %TAN%[%ILVL%]
-ItemDisplay[UNI !ID obf ETH]: %RED%¤¤¤ %WHITE%ETH %ORANGE%%NAME% %RED%¤¤¤ %TAN%[%ILVL%]
-ItemDisplay[UNI !ID obc ETH]: %RED%¤¤¤ %WHITE%ETH %ORANGE%%NAME% %RED%¤¤¤ %TAN%[%ILVL%]
-ItemDisplay[UNI !ID oba ETH]: %RED%¤¤¤ %WHITE%ETH %ORANGE%%NAME% %RED%¤¤¤ %TAN%[%ILVL%]
+ItemDisplay[UNI !ID obf !ETH]: %MAP%%NL%%GREEN%¤¤¤¤¤¤¤¤¤¤ %PURPLE%%NAME% %GREEN%¤¤¤¤¤¤¤¤¤¤ %TAN%[%ILVL%]%NL%
+ItemDisplay[UNI !ID obc !ETH]: %MAP%%NL%%GREEN%¤¤¤¤¤¤¤¤¤¤ %PURPLE%%NAME% %GREEN%¤¤¤¤¤¤¤¤¤¤ %TAN%[%ILVL%]%NL%
+ItemDisplay[UNI !ID oba !ETH]: %MAP%%NL%%RED%¤¤¤¤¤¤¤ %PURPLE%%NAME% %RED%¤¤¤¤¤¤¤ %TAN%[%ILVL%]%NL%
+ItemDisplay[UNI !ID obf ETH]: %MAP%%NL%%RED%¤¤¤ %WHITE%ETH %ORANGE%%NAME% %RED%¤¤¤ %TAN%[%ILVL%]%NL%
+ItemDisplay[UNI !ID obc ETH]: %MAP%%NL%%RED%¤¤¤ %WHITE%ETH %ORANGE%%NAME% %RED%¤¤¤ %TAN%[%ILVL%]%NL%
+ItemDisplay[UNI !ID oba ETH]: %MAP%%NL%%RED%¤¤¤ %WHITE%ETH %ORANGE%%NAME% %RED%¤¤¤ %TAN%[%ILVL%]%NL%
 // CL7
-ItemDisplay[UNI !ID ama !ETH]: %GREEN%¤¤¤¤¤¤¤¤¤¤ %PURPLE%%NAME% %GREEN%¤¤¤¤¤¤¤¤¤¤ %TAN%[%ILVL%]
-ItemDisplay[UNI !ID amf !ETH]: %GREEN%¤¤¤¤¤¤¤¤¤¤ %PURPLE%%NAME% %GREEN%¤¤¤¤¤¤¤¤¤¤ %TAN%[%ILVL%]
-ItemDisplay[UNI !ID ama ETH]: %RED%¤¤¤ %WHITE%ETH %ORANGE%%NAME% %RED%¤¤¤ %TAN%[%ILVL%]
-ItemDisplay[UNI !ID amf ETH]: %RED%¤¤¤ %WHITE%ETH %ORANGE%%NAME% %RED%¤¤¤ %TAN%[%ILVL%]
+ItemDisplay[UNI !ID ama !ETH]: %MAP%%NL%%GREEN%¤¤¤¤¤¤¤¤¤¤ %PURPLE%%NAME% %GREEN%¤¤¤¤¤¤¤¤¤¤ %TAN%[%ILVL%]%NL%
+ItemDisplay[UNI !ID amf !ETH]: %MAP%%NL%%GREEN%¤¤¤¤¤¤¤¤¤¤ %PURPLE%%NAME% %GREEN%¤¤¤¤¤¤¤¤¤¤ %TAN%[%ILVL%]%NL%
+ItemDisplay[UNI !ID ama ETH]: %MAP%%NL%%RED%¤¤¤ %WHITE%ETH %ORANGE%%NAME% %RED%¤¤¤ %TAN%[%ILVL%]%NL%
+ItemDisplay[UNI !ID amf ETH]: %MAP%%NL%%RED%¤¤¤ %WHITE%ETH %ORANGE%%NAME% %RED%¤¤¤ %TAN%[%ILVL%]%NL%
 // UNI Catchall
 ItemDisplay[UNI !ID !ETH]: %NAME% %TAN%[%ILVL%]
 ItemDisplay[UNI !ID ETH]: %WHITE%ETH %GOLD%%NAME% %TAN%[%ILVL%]
