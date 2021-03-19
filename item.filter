@@ -39,7 +39,7 @@ ItemDisplay[CLVL>59 GOLD<1000]:
 ItemDisplay[CLVL>39 GOLD<500]:
 ItemDisplay[CLVL>19 GOLD<250]:
 ItemDisplay[CLVL<20 GOLD<0]:
-ItemDisplay[cx5]: %MAP%%NL%%GREEN%¤¤¤¤¤¤ %PURPLE%Orb of Corruption %GREEN%¤¤¤¤¤¤%NL%
+ItemDisplay[cx5]: %SOUND-3000%%MAP%%NL%%GREEN%¤¤¤¤¤¤ %PURPLE%Orb of Corruption %GREEN%¤¤¤¤¤¤%NL%
 ItemDisplay[maz]: %MAP%%NL%%GREEN%¤¤¤¤¤¤ %RED%Infernal Trial %GREEN%¤¤¤¤¤¤%NL%
 ItemDisplay[ma1 !ID]: %MAP%%NL%%GREEN%¤¤¤¤¤¤ %PURPLE%%NAME% %RED%T1 %GREEN%¤¤¤¤¤¤%NL%
 ItemDisplay[ma2 !ID]: %MAP%%NL%%GREEN%¤¤¤¤¤¤ %PURPLE%%NAME% %RED%T3 %GREEN%¤¤¤¤¤¤%NL%
