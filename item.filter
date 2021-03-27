@@ -235,14 +235,14 @@ ItemDisplay[r07]: %ORANGE%%RUNENAME% %TAN%[7]
 ItemDisplay[r08]: %MAP%%NL%%RED%¤¤¤¤ %ORANGE%%RUNENAME% %RED%¤¤¤¤ %TAN%[8]%NL%
 ItemDisplay[r09]: %ORANGE%%RUNENAME% %TAN%[9]
 ItemDisplay[r10]: %ORANGE%%RUNENAME% %TAN%[10]
-ItemDisplay[r11]: %MAP%%NL%%RED%¤¤¤¤ %ORANGE%%RUNENAME% %RED%¤¤¤¤ %TAN%[12]%NL%
+ItemDisplay[r11]: %MAP%%NL%%RED%¤¤¤¤ %ORANGE%%RUNENAME% %RED%¤¤¤¤ %TAN%[11]%NL%
 ItemDisplay[r12]: %MAP%%NL%%RED%¤¤¤¤ %ORANGE%%RUNENAME% %RED%¤¤¤¤ %TAN%[12]%NL%
 ItemDisplay[r13]: %ORANGE%%RUNENAME% %TAN%[13]
 ItemDisplay[r14]: %ORANGE%%RUNENAME% %TAN%[14]
 ItemDisplay[r15]: %MAP%%NL%%RED%¤¤¤¤ %ORANGE%%RUNENAME% %RED%¤¤¤¤ %TAN%[15]%NL%
 ItemDisplay[r16]: %ORANGE%%RUNENAME% %TAN%[16]
 ItemDisplay[r17]: %ORANGE%%RUNENAME% %TAN%[17]
-ItemDisplay[r18]: %MAP%%NL%%RED%¤¤¤¤ %ORANGE%%RUNENAME% %RED%¤¤¤¤ %TAN%[12]%NL%
+ItemDisplay[r18]: %MAP%%NL%%RED%¤¤¤¤ %ORANGE%%RUNENAME% %RED%¤¤¤¤ %TAN%[18]%NL%
 ItemDisplay[r19]: %ORANGE%%RUNENAME% %TAN%[19]
 ItemDisplay[r20]: %MAP%%NL%%RED%¤¤¤¤¤¤¤ %PURPLE%%RUNENAME% %RED%¤¤¤¤¤¤¤ %TAN%[20]%NL%
 ItemDisplay[r21]: %MAP%%NL%%RED%¤¤¤¤¤¤¤ %PURPLE%%RUNENAME% %RED%¤¤¤¤¤¤¤ %TAN%[21]%NL%
