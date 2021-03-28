@@ -35,8 +35,8 @@ ItemDisplay[tr2]: %NAME% %TAN%[%ILVL%]
 //║ Miscellaneous Items ║
 //╚═════════════════════╝
 //
-ItemDisplay[GOLD>999]: %NAME%
-ItemDisplay[GOLD<1000]:
+ItemDisplay[GOLD>1999]: %NAME%
+ItemDisplay[GOLD<2000]:
 ItemDisplay[cx5]: %MAP%%NL%%GREEN%¤¤¤¤¤¤ %PURPLE%Orb of Corruption %GREEN%¤¤¤¤¤¤%NL%
 ItemDisplay[maz]: %MAP%%NL%%GREEN%¤¤¤¤¤¤ %RED%Infernal Trial %GREEN%¤¤¤¤¤¤%NL%
 ItemDisplay[ma1 !ID]: %MAP%%NL%%GREEN%¤¤¤¤¤¤ %PURPLE%%NAME% %RED%T1 %GREEN%¤¤¤¤¤¤%NL%
