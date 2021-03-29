@@ -205,20 +205,20 @@ ItemDisplay[gsr]: Normal Ruby
 ItemDisplay[gsb]: Normal Sapphire
 ItemDisplay[gsy]: Normal Topaz
 ItemDisplay[sku]: Normal Skull
-ItemDisplay[gzv]: %ORANGE%Flawless Amethyst
-ItemDisplay[glw]: %ORANGE%Flawless Diamond
-ItemDisplay[glg]: %ORANGE%Flawless Emerald
-ItemDisplay[glr]: %ORANGE%Flawless Ruby
-ItemDisplay[glb]: %ORANGE%Flawless Sapphire
-ItemDisplay[gly]: %ORANGE%Flawless Topaz
-ItemDisplay[skl]: %ORANGE%Flawless Skull
-ItemDisplay[gpv]: %PURPLE%Perfect %ORANGE%Amethyst
-ItemDisplay[gpw]: %PURPLE%Perfect %ORANGE%Diamond
-ItemDisplay[gpg]: %PURPLE%Perfect %ORANGE%Emerald
-ItemDisplay[gpr]: %PURPLE%Perfect %ORANGE%Ruby
-ItemDisplay[gpb]: %PURPLE%Perfect %ORANGE%Sapphire
-ItemDisplay[gpy]: %PURPLE%Perfect %ORANGE%Topaz
-ItemDisplay[skz]: %PURPLE%Perfect %ORANGE%Skull
+ItemDisplay[gzv]: %NL%%ORANGE%Flawless Amethyst%NL%
+ItemDisplay[glw]: %NL%%ORANGE%Flawless Diamond%NL%
+ItemDisplay[glg]: %NL%%ORANGE%Flawless Emerald%NL%
+ItemDisplay[glr]: %NL%%ORANGE%Flawless Ruby%NL%
+ItemDisplay[glb]: %NL%%ORANGE%Flawless Sapphire%NL%
+ItemDisplay[gly]: %NL%%ORANGE%Flawless Topaz%NL%
+ItemDisplay[skl]: %NL%%ORANGE%Flawless Skull%NL%
+ItemDisplay[gpv]: %MAP%%NL%%PURPLE%Perfect %ORANGE%Amethyst%NL%
+ItemDisplay[gpw]: %MAP%%NL%%PURPLE%Perfect %ORANGE%Diamond%NL%
+ItemDisplay[gpg]: %MAP%%NL%%PURPLE%Perfect %ORANGE%Emerald%NL%
+ItemDisplay[gpr]: %MAP%%NL%%PURPLE%Perfect %ORANGE%Ruby%NL%
+ItemDisplay[gpb]: %MAP%%NL%%PURPLE%Perfect %ORANGE%Sapphire%NL%
+ItemDisplay[gpy]: %MAP%%NL%%PURPLE%Perfect %ORANGE%Topaz%NL%
+ItemDisplay[skz]: %MAP%%NL%%PURPLE%Perfect %ORANGE%Skull%NL%
 //
 //╔═══════╗
 //║ Runes ║
