@@ -86,8 +86,8 @@ ItemDisplay[tsc]: %WHITE%!%BLUE%TP
 ItemDisplay[key]: %WHITE%!%TAN%Key
 ItemDisplay[hp5]: %WHITE%!%RED%HP%WHITE%+
 ItemDisplay[mp5]: %WHITE%!%BLUE%MP%WHITE%+
-ItemDisplay[rvs]: %WHITE%!%PURPLE%Low
-ItemDisplay[rvl]: %WHITE%!%PURPLE%Full
+ItemDisplay[rvs]: %NL%%WHITE%!%PURPLE%30%%NL%
+ItemDisplay[rvl]: %NL  %WHITE%!%PURPLE%70%  %NL%
 ItemDisplay[CLVL>79 hp4]:
 ItemDisplay[CLVL>48 hp3]:
 ItemDisplay[CLVL>24 hp2]:
@@ -123,11 +123,11 @@ ItemDisplay[gpl]:
 //╚══════════════╝
 //
 //Bo Sticks
-ItemDisplay[MAG WP5 ID TABSK34=3]: %PURPLE%¤¤ %BLUE%%NAME% %ORANGE%BO %PURPLE%¤¤ %TAN%[%ILVL%]
+ItemDisplay[MAG WP5 ID TABSK34=3]: %GREEN%¤¤¤¤ %ORANGE%BO %PURPLE%Stick %GREEN%¤¤¤¤ %TAN%[%ILVL%]
 // +3/20 Gloves
-ItemDisplay[MAG ID EQ4 !ETH TABSK0=3 IAS=20]: %GREEN%¤¤ %BLUE%%NAME% %ORANGE%Bow %GREEN%¤¤ %TAN%[%ILVL%]
-ItemDisplay[MAG ID EQ4 !ETH TABSK2=3 IAS=20]: %GREEN%¤¤ %BLUE%%NAME% %ORANGE%Java %GREEN%¤¤ %TAN%[%ILVL%]
-ItemDisplay[MAG ID EQ4 !ETH TABSK50=3 IAS=20]: %GREEN%¤¤ %BLUE%%NAME% %ORANGE%Martial Arts %GREEN%¤¤ %TAN%[%ILVL%]
+ItemDisplay[MAG ID EQ4 !ETH TABSK0=3 IAS>10]: %GREEN%¤¤ %BLUE%%NAME% %ORANGE%Bow %GREEN%¤¤ %TAN%[%ILVL%]
+ItemDisplay[MAG ID EQ4 !ETH TABSK2=3 IAS>10]: %GREEN%¤¤¤¤ %ORANGE%Java+IAS %PURPLE%Gloves %GREEN%¤¤¤¤ %TAN%[%ILVL%]
+ItemDisplay[MAG ID EQ4 !ETH TABSK50=3 IAS>10]: %GREEN%¤¤ %BLUE%%NAME% %ORANGE%Martial Arts %GREEN%¤¤ %TAN%[%ILVL%]
 // +6 Skill
 ItemDisplay[MAG CL5 ID TABSK48=3]: %PURPLE%¤¤ %BLUE%%NAME% %ORANGE%Trap %PURPLE%¤¤ %RED%[%SOCKETS%] %TAN%[%ILVL%]
 ItemDisplay[CL5 (CLSK6=2 AND SK271=3)]: %PURPLE%¤¤ %WHITE%%NAME% %ORANGE%Lightning %PURPLE%¤¤ %RED%[%SOCKETS%] %TAN%[%ILVL%]
