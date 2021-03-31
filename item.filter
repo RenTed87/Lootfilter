@@ -431,8 +431,9 @@ ItemDisplay[MAG !ID ci1 !ETH]: %NAME% %TAN%[%ILVL%]
 ItemDisplay[MAG !ID ci2 !ETH]: %NAME% %TAN%[%ILVL%]
 ItemDisplay[MAG !ID ci3 !ETH]: %NAME% %TAN%[%ILVL%]
 ItemDisplay[MAG !ID jew]: %MAP%%NL%%RED%¤¤¤¤¤¤ %BLUE%%NAME% %RED%¤¤¤¤¤¤ %TAN%[%ILVL%]%NL%
-ItemDisplay[MAG !ID CL1]: %RED%¤¤ %BLUE%%NAME% %RED%¤¤ %TAN%[%ILVL%]
-ItemDisplay[MAG !ID CL2]: %RED%¤¤ %BLUE%%NAME% %RED%¤¤ %TAN%[%ILVL%]
+ItemDisplay[MAG !ID CL1]: %RED%¤ %BLUE%%NAME% %RED%¤ %TAN%[%ILVL%]
+ItemDisplay[MAG !ID CL2]: %RED%¤ %BLUE%%NAME% %RED%¤ %TAN%[%ILVL%]
+ItemDisplay[MAG !ID CL5 ELT]: %RED%¤¤ %BLUE%%NAME% %RED%¤¤ %TAN%[%ILVL%]
 ItemDisplay[MAG !ID ama]: %RED%¤¤ %BLUE%%NAME% %RED%¤¤ %TAN%[%ILVL%]
 ItemDisplay[MAG !ID amf]: %RED%¤¤ %BLUE%%NAME% %RED%¤¤ %TAN%[%ILVL%]
 // MAG Catchall
@@ -442,7 +443,7 @@ ItemDisplay[MAG CLVL<50 !ID]: %NAME% %TAN%[%ILVL%]
 //║ Rare Items ║
 //╚════════════╝
 //
-ItemDisplay[RARE !ID aq2]: %MAP%%NL%%RED%¤¤¤¤¤¤ %YELLOW%%NAME% %RED%¤¤¤¤¤¤ %TAN%[%ILVL%]%NL%
+ItemDisplay[RARE !ID aq2]: %MAP%%NL%%RED%¤¤¤¤ %YELLOW%%NAME% %RED%¤¤¤¤ %TAN%[%ILVL%]%NL%
 ItemDisplay[RARE !ID cq2]: %YELLOW%%NAME% %TAN%[%ILVL%]
 ItemDisplay[RARE !ID amu]: %MAP%%NL%%RED%¤¤¤¤¤¤ %YELLOW%%NAME% %RED%¤¤¤¤¤¤ %TAN%[%ILVL%]%NL%
 ItemDisplay[RARE !ID rin]: %MAP%%NL%%RED%¤¤¤¤¤¤ %YELLOW%%NAME% %RED%¤¤¤¤¤¤ %TAN%[%ILVL%]%NL%
@@ -450,22 +451,22 @@ ItemDisplay[RARE !ID jew]: %MAP%%NL%%RED%¤¤¤¤¤¤ %YELLOW%%NAME% %RED%¤¤¤
 // Class
 ItemDisplay[RARE !ID CL1 !ETH]: %MAP%%NL%%RED%¤¤¤ %YELLOW%%NAME% %RED%¤¤¤ %TAN%[%ILVL%]%NL%
 ItemDisplay[RARE !ID CL1 ETH]: %MAP%%NL%%RED%¤¤¤ %WHITE%ETH %YELLOW%%NAME% %RED%¤¤¤ %TAN%[%ILVL%]%NL%
-ItemDisplay[RARE !ID CL2 !ETH]: %RED%¤¤¤ %YELLOW%%NAME% %RED%¤¤¤ %TAN%[%ILVL%]
-ItemDisplay[RARE !ID CL2 ETH]: %RED%¤¤¤ %WHITE%ETH %YELLOW%%NAME% %RED%¤¤¤ %TAN%[%ILVL%]
+ItemDisplay[RARE !ID CL2 !ETH]: %RED%¤ %YELLOW%%NAME% %RED%¤ %TAN%[%ILVL%]
+ItemDisplay[RARE !ID CL2 ETH]: %RED%¤ %WHITE%ETH %YELLOW%%NAME% %RED%¤ %TAN%[%ILVL%]
 ItemDisplay[RARE !ID CL5 (EXC OR ELT) !ETH]: %MAP%%NL%%RED%¤¤¤ %YELLOW%%NAME% %RED%¤¤¤ %TAN%[%ILVL%]%NL%
 ItemDisplay[RARE !ID CL5 (EXC OR ELT) ETH]: %MAP%%NL%%RED%¤¤¤ %WHITE%ETH %YELLOW%%NAME% %RED%¤¤¤ %TAN%[%ILVL%]%NL%
 // Equip
-ItemDisplay[RARE !ID EQ4 !ETH]: %MAP%%NL%%RED%¤¤¤ %YELLOW%%NAME% %RED%¤¤¤ %TAN%[%ILVL%]%NL%
-ItemDisplay[RARE !ID EQ4 ETH]: %MAP%%NL%%RED%¤¤¤ %WHITE%ETH %YELLOW%%NAME% %RED%¤¤¤ %TAN%[%ILVL%]%NL%
-ItemDisplay[RARE !ID EQ5 !ETH]: %MAP%%NL%%RED%¤¤¤ %YELLOW%%NAME% %RED%¤¤¤ %TAN%[%ILVL%]%NL%
-ItemDisplay[RARE !ID EQ5 ETH]: %MAP%%NL%%RED%¤¤¤ %WHITE%ETH %YELLOW%%NAME% %RED%¤¤¤ %TAN%[%ILVL%]%NL%
-ItemDisplay[RARE !ID EQ6 !ETH]: %MAP%%NL%%RED%¤¤¤ %YELLOW%%NAME% %RED%¤¤¤ %TAN%[%ILVL%]%NL%
-ItemDisplay[RARE !ID EQ6 ETH]: %MAP%%NL%%RED%¤¤¤ %WHITE%ETH %YELLOW%%NAME% %RED%¤¤¤ %TAN%[%ILVL%]%NL%
-ItemDisplay[RARE !ID EQ7 !ETH]: %MAP%%NL%%RED%¤¤¤¤¤ %YELLOW%%NAME% %RED%¤¤¤¤¤ %TAN%[%ILVL%]%NL%
-ItemDisplay[RARE !ID EQ7 ETH]: %MAP%%NL%%RED%¤¤¤¤¤ %WHITE%ETH %YELLOW%%NAME% %RED%¤¤¤¤¤ %TAN%[%ILVL%]%NL%
+ItemDisplay[RARE !ID EQ4 !ETH]: %MAP%%NL%%RED%¤¤¤¤ %YELLOW%%NAME% %RED%¤¤¤¤ %TAN%[%ILVL%]%NL%
+ItemDisplay[RARE !ID EQ4 ETH]: %MAP%%NL%%RED%¤¤¤¤ %WHITE%ETH %YELLOW%%NAME% %RED%¤¤¤¤ %TAN%[%ILVL%]%NL%
+ItemDisplay[RARE !ID EQ5 !ETH]: %MAP%%NL%%RED%¤¤¤¤ %YELLOW%%NAME% %RED%¤¤¤¤ %TAN%[%ILVL%]%NL%
+ItemDisplay[RARE !ID EQ5 ETH]: %MAP%%NL%%RED%¤¤¤¤ %WHITE%ETH %YELLOW%%NAME% %RED%¤¤¤¤ %TAN%[%ILVL%]%NL%
+ItemDisplay[RARE !ID EQ6 !ETH]: %RED%¤¤ %YELLOW%%NAME% %RED%¤¤ %TAN%[%ILVL%]
+ItemDisplay[RARE !ID EQ6 ETH]: %RED%¤¤ %WHITE%ETH %YELLOW%%NAME% %RED%¤¤ %TAN%[%ILVL%]
+ItemDisplay[RARE !ID EQ7 !ETH]: %MAP%%NL%%RED%¤¤¤¤¤¤ %YELLOW%%NAME% %RED%¤¤¤¤¤¤ %TAN%[%ILVL%]%NL%
+ItemDisplay[RARE !ID EQ7 ETH]: %MAP%%NL%%RED%¤¤¤¤¤¤ %WHITE%ETH %YELLOW%%NAME% %RED%¤¤¤¤¤¤ %TAN%[%ILVL%]%NL%
 // Axe
-ItemDisplay[RARE !ID 7wa !ETH]: %RED%¤¤¤ %YELLOW%%NAME% %RED%¤¤¤ %TAN%[%ILVL%]
-ItemDisplay[RARE !ID 7wa ETH]: %RED%¤¤¤ %WHITE%ETH %YELLOW%%NAME% %RED%¤¤¤ %TAN%[%ILVL%]
+ItemDisplay[RARE !ID 7wa !ETH]: %RED%¤¤ %YELLOW%%NAME% %RED%¤¤ %TAN%[%ILVL%]
+ItemDisplay[RARE !ID 7wa ETH]: %RED%¤¤ %WHITE%ETH %YELLOW%%NAME% %RED%¤¤ %TAN%[%ILVL%]
 // RARE Catchall
 ItemDisplay[RARE !ID !ETH]: %YELLOW%%NAME% %TAN%[%ILVL%]
 ItemDisplay[RARE !ID ETH]: %WHITE%ETH %YELLOW%%NAME% %TAN%[%ILVL%]
@@ -475,13 +476,17 @@ ItemDisplay[RARE !ID ETH]: %WHITE%ETH %YELLOW%%NAME% %TAN%[%ILVL%]
 //╚════════════╝
 //
 ItemDisplay[SET !ID amu]: %MAP%%NL%%RED%¤¤¤¤¤¤¤¤ %GREEN%%NAME% %RED%¤¤¤¤¤¤¤¤ %TAN%[%ILVL%]%NL%
-ItemDisplay[SET !ID rin]: %MAP%%NL%%RED%¤¤ %GREEN%%NAME% %RED%¤¤ %TAN%[%ILVL%]%NL%
+ItemDisplay[SET !ID rin]: %RED%¤¤ %GREEN%%NAME% %RED%¤¤ %TAN%[%ILVL%]
 ItemDisplay[SET !ID uar]: %MAP%%NL%%RED%¤¤¤¤¤¤¤¤ %GREEN%%NAME% %RED%¤¤¤¤¤¤¤¤ %TAN%[%ILVL%]%NL%
 ItemDisplay[SET !ID uth]: %MAP%%NL%%RED%¤¤¤¤¤¤¤¤ %GREEN%%NAME% %RED%¤¤¤¤¤¤¤¤ %TAN%[%ILVL%]%NL%
 ItemDisplay[SET !ID xtb]: %MAP%%NL%%RED%¤¤¤¤¤¤¤¤ %GREEN%%NAME% %RED%¤¤¤¤¤¤¤¤ %TAN%[%ILVL%]%NL%
 ItemDisplay[SET !ID ulg]: %MAP%%NL%%RED%¤¤¤¤¤¤¤¤ %GREEN%%NAME% %RED%¤¤¤¤¤¤¤¤ %TAN%[%ILVL%]%NL%
 ItemDisplay[SET !ID xhm]: %MAP%%NL%%RED%¤¤¤¤¤¤¤¤ %GREEN%%NAME% %RED%¤¤¤¤¤¤¤¤ %TAN%[%ILVL%]%NL%
 ItemDisplay[SET !ID xmg]: %MAP%%NL%%RED%¤¤¤¤¤¤¤¤ %GREEN%%NAME% %RED%¤¤¤¤¤¤¤¤ %TAN%[%ILVL%]%NL%
+ItemDisplay[SET !ID 7qr]: %MAP%%NL%%RED%¤¤¤¤¤¤¤¤ %GREEN%%NAME% %RED%¤¤¤¤¤¤¤¤ %TAN%[%ILVL%]%NL%
+ItemDisplay[SET !ID oba]: %RED%¤¤¤ %GREEN%%NAME% %RED%¤¤¤ %TAN%[%ILVL%]
+ItemDisplay[SET !ID xsk]: %RED%¤¤¤ %GREEN%%NAME% %RED%¤¤¤ %TAN%[%ILVL%]
+ItemDisplay[SET !ID zmb]: %RED%¤¤¤ %GREEN%%NAME% %RED%¤¤¤ %TAN%[%ILVL%]
 // SET Catchall
 ItemDisplay[SET !ID]: %NAME% %TAN%[%ILVL%]
 //
