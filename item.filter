@@ -87,7 +87,7 @@ ItemDisplay[key]: %WHITE%!%TAN%Key
 ItemDisplay[hp5]: %WHITE%!%RED%HP%WHITE%+
 ItemDisplay[mp5]: %WHITE%!%BLUE%MP%WHITE%+
 ItemDisplay[rvs]: %NL%%WHITE%!%PURPLE%30%%NL%
-ItemDisplay[rvl]: %NL  %WHITE%!%PURPLE%70%  %NL%
+ItemDisplay[rvl]: %NL%  %WHITE%!%PURPLE%70%  %NL%
 ItemDisplay[CLVL>79 hp4]:
 ItemDisplay[CLVL>48 hp3]:
 ItemDisplay[CLVL>24 hp2]:
