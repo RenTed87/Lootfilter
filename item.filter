@@ -993,6 +993,7 @@ ItemDisplay[NMAG 6hb SOCK=4 !INF AREALVL<86]: %DARK_GREEN%%NAME% %RED%[%SOCKETS%
 //║ $$$ White Items ║
 //╚═════════════════╝
 //
+ItemDisplay[NMAG WP13 !(wsp OR 9ws OR 7ws) PRICE=35000]: %GRAY%%NAME% %WHITE%Sell Me > %GOLD%%PRICE%%WHITE%$
 ItemDisplay[NMAG (sst OR 8ss OR 6ss) PRICE=35000]: %GRAY%%NAME% %WHITE%Sell Me > %GOLD%%PRICE%%WHITE%$
 ItemDisplay[NMAG WP12 PRICE=35000]: %GRAY%%NAME% %WHITE%Sell Me > %GOLD%%PRICE%%WHITE%$
 ItemDisplay[NMAG CL5 PRICE=35000]: %GRAY%%NAME% %WHITE%Sell Me > %GOLD%%PRICE%%WHITE%$
