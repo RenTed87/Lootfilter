@@ -29,7 +29,7 @@ ItemDisplay[mss]: %NAME% %TAN%[%ILVL%]
 ItemDisplay[hfh]: %NAME% %RED%[%SOCKETS%] %TAN%[%ILVL%]
 ItemDisplay[ice]: %NAME% %TAN%[%ILVL%]
 ItemDisplay[tr2]: %NAME% %TAN%[%ILVL%]
-ItemDisplay[box]: %NAME% %TAN%[%ILVL%]{Craft %RED%Blood %WHITE%Ring: %BLUE%Ring %ORANGE%Sol %RED%Pruby %BLUE%Jewel %NL%%WHITE%Craft %BLUE%Caster %WHITE%Amulet: %BLUE%Amy %ORANGE%Ral %PURPLE%Pame %BLUE%Jewel %NL%%WHITE%Upg %GOLD%Uniq %WHITE%Armor%RED%(EXC>ELT)%WHITE%: %ORANGE%Lem %ORANGE%Ko %GRAY%Pdia %NL%%WHITE%Upg %GOLD%Uniq %WHITE%Weapon%RED%(EXC>ELT)%WHITE%: %ORANGE%Lum %ORANGE%Pul %GREEN%Peme %NL%%GOLD%Soc %WHITE%White %GOLD%Shield: %ORANGE%Tal %ORANGE%Amn %RED%Pruby %NL%%GOLD%Soc %WHITE%White %GOLD%Armor: %ORANGE%Tal %ORANGE%Thul %YELLOW%Ptopaz %NL%%GOLD%Soc %WHITE%White %GOLD%Wep: %ORANGE%Ral %ORANGE%Amn %PURPLE%Pame}
+ItemDisplay[box]: %NAME% %TAN%[%ILVL%]{Craft %RED%Blood %WHITE%Ring: %BLUE%Ring %ORANGE%Sol %RED%Pruby %BLUE%Jewel %NL%%WHITE%Craft %BLUE%Caster %WHITE%Amulet: %BLUE%Amy %ORANGE%Ral %PURPLE%Pame %BLUE%Jewel %NL%%WHITE%Upg %GOLD%Uniq %WHITE%Armor%RED%(EXC>ELT)%WHITE%: %ORANGE%Lem %ORANGE%Ko %GRAY%Pdia %NL%%WHITE%Upg %GOLD%Uniq %WHITE%Weapon%RED%(EXC>ELT)%WHITE%: %ORANGE%Lum %ORANGE%Pul %GREEN%Peme %NL%%GOLD%Soc %WHITE%White %GOLD%Shield: %ORANGE%Tal %ORANGE%Amn %RED%Pruby %NL%%GOLD%Soc %WHITE%White %GOLD%Armor: %ORANGE%Tal %ORANGE%Thul %YELLOW%Ptopaz %NL%%GOLD%Soc %WHITE%White %GOLD%Weapon: %ORANGE%Ral %ORANGE%Amn %PURPLE%Pame}
 //
 //╔═════════════════════╗
 //║ Miscellaneous Items ║
