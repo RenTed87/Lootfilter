@@ -7,29 +7,29 @@
 //║ Quests Items ║
 //╚══════════════╝
 //
-ItemDisplay[bks]: %NAME% %TAN%[%ILVL%]
-ItemDisplay[bkd]: %NAME% %TAN%[%ILVL%]
-ItemDisplay[hdm]: %NAME% %RED%[%SOCKETS%] %TAN%[%ILVL%]
-ItemDisplay[tr1]: %NAME% %TAN%[%ILVL%]
-ItemDisplay[ass]: %NAME% %TAN%[%ILVL%]
-ItemDisplay[msf]: %NAME% %RED%[%SOCKETS%] %TAN%[%ILVL%]
-ItemDisplay[vip]: %NAME% %TAN%[%ILVL%]
-ItemDisplay[hst]: %NAME% %RED%[%SOCKETS%] %TAN%[%ILVL%]
-ItemDisplay[j34]: %NAME% %TAN%[%ILVL%]
-ItemDisplay[g34]: %NAME% %TAN%[%ILVL%]
-ItemDisplay[xyz]: %NAME% %TAN%[%ILVL%]
-ItemDisplay[g33]: %NAME% %RED%[%SOCKETS%] %TAN%[%ILVL%]
-ItemDisplay[bbb]: %NAME% %TAN%[%ILVL%]
-ItemDisplay[qbr]: %NAME% %TAN%[%ILVL%]
-ItemDisplay[qey]: %NAME% %TAN%[%ILVL%]
-ItemDisplay[qhr]: %NAME% %TAN%[%ILVL%]
-ItemDisplay[qf1]: %NAME% %RED%[%SOCKETS%] %TAN%[%ILVL%]
-ItemDisplay[qf2]: %NAME% %RED%[%SOCKETS%] %TAN%[%ILVL%]
-ItemDisplay[mss]: %NAME% %TAN%[%ILVL%]
-ItemDisplay[hfh]: %NAME% %RED%[%SOCKETS%] %TAN%[%ILVL%]
-ItemDisplay[ice]: %NAME% %TAN%[%ILVL%]
-ItemDisplay[tr2]: %NAME% %TAN%[%ILVL%]
-ItemDisplay[box]: %NAME% %TAN%[%ILVL%]{Craft %RED%Blood %WHITE%Ring: %BLUE%Ring %ORANGE%Sol %RED%Pruby %BLUE%Jewel %NL%%WHITE%Craft %BLUE%Caster %WHITE%Amulet: %BLUE%Amy %ORANGE%Ral %PURPLE%Pame %BLUE%Jewel %NL%%WHITE%Upg %GOLD%Uniq %WHITE%Armor%RED%(EXC>ELT)%WHITE%: %ORANGE%Lem %ORANGE%Ko %GRAY%Pdia %NL%%WHITE%Upg %GOLD%Uniq %WHITE%Weapon%RED%(EXC>ELT)%WHITE%: %ORANGE%Lum %ORANGE%Pul %GREEN%Peme %NL%%GOLD%Soc %WHITE%White %GOLD%Shield: %ORANGE%Tal %ORANGE%Amn %RED%Pruby %NL%%GOLD%Soc %WHITE%White %GOLD%Armor: %ORANGE%Tal %ORANGE%Thul %YELLOW%Ptopaz %NL%%GOLD%Soc %WHITE%White %GOLD%Weapon: %ORANGE%Ral %ORANGE%Amn %PURPLE%Pame}
+ItemDisplay[bks]: %NAME%
+ItemDisplay[bkd]: %NAME%
+ItemDisplay[hdm]: %NAME%
+ItemDisplay[tr1]: %NAME%
+ItemDisplay[ass]: %NAME%
+ItemDisplay[msf]: %NAME%
+ItemDisplay[vip]: %NAME%
+ItemDisplay[hst]: %NAME%
+ItemDisplay[j34]: %NAME%
+ItemDisplay[g34]: %NAME%
+ItemDisplay[xyz]: %NAME%
+ItemDisplay[g33]: %NAME%
+ItemDisplay[bbb]: %NAME%
+ItemDisplay[qbr]: %NAME%
+ItemDisplay[qey]: %NAME%
+ItemDisplay[qhr]: %NAME%
+ItemDisplay[qf1]: %NAME%
+ItemDisplay[qf2]: %NAME%
+ItemDisplay[mss]: %NAME%
+ItemDisplay[hfh]: %NAME%
+ItemDisplay[ice]: %NAME%
+ItemDisplay[tr2]: %NAME%
+ItemDisplay[box]: %NAME%{%NL%Weapon: Ort - Armor: Ral%NL%%GOLD%Repair Recipes%WHITE%%NL%%NL%Blood Ring: Ring+Sol+P.Ruby+Jewel%NL%Caster Amulet: Amulet+Ral+P.Amethyst+Jewel%NL%%GOLD%Jewelry Crafting Recipes%WHITE%%NL%%NL%Ex.Armor: Ko+Lem+P.Diamond%NL%Ex.Weapon: Lum+Pul+P.Emerald%NL%%GOLD%Unique Upgrade Recipes%WHITE%%NL%%NL%Ex.Armor: Hel+Io+P.Topaz%NL%Ex.Weapon: Dol+Mal+P.Ruby%NL%%GOLD%Set Upgrade Recipes%WHITE%%NL%%NL%Shield: Tal+Amn+P.Ruby%NL%Armor: Tal+Rhul+P.Topaz%NL%Weapon: Ral+Amn+P.Amethyst%NL%%GOLD%Socket White Item Recipes%NL%}
 //
 //╔═════════════════════╗
 //║ Miscellaneous Items ║
