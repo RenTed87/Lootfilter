@@ -715,6 +715,7 @@ ItemDisplay[NMAG uit SOCK=4 !ETH ED>9]: %DARK_GREEN%%NAME% %ORANGE%Defense %RED%
 ItemDisplay[NMAG uit SOCK=4 !ETH ITEMSTAT91>0]: %DARK_GREEN%%NAME% %ORANGE%-Req %RED%[%SOCKETS%] %TAN%[%ILVL%]
 ItemDisplay[NMAG uit SOCK=0 !ETH ITEMSTAT91>0]: %DARK_GREEN%%NAME% %ORANGE%-Req %RED%[%SOCKETS%] %TAN%[%ILVL%]
 ItemDisplay[NMAG uit SOCK=4 !ETH !INF AREALVL<86]: %DARK_GREEN%%NAME% %RED%[%SOCKETS%] %TAN%[%ILVL%]
+ItemDisplay[NMAG uit SOCK=0 !ETH !INF AREALVL<86]: %DARK_GREEN%%NAME% %RED%[%SOCKETS%] %TAN%[%ILVL%]
 ItemDisplay[NMAG uit SOCK=0 ETH ED>9 ITEMSTAT91>0]: %WHITE%ETH %DARK_GREEN%%NAME% %ORANGE%-Req+Defense %RED%[%SOCKETS%] %TAN%[%ILVL%]
 ItemDisplay[NMAG uit SOCK=4 ETH ED>9 ITEMSTAT91>0]: %WHITE%ETH %DARK_GREEN%%NAME% %ORANGE%-Req+Defense %RED%[%SOCKETS%] %TAN%[%ILVL%]
 ItemDisplay[NMAG uit SOCK=0 ETH ED>9]: %WHITE%ETH %DARK_GREEN%%NAME% %ORANGE%Defense %RED%[%SOCKETS%] %TAN%[%ILVL%]
@@ -722,6 +723,7 @@ ItemDisplay[NMAG uit SOCK=4 ETH ED>9]: %WHITE%ETH %DARK_GREEN%%NAME% %ORANGE%Def
 ItemDisplay[NMAG uit SOCK=4 ETH ITEMSTAT91>0]: %WHITE%ETH %DARK_GREEN%%NAME% %ORANGE%-Req %RED%[%SOCKETS%] %TAN%[%ILVL%]
 ItemDisplay[NMAG uit SOCK=0 ETH ITEMSTAT91>0]: %WHITE%ETH %DARK_GREEN%%NAME% %ORANGE%-Req %RED%[%SOCKETS%] %TAN%[%ILVL%]
 ItemDisplay[NMAG uit SOCK=4 ETH !INF AREALVL<86]: %WHITE%ETH %DARK_GREEN%%NAME% %RED%[%SOCKETS%] %TAN%[%ILVL%]
+ItemDisplay[NMAG uit SOCK=0 ETH !INF AREALVL<86]: %DARK_GREEN%%NAME% %RED%[%SOCKETS%] %TAN%[%ILVL%]
 ItemDisplay[NMAG kit SOCK=3 !ETH ED>9 ITEMSTAT91>0 AREALVL<86]: %DARK_GREEN%%NAME% %ORANGE%-Req+Defense %RED%[%SOCKETS%] %TAN%[%ILVL%]
 ItemDisplay[NMAG kit SOCK=3 !ETH ED>9 AREALVL<86]: %DARK_GREEN%%NAME% %ORANGE%Defense %RED%[%SOCKETS%] %TAN%[%ILVL%]
 ItemDisplay[NMAG kit SOCK=3 !ETH ITEMSTAT91>0 AREALVL<86]: %DARK_GREEN%%NAME% %ORANGE%-Req %RED%[%SOCKETS%] %TAN%[%ILVL%]
@@ -987,9 +989,9 @@ ItemDisplay[NMAG 6hb SOCK=4 ITEMSTAT119>0]: %DARK_GREEN%%NAME% %ORANGE%AR %RED%[
 ItemDisplay[NMAG 6hb SOCK=0 !INF AREALVL<86]: %DARK_GREEN%%NAME% %RED%[%SOCKETS%] %TAN%[%ILVL%]
 ItemDisplay[NMAG 6hb SOCK=4 !INF AREALVL<86]: %DARK_GREEN%%NAME% %RED%[%SOCKETS%] %TAN%[%ILVL%]
 //
-//╔═════════════════╗
-//║ $$$ White Items ║
-//╚═════════════════╝
+//╔═══════════════╗
+//║ Sell Me Items ║
+//╚═══════════════╝
 //
 ItemDisplay[NMAG WP13 !(wsp OR 9ws OR 7ws) PRICE=35000 AREALVL<86]: %GRAY%%NAME% %WHITE%Sell Me > %GOLD%%PRICE%%WHITE%$
 ItemDisplay[NMAG (sst OR 8ss OR 6ss) PRICE=35000 AREALVL<86]: %GRAY%%NAME% %WHITE%Sell Me > %GOLD%%PRICE%%WHITE%$
@@ -1219,11 +1221,12 @@ ItemDisplay[UNI !ID amf ETH]: %NL%%RED%¤¤¤ %WHITE%ETH %ORANGE%%NAME% %RED%¤�
 ItemDisplay[UNI !ID !ETH AREALVL<86]: %NAME% %TAN%[%ILVL%]
 ItemDisplay[UNI !ID ETH AREALVL<86]: %WHITE%ETH %GOLD%%NAME% %TAN%[%ILVL%]
 //
-//╔════════════════╗
-//║ Global Hideall ║
-//╚════════════════╝
+//╔══════════════════════════╗
+//║ Global CatchAll//Hideall ║
+//╚══════════════════════════╝
 //
-ItemDisplay[]:
+ItemDisplay[CLVL<16]: %NAME% %RED%[%SOCKETS%] %TAN%[%ILVL%]
+ItemDisplay[CLVL>15]:
 //
 //End of Loot Filter
 //
