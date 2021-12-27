@@ -335,6 +335,7 @@ ItemDisplay[MAG uit ILVL>70 AREALVL<86]: %NAME% %ORANGE%Safety Shield %TAN%[%ILV
 //║ Global Items Naming ║
 //╚═════════════════════╝
 //
+ItemDisplay[!ID NMAG]: %NAME%
 ItemDisplay[ID MAG amu]: %NAME% %TAN%[%ILVL%]
 ItemDisplay[ID MAG rin]: %NAME% %TAN%[%ILVL%]
 ItemDisplay[ID MAG jew]: %NAME% %TAN%[%ILVL%]
