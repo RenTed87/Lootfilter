@@ -1,1 +1,132 @@
-ItemDisplay[hp1]: %WHITE%Minor !%RED%HP
+//RenTed#3537 Loot Filter
+//Please take a screenshot when reporting an issue, it will greatly help me fixing it.
+//If something is missing, let me know I will add it.
+//
+//
+//╔══════════════╗
+//║ Quests Items ║
+//╚══════════════╝
+//
+ItemDisplay[bks]: %NAME%
+ItemDisplay[bkd]: %NAME%
+ItemDisplay[hdm]: %NAME%
+ItemDisplay[tr1]: %NAME%
+ItemDisplay[ass]: %NAME%
+ItemDisplay[msf]: %NAME%
+ItemDisplay[vip]: %NAME%
+ItemDisplay[hst]: %NAME%
+ItemDisplay[j34]: %NAME%
+ItemDisplay[g34]: %NAME%
+ItemDisplay[xyz]: %NAME%
+ItemDisplay[g33]: %NAME%
+ItemDisplay[bbb]: %NAME%
+ItemDisplay[qbr]: %NAME%
+ItemDisplay[qey]: %NAME%
+ItemDisplay[qhr]: %NAME%
+ItemDisplay[qf1]: %NAME%
+ItemDisplay[qf2]: %NAME%
+ItemDisplay[mss]: %NAME%
+ItemDisplay[hfh]: %NAME%
+ItemDisplay[ice]: %NAME%
+ItemDisplay[tr2]: %NAME%
+ItemDisplay[box]: %NAME%{%NL%Weapon: Ort - Armor: Ral%NL%%GOLD%Repair Recipes%WHITE%%NL%%NL%Blood Ring: Ring+Sol+P.Ruby+Jewel%NL%Caster Amulet: Amulet+Ral+P.Amethyst+Jewel%NL%%GOLD%Jewelry Crafting Recipes%WHITE%%NL%%NL%Ex.Armor: Ko+Lem+P.Diamond%NL%Ex.Weapon: Lum+Pul+P.Emerald%NL%%GOLD%Unique Upgrade Recipes%WHITE%%NL%%NL%Ex.Armor: Hel+Io+P.Topaz%NL%Ex.Weapon: Dol+Mal+P.Ruby%NL%%GOLD%Set Upgrade Recipes%WHITE%%NL%%NL%Shield: Tal+Amn+P.Ruby%NL%Armor: Tal+Rhul+P.Topaz%NL%Weapon: Ral+Amn+P.Amethyst%NL%%GOLD%Socket White Item Recipes%NL%}
+//
+//╔══════╗
+//║ Gold ║
+//╚══════╝
+//
+ItemDisplay[GOLD>4999 AREALVL>85]: %NAME%
+ItemDisplay[GOLD>1999 AREALVL<86]: %NAME%
+ItemDisplay[GOLD<2000 CLVL<80]: %NAME%
+ItemDisplay[GOLD<2000 CLVL>79]:
+//
+//╔═══════════╗
+//║ PoD Items ║
+//╚═══════════╝
+//
+ItemDisplay[cx5]: %MAPICON(74)%%NOTIFY(PURPLE)%%GREEN%¤¤¤¤¤¤ %PURPLE%Orb of Corruption %GREEN%¤¤¤¤¤¤
+ItemDisplay[maz]: %MAPICON(74)%%NOTIFY(RED)%%GREEN%¤¤¤¤¤¤ %RED%Infernal Trial %GREEN%¤¤¤¤¤¤
+ItemDisplay[ma1 !ID]: %MAPICON(74)%%NOTIFY(PURPLE)%%GREEN%¤¤¤¤¤¤ %PURPLE%%NAME% %RED%T%MAPTIER% %GREEN%¤¤¤¤¤¤
+ItemDisplay[ma2 !ID]: %MAPICON(74)%%NOTIFY(PURPLE)%%GREEN%¤¤¤¤¤¤ %PURPLE%%NAME% %RED%T%MAPTIER% %GREEN%¤¤¤¤¤¤
+//ItemDisplay[ma3 !ID]: %GREEN%¤¤¤¤¤¤ %PURPLE%%NAME% %GREEN%¤¤¤¤¤¤
+ItemDisplay[ma4 !ID]: %MAPICON(74)%%NOTIFY(PURPLE)%%GREEN%¤¤¤¤¤¤ %PURPLE%%NAME% %RED%T%MAPTIER% %GREEN%¤¤¤¤¤¤
+ItemDisplay[ma5 !ID]: %MAPICON(74)%%NOTIFY(PURPLE)%%GREEN%¤¤¤¤¤¤ %PURPLE%%NAME% %RED%T%MAPTIER% %GREEN%¤¤¤¤¤¤
+ItemDisplay[ma6 !ID]: %MAPICON(74)%%NOTIFY(PURPLE)%%GREEN%¤¤¤¤¤¤ %PURPLE%%NAME% %RED%T%MAPTIER% %GREEN%¤¤¤¤¤¤
+ItemDisplay[ma7 !ID]: %MAPICON(74)%%NOTIFY(PURPLE)%%GREEN%¤¤¤¤¤¤ %PURPLE%%NAME% %RED%T%MAPTIER% %GREEN%¤¤¤¤¤¤
+ItemDisplay[ma8 !ID]: %MAPICON(74)%%NOTIFY(PURPLE)%%GREEN%¤¤¤¤¤¤ %PURPLE%%NAME% %RED%T%MAPTIER% %GREEN%¤¤¤¤¤¤
+ItemDisplay[ma9 !ID]: %MAPICON(74)%%NOTIFY(PURPLE)%%GREEN%¤¤¤¤¤¤ %PURPLE%%NAME% %RED%T%MAPTIER% %GREEN%¤¤¤¤¤¤
+//ItemDisplay[ma10 !ID]: %GREEN%¤¤¤¤¤¤ %PURPLE%%NAME%
+ItemDisplay[ma1 ID]: %PURPLE%%NAME% %GREEN%T%MAPTIER%
+ItemDisplay[ma2 ID]: %PURPLE%%NAME% %GREEN%T%MAPTIER%
+//ItemDisplay[ma3 ID]: %PURPLE%%NAME%
+ItemDisplay[ma4 ID]: %PURPLE%%NAME% %GREEN%T%MAPTIER%
+ItemDisplay[ma5 ID]: %PURPLE%%NAME% %GREEN%T%MAPTIER%
+ItemDisplay[ma6 ID]: %PURPLE%%NAME% %GREEN%T%MAPTIER%
+ItemDisplay[ma7 ID]: %PURPLE%%NAME% %GREEN%T%MAPTIER%
+ItemDisplay[ma8 ID]: %PURPLE%%NAME% %GREEN%T%MAPTIER%
+ItemDisplay[ma9 ID]: %PURPLE%%NAME% %GREEN%T%MAPTIER%
+//ItemDisplay[ma10 ID]: %PURPLE%%NAME%
+//CatchAll Map
+ItemDisplay[MAP]: %MAPICON(74)%%NOTIFY(PURPLE)%%GREEN%¤¤¤¤¤¤ %PURPLE%%NAME% %RED%T%MAPTIER% %GREEN%¤¤¤¤¤¤ %WHITE% CatchAll Filter, Map [%CODE%]. Report to creator.
+//
+//╔════════════╗
+//║ Uber Items ║
+//╚════════════╝
+//
+ItemDisplay[tes]: %MAPICON(74)%%NOTIFY(ORANGE)%%RED%¤¤ %ORANGE%Suffering %RED%[Andariel]
+ItemDisplay[ceh]: %MAPICON(74)%%NOTIFY(ORANGE)%%RED%¤¤ %ORANGE%Hatred %RED%[Mephisto]
+ItemDisplay[bet]: %MAPICON(74)%%NOTIFY(ORANGE)%%RED%¤¤ %ORANGE%Terror %RED%[Diablo]
+ItemDisplay[fed]: %MAPICON(74)%%NOTIFY(ORANGE)%%RED%¤¤ %ORANGE%Destruction %RED%[Baal]
+ItemDisplay[toa]: %MAPICON(74)%%NOTIFY(ORANGE)%%RED%¤¤ %PURPLE%Token of Absolution %RED%¤¤
+ItemDisplay[cx7]: %MAPICON(74)%%NOTIFY(ORANGE)%%RED%¤¤ %PURPLE%%NAME% %RED%¤¤
+ItemDisplay[pk1]: %MAPICON(74)%%NOTIFY(ORANGE)%%RED%¤¤ %ORANGE%Terror %RED%[Countess]
+ItemDisplay[pk2]: %MAPICON(74)%%NOTIFY(ORANGE)%%RED%¤¤ %ORANGE%Hate %RED%[Summoner]
+ItemDisplay[pk3]: %MAPICON(74)%%NOTIFY(ORANGE)%%RED%¤¤ %ORANGE%Destruction %RED%[Nihlathak]
+ItemDisplay[dhn]: %MAPICON(74)%%NOTIFY(PURPLE)%%RED%¤¤ %PURPLE%Diablo's Horn
+ItemDisplay[bey]: %MAPICON(74)%%NOTIFY(PURPLE)%%RED%¤¤ %PURPLE%Baal's Eye
+ItemDisplay[mbr]: %MAPICON(74)%%NOTIFY(PURPLE)%%RED%¤¤ %PURPLE%Mephisto's Brain
+ItemDisplay[cx6]: %MAPICON(74)%%NOTIFY(PURPLE)%%RED%¤¤ %PURPLE%%NAME% %RED%¤¤
+ItemDisplay[std]: %TAN%%NAME%
+//
+//╔══════════════════╗
+//║ Consumable Items ║
+//╚══════════════════╝
+//
+ItemDisplay[ibk AREALVL<86]: %RED%ID %WHITE%Book
+ItemDisplay[tbk AREALVL<86]: %BLUE%TP %WHITE%Book
+ItemDisplay[isc AREALVL<86]: %WHITE%!%RED%ID
+ItemDisplay[tsc]: %WHITE%!%BLUE%TP
+ItemDisplay[key AREALVL<86]: %WHITE%!%TAN%Key
+ItemDisplay[hp5]: %WHITE%!%RED%HP%WHITE%+
+ItemDisplay[mp5]: %WHITE%!%BLUE%MP%WHITE%+
+ItemDisplay[rvs]: %NL% %WHITE%!%PURPLE%30% %NL%
+ItemDisplay[rvl]: %NL% %WHITE%!%PURPLE%70% %NL%
+ItemDisplay[CLVL>79 hp4]:
+ItemDisplay[CLVL>48 hp3]:
+ItemDisplay[CLVL>24 hp2]:
+ItemDisplay[CLVL>12 hp1]:
+ItemDisplay[CLVL>79 mp4]:
+ItemDisplay[CLVL>60 mp3]:
+ItemDisplay[CLVL>30 mp2]:
+ItemDisplay[CLVL>15 mp1]:
+ItemDisplay[CLVL<71 hp4]: %WHITE%Great !%RED%HP
+ItemDisplay[CLVL<51 hp3]: %WHITE%Normal !%RED%HP
+ItemDisplay[CLVL<25 hp2]: %WHITE%Light !%RED%HP
+ItemDisplay[CLVL<12 hp1]: %WHITE%Minor !%RED%HP
+ItemDisplay[CLVL<71 mp4]: %WHITE%Great !%BLUE%MP
+ItemDisplay[CLVL<51 mp3]: %WHITE%Normal !%BLUE%MP
+ItemDisplay[CLVL<25 mp2]: %WHITE%Light !%BLUE%MP
+ItemDisplay[CLVL<12 mp1]: %WHITE%Minor !%BLUE%MP
+ItemDisplay[leg]: %NAME% %RED%[%SOCKETS%] %TAN%[%ILVL%]
+ItemDisplay[ear]: %NAME%
+ItemDisplay[yps AREALVL<86]: %WHITE%!%GREEN%Ant
+ItemDisplay[CLVL<50 wms]: %WHITE%!%YELLOW%Thaw
+ItemDisplay[wms]:
+ItemDisplay[CLVL<20 vps]: %WHITE%!%GRAY%Stam
+ItemDisplay[vps]:
+ItemDisplay[gpm]:
+ItemDisplay[opm]:
+ItemDisplay[opl]:
+ItemDisplay[ops]:
+ItemDisplay[gps]:
+ItemDisplay[gpl]:
