@@ -35,27 +35,24 @@ ItemDisplay[box]: %NAME%{%NL%Weapon: Ort - Armor: Ral%NL%%GOLD%Repair Recipes%WH
 //║ Gold ║
 //╚══════╝
 //
-ItemDisplay[GOLD>4999 AREALVL>85]: %NAME%
-ItemDisplay[GOLD>1999 AREALVL<86]: %NAME%
-ItemDisplay[GOLD<2000 CLVL<80]: %NAME%
-ItemDisplay[GOLD<2000 CLVL>79]:
+ItemDisplay[GOLD>2500 AREALVL>84]: %NAME%
+ItemDisplay[GOLD<1500 CLVL<80]: %NAME%
+ItemDisplay[GOLD<1500 CLVL>79]:
 //
 //╔═══════════╗
 //║ PoD Items ║
 //╚═══════════╝
 //
-ItemDisplay[cx5]: %MAPICON(74)%%NOTIFY(PURPLE)%%GREEN%¤¤¤¤¤¤ %PURPLE%Orb of Corruption %GREEN%¤¤¤¤¤¤
-ItemDisplay[maz]: %MAPICON(74)%%NOTIFY(RED)%%GREEN%¤¤¤¤¤¤ %RED%Infernal Trial %GREEN%¤¤¤¤¤¤
-ItemDisplay[ma1 !ID]: %MAPICON(74)%%NOTIFY(PURPLE)%%GREEN%¤¤¤¤¤¤ %PURPLE%%NAME% %RED%T%MAPTIER% %GREEN%¤¤¤¤¤¤
-ItemDisplay[ma2 !ID]: %MAPICON(74)%%NOTIFY(PURPLE)%%GREEN%¤¤¤¤¤¤ %PURPLE%%NAME% %RED%T%MAPTIER% %GREEN%¤¤¤¤¤¤
-//ItemDisplay[ma3 !ID]: %GREEN%¤¤¤¤¤¤ %PURPLE%%NAME% %GREEN%¤¤¤¤¤¤
-ItemDisplay[ma4 !ID]: %MAPICON(74)%%NOTIFY(PURPLE)%%GREEN%¤¤¤¤¤¤ %PURPLE%%NAME% %RED%T%MAPTIER% %GREEN%¤¤¤¤¤¤
-ItemDisplay[ma5 !ID]: %MAPICON(74)%%NOTIFY(PURPLE)%%GREEN%¤¤¤¤¤¤ %PURPLE%%NAME% %RED%T%MAPTIER% %GREEN%¤¤¤¤¤¤
-ItemDisplay[ma6 !ID]: %MAPICON(74)%%NOTIFY(PURPLE)%%GREEN%¤¤¤¤¤¤ %PURPLE%%NAME% %RED%T%MAPTIER% %GREEN%¤¤¤¤¤¤
-ItemDisplay[ma7 !ID]: %MAPICON(74)%%NOTIFY(PURPLE)%%GREEN%¤¤¤¤¤¤ %PURPLE%%NAME% %RED%T%MAPTIER% %GREEN%¤¤¤¤¤¤
-ItemDisplay[ma8 !ID]: %MAPICON(74)%%NOTIFY(PURPLE)%%GREEN%¤¤¤¤¤¤ %PURPLE%%NAME% %RED%T%MAPTIER% %GREEN%¤¤¤¤¤¤
-ItemDisplay[ma9 !ID]: %MAPICON(74)%%NOTIFY(PURPLE)%%GREEN%¤¤¤¤¤¤ %PURPLE%%NAME% %RED%T%MAPTIER% %GREEN%¤¤¤¤¤¤
-//ItemDisplay[ma10 !ID]: %GREEN%¤¤¤¤¤¤ %PURPLE%%NAME%
+ItemDisplay[cx5]: %MAPICON(74)%%NOTIFY(ITEM)%%GREEN%¤¤¤¤¤¤ %PURPLE%Orb of Corruption %GREEN%¤¤¤¤¤¤
+ItemDisplay[maz]: %MAPICON(74)%%NOTIFY(ITEM)%%GREEN%¤¤¤¤¤¤ %RED%Infernal Trial %GREEN%¤¤¤¤¤¤
+ItemDisplay[ma1 !ID]: %MAPICON(74)%%NOTIFY(ITEM)%%GREEN%¤¤¤¤¤¤ %PURPLE%%NAME% %RED%T%MAPTIER% %GREEN%¤¤¤¤¤¤
+ItemDisplay[ma2 !ID]: %MAPICON(74)%%NOTIFY(ITEM)%%GREEN%¤¤¤¤¤¤ %PURPLE%%NAME% %RED%T%MAPTIER% %GREEN%¤¤¤¤¤¤
+ItemDisplay[ma4 !ID]: %MAPICON(74)%%NOTIFY(ITEM)%%GREEN%¤¤¤¤¤¤ %PURPLE%%NAME% %RED%T%MAPTIER% %GREEN%¤¤¤¤¤¤
+ItemDisplay[ma5 !ID]: %MAPICON(74)%%NOTIFY(ITEM)%%GREEN%¤¤¤¤¤¤ %PURPLE%%NAME% %RED%T%MAPTIER% %GREEN%¤¤¤¤¤¤
+ItemDisplay[ma6 !ID]: %MAPICON(74)%%NOTIFY(ITEM)%%GREEN%¤¤¤¤¤¤ %PURPLE%%NAME% %RED%T%MAPTIER% %GREEN%¤¤¤¤¤¤
+ItemDisplay[ma7 !ID]: %MAPICON(74)%%NOTIFY(ITEM)%%GREEN%¤¤¤¤¤¤ %PURPLE%%NAME% %RED%T%MAPTIER% %GREEN%¤¤¤¤¤¤
+ItemDisplay[ma8 !ID]: %MAPICON(74)%%NOTIFY(ITEM)%%GREEN%¤¤¤¤¤¤ %PURPLE%%NAME% %RED%T%MAPTIER% %GREEN%¤¤¤¤¤¤
+ItemDisplay[ma9 !ID]: %MAPICON(74)%%NOTIFY(ITEM)%%GREEN%¤¤¤¤¤¤ %PURPLE%%NAME% %RED%T%MAPTIER% %GREEN%¤¤¤¤¤¤
 ItemDisplay[ma1 ID]: %PURPLE%%NAME% %GREEN%T%MAPTIER%
 ItemDisplay[ma2 ID]: %PURPLE%%NAME% %GREEN%T%MAPTIER%
 //ItemDisplay[ma3 ID]: %PURPLE%%NAME%
@@ -67,25 +64,25 @@ ItemDisplay[ma8 ID]: %PURPLE%%NAME% %GREEN%T%MAPTIER%
 ItemDisplay[ma9 ID]: %PURPLE%%NAME% %GREEN%T%MAPTIER%
 //ItemDisplay[ma10 ID]: %PURPLE%%NAME%
 //CatchAll Map
-ItemDisplay[MAP]: %MAPICON(74)%%NOTIFY(PURPLE)%%GREEN%¤¤¤¤¤¤ %PURPLE%%NAME% %RED%T%MAPTIER% %GREEN%¤¤¤¤¤¤ %WHITE% CatchAll Filter, Map [%CODE%]. Report to creator.
+ItemDisplay[MAP]: %MAPICON(74)%%NOTIFY(ITEM)%%GREEN%¤¤¤¤¤¤ %PURPLE%%NAME% %RED%T%MAPTIER% %GREEN%¤¤¤¤¤¤ %NL%%WHITE%CatchAll Filter, Map [%CODE%]. Report to creator.%NL%
 //
 //╔════════════╗
 //║ Uber Items ║
 //╚════════════╝
 //
-ItemDisplay[tes]: %MAPICON(74)%%NOTIFY(ORANGE)%%RED%¤¤ %ORANGE%Suffering %RED%[Andariel]
-ItemDisplay[ceh]: %MAPICON(74)%%NOTIFY(ORANGE)%%RED%¤¤ %ORANGE%Hatred %RED%[Mephisto]
-ItemDisplay[bet]: %MAPICON(74)%%NOTIFY(ORANGE)%%RED%¤¤ %ORANGE%Terror %RED%[Diablo]
-ItemDisplay[fed]: %MAPICON(74)%%NOTIFY(ORANGE)%%RED%¤¤ %ORANGE%Destruction %RED%[Baal]
-ItemDisplay[toa]: %MAPICON(74)%%NOTIFY(ORANGE)%%RED%¤¤ %PURPLE%Token of Absolution %RED%¤¤
-ItemDisplay[cx7]: %MAPICON(74)%%NOTIFY(ORANGE)%%RED%¤¤ %PURPLE%%NAME% %RED%¤¤
-ItemDisplay[pk1]: %MAPICON(74)%%NOTIFY(ORANGE)%%RED%¤¤ %ORANGE%Terror %RED%[Countess]
-ItemDisplay[pk2]: %MAPICON(74)%%NOTIFY(ORANGE)%%RED%¤¤ %ORANGE%Hate %RED%[Summoner]
-ItemDisplay[pk3]: %MAPICON(74)%%NOTIFY(ORANGE)%%RED%¤¤ %ORANGE%Destruction %RED%[Nihlathak]
-ItemDisplay[dhn]: %MAPICON(74)%%NOTIFY(PURPLE)%%RED%¤¤ %PURPLE%Diablo's Horn
-ItemDisplay[bey]: %MAPICON(74)%%NOTIFY(PURPLE)%%RED%¤¤ %PURPLE%Baal's Eye
-ItemDisplay[mbr]: %MAPICON(74)%%NOTIFY(PURPLE)%%RED%¤¤ %PURPLE%Mephisto's Brain
-ItemDisplay[cx6]: %MAPICON(74)%%NOTIFY(PURPLE)%%RED%¤¤ %PURPLE%%NAME% %RED%¤¤
+ItemDisplay[tes]: %MAPICON(74)%%NOTIFY(ITEM)%%RED%¤¤ %ORANGE%Suffering %RED%[Andariel]
+ItemDisplay[ceh]: %MAPICON(74)%%NOTIFY(ITEM)%%RED%¤¤ %ORANGE%Hatred %RED%[Mephisto]
+ItemDisplay[bet]: %MAPICON(74)%%NOTIFY(ITEM)%%RED%¤¤ %ORANGE%Terror %RED%[Diablo]
+ItemDisplay[fed]: %MAPICON(74)%%NOTIFY(ITEM)%%RED%¤¤ %ORANGE%Destruction %RED%[Baal]
+ItemDisplay[toa]: %MAPICON(74)%%NOTIFY(ITEM)%%RED%¤¤ %PURPLE%Token of Absolution %RED%¤¤
+ItemDisplay[cx7]: %MAPICON(74)%%NOTIFY(ITEM)%%RED%¤¤ %PURPLE%%NAME% %RED%¤¤
+ItemDisplay[pk1]: %MAPICON(74)%%NOTIFY(ITEM)%%RED%¤¤ %ORANGE%Terror %RED%[Countess]
+ItemDisplay[pk2]: %MAPICON(74)%%NOTIFY(ITEM)%%RED%¤¤ %ORANGE%Hate %RED%[Summoner]
+ItemDisplay[pk3]: %MAPICON(74)%%NOTIFY(ITEM)%%RED%¤¤ %ORANGE%Destruction %RED%[Nihlathak]
+ItemDisplay[dhn]: %MAPICON(74)%%NOTIFY(ITEM)%%RED%¤¤ %PURPLE%Diablo's Horn
+ItemDisplay[bey]: %MAPICON(74)%%NOTIFY(ITEM)%%RED%¤¤ %PURPLE%Baal's Eye
+ItemDisplay[mbr]: %MAPICON(74)%%NOTIFY(ITEM)%%RED%¤¤ %PURPLE%Mephisto's Brain
+ItemDisplay[cx6]: %MAPICON(74)%%NOTIFY(ITEM)%%RED%¤¤ %PURPLE%%NAME% %RED%¤¤
 ItemDisplay[std]: %TAN%%NAME%
 //
 //╔══════════════════╗
@@ -99,8 +96,8 @@ ItemDisplay[tsc]: %WHITE%!%BLUE%TP
 ItemDisplay[key AREALVL<86]: %WHITE%!%TAN%Key
 ItemDisplay[hp5]: %WHITE%!%RED%HP%WHITE%+
 ItemDisplay[mp5]: %WHITE%!%BLUE%MP%WHITE%+
-ItemDisplay[rvs]: %NL% %WHITE%!%PURPLE%30% %NL%
-ItemDisplay[rvl]: %NL% %WHITE%!%PURPLE%70% %NL%
+ItemDisplay[rvs]: %WHITE%!%PURPLE%30%
+ItemDisplay[rvl]: %WHITE%!%PURPLE%70%
 ItemDisplay[CLVL>79 hp4]:
 ItemDisplay[CLVL>48 hp3]:
 ItemDisplay[CLVL>24 hp2]:
@@ -130,3 +127,103 @@ ItemDisplay[opl]:
 ItemDisplay[ops]:
 ItemDisplay[gps]:
 ItemDisplay[gpl]:
+//
+//╔══════╗
+//║ Gems ║
+//╚══════╝
+//
+ItemDisplay[gcv DIFFICULTY>0]:
+ItemDisplay[gcw DIFFICULTY>0]:
+ItemDisplay[gcg DIFFICULTY>0]:
+ItemDisplay[gcr DIFFICULTY>0]:
+ItemDisplay[gcb DIFFICULTY>0]:
+ItemDisplay[gcy DIFFICULTY>0]:
+ItemDisplay[skc DIFFICULTY>0]:
+ItemDisplay[gfv DIFFICULTY>0]:
+ItemDisplay[gfw DIFFICULTY>0]:
+ItemDisplay[gfg DIFFICULTY>0]:
+ItemDisplay[gfr DIFFICULTY>0]:
+ItemDisplay[gfb DIFFICULTY>0]:
+ItemDisplay[gfy DIFFICULTY>0]:
+ItemDisplay[skf DIFFICULTY>0]:
+ItemDisplay[gsv DIFFICULTY>1]:
+ItemDisplay[gsw DIFFICULTY>1]:
+ItemDisplay[gsg DIFFICULTY>1]:
+ItemDisplay[gsr DIFFICULTY>1]:
+ItemDisplay[gsb DIFFICULTY>1]:
+ItemDisplay[gsy DIFFICULTY>1]:
+ItemDisplay[sku DIFFICULTY>1]:
+ItemDisplay[gcv]: %PURPLE%O %WHITE%Chipped Amethyst %PURPLE%O
+ItemDisplay[gcw]: %WHITE%O %WHITE%Chipped Diamond %WHITE%O
+ItemDisplay[gcg]: %GREEN%O %WHITE%Chipped Emerald %GREEN%O
+ItemDisplay[gcr]: %RED%O %WHITE%Chipped Ruby %RED%O
+ItemDisplay[gcb]: %BLUE%O %WHITE%Chipped Sapphire %BLUE%O
+ItemDisplay[gcy]: %YELLOW%O %WHITE%Chipped Topaz %YELLOW%O
+ItemDisplay[skc]: %GRAY%O %WHITE%Chipped Skull %GRAY%O
+ItemDisplay[gfv]: %PURPLE%O %WHITE%Flawed Amethyst %PURPLE%O
+ItemDisplay[gfw]: %WHITE%O %WHITE%Flawed Diamond %WHITE%O
+ItemDisplay[gfg]: %GREEN%O %WHITE%Flawed Emerald %GREEN%O
+ItemDisplay[gfr]: %RED%O %WHITE%Flawed Ruby %RED%O
+ItemDisplay[gfb]: %BLUE%O %WHITE%Flawed Sapphire %BLUE%O
+ItemDisplay[gfy]: %YELLOW%O %WHITE%Flawed Topaz %YELLOW%O
+ItemDisplay[skf]: %GRAY%O %WHITE%Flawed Skull %GRAY%O
+ItemDisplay[gsv]: %PURPLE%O %WHITE%Normal Amethyst %PURPLE%O
+ItemDisplay[gsw]: %WHITE%O %WHITE%Normal Diamond %WHITE%O
+ItemDisplay[gsg]: %GREEN%O %WHITE%Normal Emerald %GREEN%O
+ItemDisplay[gsr]: %RED%O %WHITE%Normal Ruby %RED%O
+ItemDisplay[gsb]: %BLUE%O %WHITE%Normal Sapphire %BLUE%O
+ItemDisplay[gsy]: %YELLOW%O %WHITE%Normal Topaz %YELLOW%O
+ItemDisplay[sku]: %GRAY%O %WHITE%Normal Skull %GRAY%O
+ItemDisplay[gzv]: %PURPLE%O %WHITE%Flawless Amethyst %PURPLE%O
+ItemDisplay[glw]: %WHITE%O %WHITE%Flawless Diamond %WHITE%O
+ItemDisplay[glg]: %GREEN%O %WHITE%Flawless Emerald %GREEN%O
+ItemDisplay[glr]: %RED%O %WHITE%Flawless Ruby %RED%O
+ItemDisplay[glb]: %BLUE%O %WHITE%Flawless Sapphire %BLUE%O
+ItemDisplay[gly]: %YELLOW%O %WHITE%Flawless Topaz %YELLOW%O
+ItemDisplay[skl]: %GRAY%O %WHITE%Flawless Skull %GRAY%O
+ItemDisplay[gpv]: %MAPICON(74)%%NOTIFY(ITEM)%%PURPLE%O %WHITE%Perfect Amethyst %PURPLE%O
+ItemDisplay[gpw]: %MAPICON(74)%%NOTIFY(ITEM)%%WHITE%O %WHITE%Perfect Diamond %WHITE%O
+ItemDisplay[gpg]: %MAPICON(74)%%NOTIFY(ITEM)%%GREEN%O %WHITE%Perfect Emerald %GREEN%O
+ItemDisplay[gpr]: %MAPICON(74)%%NOTIFY(ITEM)%%RED%O %WHITE%Perfect Ruby %RED%O
+ItemDisplay[gpb]: %MAPICON(74)%%NOTIFY(ITEM)%%BLUE%O %WHITE%Perfect Sapphire %BLUE%O
+ItemDisplay[gpy]: %MAPICON(74)%%NOTIFY(ITEM)%%YELLOW%O %WHITE%Perfect Topaz %YELLOW%O
+ItemDisplay[skz]: %MAPICON(74)%%NOTIFY(ITEM)%%GRAY%O %WHITE%Perfect Skull %GRAY%O
+//
+//╔═══════╗
+//║ Runes ║
+//╚═══════╝
+//
+ItemDisplay[RW]: %NAME% %RED%[%SOCKETS%] %TAN%[%ILVL%]
+ItemDisplay[r01]: %ORANGE%%RUNENAME% %TAN%[1]
+ItemDisplay[r02]: %ORANGE%%RUNENAME% %TAN%[2]
+ItemDisplay[r03]: %ORANGE%%RUNENAME% %TAN%[3]
+ItemDisplay[r04]: %ORANGE%%RUNENAME% %TAN%[4]
+ItemDisplay[r05]: %ORANGE%%RUNENAME% %TAN%[5]
+ItemDisplay[r06]: %ORANGE%%RUNENAME% %TAN%[6]
+ItemDisplay[r07]: %ORANGE%%RUNENAME% %TAN%[7]
+ItemDisplay[r08]: %MAPICON(74)%%NOTIFY(ITEM)%%RED%¤¤¤¤ %ORANGE%%RUNENAME% %RED%¤¤¤¤ %TAN%[8]
+ItemDisplay[r09]: %ORANGE%%RUNENAME% %TAN%[9]
+ItemDisplay[r10]: %ORANGE%%RUNENAME% %TAN%[10]
+ItemDisplay[r11]: %MAPICON(74)%%NOTIFY(ITEM)%%RED%¤¤¤¤ %ORANGE%%RUNENAME% %RED%¤¤¤¤ %TAN%[11]
+ItemDisplay[r12]: %MAPICON(74)%%NOTIFY(ITEM)%%RED%¤¤¤¤ %ORANGE%%RUNENAME% %RED%¤¤¤¤ %TAN%[12]
+ItemDisplay[r13]: %ORANGE%%RUNENAME% %TAN%[13]
+ItemDisplay[r14]: %ORANGE%%RUNENAME% %TAN%[14]
+ItemDisplay[r15]: %MAPICON(74)%%NOTIFY(ITEM)%%RED%¤¤¤¤ %ORANGE%%RUNENAME% %RED%¤¤¤¤ %TAN%[15]
+ItemDisplay[r16]: %ORANGE%%RUNENAME% %TAN%[16]
+ItemDisplay[r17]: %ORANGE%%RUNENAME% %TAN%[17]
+ItemDisplay[r18]: %MAPICON(74)%%NOTIFY(ITEM)%%RED%¤¤¤¤ %ORANGE%%RUNENAME% %RED%¤¤¤¤ %TAN%[18]
+ItemDisplay[r19]: %ORANGE%%RUNENAME% %TAN%[19]
+ItemDisplay[r20]: %MAPICON(74)%%NOTIFY(ITEM)%%RED%¤¤¤¤¤¤¤ %PURPLE%%RUNENAME% %RED%¤¤¤¤¤¤¤ %TAN%[20]
+ItemDisplay[r21]: %MAPICON(74)%%NOTIFY(ITEM)%%RED%¤¤¤¤¤¤¤ %PURPLE%%RUNENAME% %RED%¤¤¤¤¤¤¤ %TAN%[21]
+ItemDisplay[r22]: %MAPICON(74)%%NOTIFY(ITEM)%%RED%¤¤¤¤¤¤¤ %PURPLE%%RUNENAME% %RED%¤¤¤¤¤¤¤ %TAN%[22]
+ItemDisplay[r23]: %MAPICON(74)%%NOTIFY(ITEM)%%RED%¤¤¤¤¤¤¤ %PURPLE%%RUNENAME% %RED%¤¤¤¤¤¤¤ %TAN%[23]
+ItemDisplay[r24]: %MAPICON(74)%%NOTIFY(ITEM)%%RED%¤¤¤¤¤¤¤ %PURPLE%%RUNENAME% %RED%¤¤¤¤¤¤¤ %TAN%[24]
+ItemDisplay[r25]: %MAPICON(74)%%NOTIFY(ITEM)%%RED%¤¤¤¤¤¤¤ %PURPLE%%RUNENAME% %RED%¤¤¤¤¤¤¤ %TAN%[25]
+ItemDisplay[r26]: %MAPICON(74)%%NOTIFY(ITEM)%%GREEN%¤¤¤¤¤¤¤¤¤¤ %PURPLE%%RUNENAME% %GREEN%¤¤¤¤¤¤¤¤¤¤ %TAN%[26]
+ItemDisplay[r27]: %MAPICON(74)%%NOTIFY(ITEM)%%GREEN%¤¤¤¤¤¤¤¤¤¤ %PURPLE%%RUNENAME% %GREEN%¤¤¤¤¤¤¤¤¤¤ %TAN%[27]
+ItemDisplay[r28]: %MAPICON(74)%%NOTIFY(ITEM)%%GREEN%¤¤¤¤¤¤¤¤¤¤ %PURPLE%%RUNENAME% %GREEN%¤¤¤¤¤¤¤¤¤¤ %TAN%[28]
+ItemDisplay[r29]: %MAPICON(74)%%NOTIFY(ITEM)%%GREEN%¤¤¤¤¤¤¤¤¤¤ %PURPLE%%RUNENAME% %GREEN%¤¤¤¤¤¤¤¤¤¤ %TAN%[29]
+ItemDisplay[r30]: %MAPICON(74)%%NOTIFY(ITEM)%%GREEN%¤¤¤¤¤¤¤¤¤¤ %PURPLE%%RUNENAME% %GREEN%¤¤¤¤¤¤¤¤¤¤ %TAN%[30]
+ItemDisplay[r31]: %MAPICON(74)%%NOTIFY(ITEM)%%GREEN%¤¤¤¤¤¤¤¤¤¤ %PURPLE%%RUNENAME% %GREEN%¤¤¤¤¤¤¤¤¤¤ %TAN%[31]
+ItemDisplay[r32]: %MAPICON(74)%%NOTIFY(ITEM)%%GREEN%¤¤¤¤¤¤¤¤¤¤ %PURPLE%%RUNENAME% %GREEN%¤¤¤¤¤¤¤¤¤¤ %TAN%[32]
+ItemDisplay[r33]: %MAPICON(74)%%NOTIFY(ITEM)%%GREEN%¤¤¤¤¤¤¤¤¤¤ %PURPLE%%RUNENAME% %GREEN%¤¤¤¤¤¤¤¤¤¤ %TAN%[33]
