@@ -105,7 +105,7 @@ ItemDisplay[CLVL<12 hp1]: %WHITE%Minor !%RED%HP
 ItemDisplay[CLVL<71 mp4]: %WHITE%Great !%BLUE%MP
 ItemDisplay[CLVL<51 mp3]: %WHITE%Normal !%BLUE%MP
 ItemDisplay[CLVL<25 mp2]: %WHITE%Light !%BLUE%MP
-ItemDisplay[CLVL<12 mp1]: %WHITE%Minor !%BLUE%MP
+ItemDisplay[FILTERLVL=1 mp1]: %WHITE%Minor !%BLUE%MP
 ItemDisplay[leg]: %NAME% %RED%[%SOCKETS%] %TAN%[%ILVL%]
 ItemDisplay[ear]: %NAME%
 ItemDisplay[yps AREALVL<86]: %WHITE%!%GREEN%Ant
