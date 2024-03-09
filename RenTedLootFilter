@@ -433,7 +433,8 @@ ItemDisplay[ID UNI !SOCK=0 ETH]: %GRAY%[ETH] %GOLD%%NAME% %RED%[%SOCKETS%] %TAN%
 //║ Magical Items ║
 //╚═══════════════╝
 //
-//ItemDisplay[MAG !ID (aq2 OR cq2)]: %RED%** %BLUE%%NAME% %RED%** %TAN%[%ILVL%]
+ItemDisplay[MAG !ID (aq2 OR cq2) CLVL<21]: %NAME% %TAN%[%ILVL%]
+ItemDisplay[MAG !ID (aq2 OR cq2) CLVL>20]:
 ItemDisplay[MAG !ID amu]: %NAME% %TAN%[%ILVL%]
 ItemDisplay[MAG !ID rin]: %NAME% %TAN%[%ILVL%]
 ItemDisplay[MAG !ID cm1]: %MAPICON(74)%%NOTIFY(ITEM)%%ORANGE%**** %BLUE%%NAME% %ORANGE%**** %TAN%[%ILVL%]
