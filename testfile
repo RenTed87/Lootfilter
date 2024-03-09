@@ -1,1 +1,1 @@
-ItemDisplay[hax]: %MAPICON(74)%%NOTIFY(ITEM)%%GREEN%¤¤¤¤¤¤¤¤¤¤ %PURPLE%%RUNENAME% %GREEN%¤¤¤¤¤¤¤¤¤¤ %TAN%[31]
+ItemDisplay[hax]: %MAPICON(74)%%NOTIFY(ITEM)% %PURPLE%%RUNENAME% %TAN%[31]
