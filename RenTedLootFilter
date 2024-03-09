@@ -30,6 +30,7 @@ ItemDisplay[hfh]: %NAME%
 ItemDisplay[ice]: %NAME%
 ItemDisplay[tr2]: %NAME%
 ItemDisplay[box]: %NAME%
+//
 //╔══════╗
 //║ Gold ║
 //╚══════╝
@@ -94,7 +95,7 @@ ItemDisplay[ibk AREALVL<86]: %RED%ID %WHITE%Book
 ItemDisplay[tbk AREALVL<86]: %BLUE%TP %WHITE%Book
 ItemDisplay[isc AREALVL<86]: %WHITE%!%RED%ID
 ItemDisplay[tsc]: %WHITE%!%BLUE%TP
-ItemDisplay[key AREALVL<86]: %WHITE%!%TAN%Key
+ItemDisplay[key AREALVL<86]: %WHITE%!%TAN%K
 ItemDisplay[hp5]: %WHITE%!%RED%HP%WHITE%+
 ItemDisplay[mp5]: %WHITE%!%BLUE%MP%WHITE%+
 ItemDisplay[rvs]: %WHITE%!%PURPLE%30%
