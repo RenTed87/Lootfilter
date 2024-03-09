@@ -216,20 +216,20 @@ ItemDisplay[gsr]: %RED%O %WHITE%Normal Ruby %RED%O
 ItemDisplay[gsb]: %BLUE%O %WHITE%Normal Sapphire %BLUE%O
 ItemDisplay[gsy]: %YELLOW%O %WHITE%Normal Topaz %YELLOW%O
 ItemDisplay[sku]: %GRAY%O %WHITE%Normal Skull %GRAY%O
-ItemDisplay[gzv]: %PURPLE%O %WHITE%Flawless Amethyst %PURPLE%O
-ItemDisplay[glw]: %WHITE%O %WHITE%Flawless Diamond %WHITE%O
-ItemDisplay[glg]: %GREEN%O %WHITE%Flawless Emerald %GREEN%O
-ItemDisplay[glr]: %RED%O %WHITE%Flawless Ruby %RED%O
-ItemDisplay[glb]: %BLUE%O %WHITE%Flawless Sapphire %BLUE%O
-ItemDisplay[gly]: %YELLOW%O %WHITE%Flawless Topaz %YELLOW%O
-ItemDisplay[skl]: %GRAY%O %WHITE%Flawless Skull %GRAY%O
-ItemDisplay[gpv]: %MAPICON(74)%%NOTIFY(ITEM)%%PURPLE%O %WHITE%Perfect Amethyst %PURPLE%O
-ItemDisplay[gpw]: %MAPICON(74)%%NOTIFY(ITEM)%%WHITE%O %WHITE%Perfect Diamond %WHITE%O
-ItemDisplay[gpg]: %MAPICON(74)%%NOTIFY(ITEM)%%GREEN%O %WHITE%Perfect Emerald %GREEN%O
-ItemDisplay[gpr]: %MAPICON(74)%%NOTIFY(ITEM)%%RED%O %WHITE%Perfect Ruby %RED%O
-ItemDisplay[gpb]: %MAPICON(74)%%NOTIFY(ITEM)%%BLUE%O %WHITE%Perfect Sapphire %BLUE%O
-ItemDisplay[gpy]: %MAPICON(74)%%NOTIFY(ITEM)%%YELLOW%O %WHITE%Perfect Topaz %YELLOW%O
-ItemDisplay[skz]: %MAPICON(74)%%NOTIFY(ITEM)%%GRAY%O %WHITE%Perfect Skull %GRAY%O
+ItemDisplay[gzv]: %PURPLE%O %WHITE%Amethyst %PURPLE%O
+ItemDisplay[glw]: %WHITE%O %WHITE%Diamond %WHITE%O
+ItemDisplay[glg]: %GREEN%O %WHITE%Emerald %GREEN%O
+ItemDisplay[glr]: %RED%O %WHITE%Ruby %RED%O
+ItemDisplay[glb]: %BLUE%O %WHITE%Sapphire %BLUE%O
+ItemDisplay[gly]: %YELLOW%O %WHITE%Topaz %YELLOW%O
+ItemDisplay[skl]: %GRAY%O %WHITE%Skull %GRAY%O
+ItemDisplay[gpv]: %MAPICON(74)%%NOTIFY(ITEM)%%PURPLE%O %ORANGE%PRF %WHITE%Amethyst %PURPLE%O
+ItemDisplay[gpw]: %MAPICON(74)%%NOTIFY(ITEM)%%WHITE%O %ORANGE%PRF %WHITE%Diamond %WHITE%O
+ItemDisplay[gpg]: %MAPICON(74)%%NOTIFY(ITEM)%%GREEN%O %ORANGE%PRF %WHITE%Emerald %GREEN%O
+ItemDisplay[gpr]: %MAPICON(74)%%NOTIFY(ITEM)%%RED%O %ORANGE%PRF %WHITE%Ruby %RED%O
+ItemDisplay[gpb]: %MAPICON(74)%%NOTIFY(ITEM)%%BLUE%O %ORANGE%PRF %WHITE%Sapphire %BLUE%O
+ItemDisplay[gpy]: %MAPICON(74)%%NOTIFY(ITEM)%%YELLOW%O %ORANGE%PRF %WHITE%Topaz %YELLOW%O
+ItemDisplay[skz]: %MAPICON(74)%%NOTIFY(ITEM)%%GRAY%O %ORANGE%PRF %WHITE%Skull %GRAY%O
 //
 //╔═══════╗
 //║ Runes ║
