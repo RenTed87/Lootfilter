@@ -29,8 +29,7 @@ ItemDisplay[mss]: %NAME%
 ItemDisplay[hfh]: %NAME%
 ItemDisplay[ice]: %NAME%
 ItemDisplay[tr2]: %NAME%
-ItemDisplay[box]: %NAME%{%NL%Weapon: Ort - Armor: Ral%NL%%GOLD%Repair Recipes%WHITE%%NL%%NL%Blood Ring: Ring+Sol+P.Ruby+Jewel%NL%Caster Amulet: Amulet+Ral+P.Amethyst+Jewel%NL%%GOLD%Jewelry Crafting Recipes%WHITE%%NL%%NL%Ex.Armor: Ko+Lem+P.Diamond%NL%Ex.Weapon: Lum+Pul+P.Emerald%NL%%GOLD%Unique Upgrade Recipes%WHITE%%NL%%NL%Ex.Armor: Hel+Io+P.Topaz%NL%Ex.Weapon: Dol+Mal+P.Ruby%NL%%GOLD%Set Upgrade Recipes%WHITE%%NL%%NL%Shield: Tal+Amn+P.Ruby%NL%Armor: Tal+Rhul+P.Topaz%NL%Weapon: Ral+Amn+P.Amethyst%NL%%GOLD%Socket White Item Recipes%NL%}
-//
+ItemDisplay[box]: %NAME%
 //╔══════╗
 //║ Gold ║
 //╚══════╝
