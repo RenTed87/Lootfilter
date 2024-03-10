@@ -31,7 +31,8 @@ ItemDisplay[hfh]: %NAME%
 ItemDisplay[ice]: %NAME%
 ItemDisplay[tr2]: %NAME%
 ItemDisplay[box]: %NAME%
-ItemDisplay[leg]: %NAME% %RED%[%SOCKETS%] %TAN%[%ILVL%]
+ItemDisplay[leg !ETH]: %WHITE%%NAME% %RED%[%SOCKETS%] %TAN%[%ILVL%]
+ItemDisplay[leg ETH]: %GRAY%[ETH] %WHITE%%NAME% %RED%[%SOCKETS%] %TAN%[%ILVL%]
 //
 //╔══════╗
 //║ Gold ║
