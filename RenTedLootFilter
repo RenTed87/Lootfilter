@@ -292,9 +292,8 @@ ItemDisplay[MAG !ID (aq2 OR cq2) CLVL>20]:
 ItemDisplay[MAG !ID (amu OR rin)]: %NAME% %TAN%[%ILVL%]
 ItemDisplay[MAG !ID (cm1 OR cm3)]: %MAPICON(74)%%NOTIFY(ITEM)%%ORANGE%**** %BLUE%%NAME% %ORANGE%**** %TAN%[%ILVL%]
 ItemDisplay[MAG !ID cm2]: %ORANGE%** %BLUE%%NAME% %ORANGE%** %TAN%[%ILVL%]
-ItemDisplay[MAG !ID (ci0 OR ci1 OR ci2 OR ci3) !ETH]: %NAME% %TAN%[%ILVL%]
 ItemDisplay[MAG !ID jew]: %MAPICON(74)%%NOTIFY(ITEM)%%RED%**** %BLUE%%NAME% %RED%**** %TAN%[%ILVL%]
-ItemDisplay[MAG !ID (CL1 OR CL2 OR (CL5 ELT) OR ama OR amf)]: %RED%** %BLUE%%NAME% %RED%** %TAN%[%ILVL%]
+ItemDisplay[MAG !ID (CL1 OR CL2 OR (CL5 ELT) OR ama OR amf OR ci0 OR ci1 OR ci2 OR ci3)]: %RED%** %BLUE%%NAME% %RED%** %RED%[%SOCKETS%] %TAN%[%ILVL%]
 // MAG Catchall
 ItemDisplay[MAG CLVL<51 !ID]: %NAME% %TAN%[%ILVL%]
 //
