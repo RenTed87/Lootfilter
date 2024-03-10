@@ -45,10 +45,11 @@ ItemDisplay[GOLD]:
 //║ PoD Items ║
 //╚═══════════╝
 //
-ItemDisplay[cx5]: %MAPICON(74)%%NOTIFY(ITEM)%%GREEN%****** %PURPLE%Orb of Corruption %GREEN%******
-ItemDisplay[maz]: %MAPICON(74)%%NOTIFY(ITEM)%%GREEN%****** %RED%Infernal Trial %GREEN%******
-ItemDisplay[(ma1 OR ma2 OR ma3 OR ma4 OR ma5 OR ma6 OR ma7 OR ma8 OR ma9 OR ma10 OR ma11 OR ma12) !ID]: %MAPICON(74)%%NOTIFY(ITEM)%%GREEN%****** %PURPLE%%NAME% %RED%T%MAPTIER% %GREEN%******
-ItemDisplay[(ma1 OR ma2 OR ma3 OR ma4 OR ma5 OR ma6 OR ma7 OR ma8 OR ma9 OR ma10 OR ma11 OR ma12) ID]: %PURPLE%%NAME% %GREEN%T%MAPTIER%
+ItemDisplay[(ma1 OR ma2 OR ma3 OR ma4 OR ma5 OR ma6 OR ma7 OR ma8 OR ma9 OR ma10) !ID]: %MAPICON(74)%%NOTIFY(ITEM)%%GREEN%****** %PURPLE%%NAME% %RED%T%MAPTIER% %GREEN%******
+ItemDisplay[(ma1 OR ma2 OR ma3 OR ma4 OR ma5 OR ma6 OR ma7 OR ma8 OR ma9 OR ma10) ID]: %PURPLE%%NAME% %GREEN%T%MAPTIER%
+//CatchAll PoD Items
+ItemDisplay[MAP]: %MAPICON(74)%%NOTIFY(ITEM)%%GREEN%****** %PURPLE%%NAME% %RED%T%MAPTIER% %GREEN%****** %NL%%WHITE%CatchAll Filter, Map [%CODE%] is missing. Report to creator.%NL%
+ItemDisplay[SPECIAL]: %MAPICON(74)%%NOTIFY(ITEM)%%GREEN%****** %PURPLE%%NAME% %GREEN%****** %NL%%WHITE%CatchAll Filter, Special Item [%CODE%] is missing. Report to creator.%NL%
 //
 //╔════════════╗
 //║ Uber Items ║
@@ -698,13 +699,6 @@ ItemDisplay[UNI !ID (ama OR amf) ETH]: %MAPICON(74)%%NOTIFY(ITEM)%%RED%*** %GRAY
 // UNI Catchall
 ItemDisplay[UNI !ID !ETH AREALVL<86]: %NAME% %TAN%[%ILVL%]
 ItemDisplay[UNI !ID ETH AREALVL<86]: %GRAY%[ETH] %GOLD%%NAME% %TAN%[%ILVL%]
-//
-//╔═══════════════════════════════╗
-//║ CatchAll Map & Special items  ║
-//╚═══════════════════════════════╝
-//
-ItemDisplay[MAP]: %MAPICON(74)%%NOTIFY(ITEM)%%GREEN%****** %PURPLE%%NAME% %RED%T%MAPTIER% %GREEN%****** %NL%%WHITE%CatchAll Filter, Map [%CODE%] is missing. Report to creator.%NL%
-ItemDisplay[SPECIAL]: %MAPICON(74)%%NOTIFY(ITEM)%%GREEN%****** %PURPLE%%NAME% %GREEN%****** %NL%%WHITE%CatchAll Filter, Special Item [%CODE%] is missing. Report to creator.%NL%
 //
 //╔═══════════════════════════╗
 //║ Leveling & Global Hideall ║
