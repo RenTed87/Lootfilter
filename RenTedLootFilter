@@ -273,7 +273,7 @@ ItemDisplay[MAG (xit OR uit) ILVL>70]: %NAME% %ORANGE%Safety Shield %TAN%[%ILVL%
 //║ Global Items Naming ║
 //╚═════════════════════╝
 //
-ItemDisplay[!ID NMAG]: %NAME% %TAN%[%ILVL%]
+ItemDisplay[!ID NMAG]: %NAME%
 ItemDisplay[ID MAG (cm1 OR cm3)]: %ORANGE%**** %BLUE%%NAME% %ORANGE%**** %TAN%[%ILVL%]
 ItemDisplay[ID MAG cm2]: %ORANGE%** %BLUE%%NAME% %ORANGE%** %TAN%[%ILVL%]
 ItemDisplay[ID UNI (cm1 OR cm2 OR cm3)]: %NAME% %TAN%[%ILVL%]
