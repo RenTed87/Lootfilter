@@ -252,7 +252,7 @@ ItemDisplay[r33]: %MAPICON(74)%%NOTIFY(ITEM)%%GREEN%******** %PURPLE%%RUNENAME% 
 //╚════════════════╝
 //
 // Craft Display
-ItemDisplay[!(NMAG OR MAG OR RARE OR SET OR UNI) (amu OR ring)]: %NAME% %TAN%[%ILVL%]
+ItemDisplay[!(NMAG OR MAG OR RARE OR SET OR UNI) (amu OR rin)]: %NAME% %TAN%[%ILVL%]
 ItemDisplay[!(NMAG OR MAG OR RARE OR SET OR UNI) (WEAPON OR ARMOR OR EQ1 OR EQ2 OR EQ3 OR EQ7]: %NAME% %RED%[%SOCKETS%] %TAN%[%ILVL%]
 // Hit Power
 //Hit Power Items: 6ws, 7ws, 7m7, 7gm, 7wh, 7fl, umg, xmg, uld, uts.
@@ -303,7 +303,7 @@ ItemDisplay[MAG CLVL<51 !ID]: %NAME% %TAN%[%ILVL%]
 //
 ItemDisplay[RARE !ID aq2]: %MAPICON(74)%%NOTIFY(ITEM)%%RED%**** %YELLOW%%NAME% %RED%**** %TAN%[%ILVL%]
 ItemDisplay[RARE !ID cq2]: %RED%** %YELLOW%%NAME% %RED%** %TAN%[%ILVL%]
-ItemDisplay[RARE !ID (amu OR ring OR jew)]: %MAPICON(74)%%NOTIFY(ITEM)%%RED%****** %YELLOW%%NAME% %RED%****** %TAN%[%ILVL%]
+ItemDisplay[RARE !ID (amu OR rin OR jew)]: %MAPICON(74)%%NOTIFY(ITEM)%%RED%****** %YELLOW%%NAME% %RED%****** %TAN%[%ILVL%]
 // Class
 ItemDisplay[RARE !ID (CL1 OR (CL5 !NORM)) !ETH]: %MAPICON(74)%%NOTIFY(ITEM)%%RED%*** %YELLOW%%NAME% %RED%*** %TAN%[%ILVL%]
 ItemDisplay[RARE !ID (CL1 OR (CL5 !NORM))  ETH]: %MAPICON(74)%%NOTIFY(ITEM)%%RED%*** %GRAY%[ETH] %YELLOW%%NAME% %RED%*** %TAN%[%ILVL%]
