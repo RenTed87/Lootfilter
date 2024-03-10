@@ -595,7 +595,7 @@ ItemDisplay[NMAG (cbw OR 6hb OR 6s7) (SOCK=0 OR SOCK=4) !INF]: %DARK_GREEN%%NAME
 //║ Sell Me Items ║
 //╚═══════════════╝
 //
-ItemDisplay[NMAG (CL5 OR CL6 OR WP12 OR WP13 OR sst OR 6ss OR 8ss) !(wsp OR 9ws OR 7ws) PRICE=35000]: %GRAY%%NAME% %ORANGE%Sell Me %WHITE%$> %GOLD%%PRICE%%WHITE%$
+ItemDisplay[NMAG (CL5 OR CL6 OR WP12 OR (WP13 !(wsp OR 9ws OR 7ws)) OR sst OR 6ss OR 8ss) PRICE=35000]: %GRAY%%NAME% %ORANGE%Sell Me %WHITE%$> %GOLD%%PRICE%%WHITE%$
 //
 //╔══════════════╗
 //║ Gears Unique ║
