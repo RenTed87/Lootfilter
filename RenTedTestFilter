@@ -6,7 +6,6 @@
 Attribute[Author]: RenTed.
 Attribute[Name]: RenTedLootFilter, a Loot Filter for PoD,
 //
-//
 //╔══════════════╗
 //║ Quests Items ║
 //╚══════════════╝
@@ -106,7 +105,6 @@ ItemDisplay[CLVL<71 mp4]: %WHITE%Great !%BLUE%MP
 ItemDisplay[CLVL<51 mp3]: %WHITE%Normal !%BLUE%MP
 ItemDisplay[CLVL<25 mp2]: %WHITE%Light !%BLUE%MP
 ItemDisplay[CLVL<12 mp1]: %WHITE%Minor !%BLUE%MP
-ItemDisplay[leg]: %NAME% %RED%[%SOCKETS%] %TAN%[%ILVL%]
 ItemDisplay[ear]: %NAME%
 ItemDisplay[yps AREALVL<86]: %WHITE%!%GREEN%Ant
 ItemDisplay[CLVL<50 wms]: %WHITE%!%YELLOW%Thaw
@@ -285,9 +283,17 @@ ItemDisplay[ID MAG cm2]: %ORANGE%** %BLUE%%NAME% %ORANGE%** %TAN%[%ILVL%]
 ItemDisplay[ID UNI (cm1 OR cm2 OR cm3)]: %NAME% %TAN%[%ILVL%]
 ItemDisplay[ID (MAG OR RARE OR SET OR UNI) (amu OR rin OR jew OR aq2 OR cq2)]: %NAME% %TAN%[%ILVL%]
 ItemDisplay[ID (MAG OR RARE OR SET OR UNI) (EQ4 OR EQ5 OR EQ6 OR WP5 OR WP6) !ETH]: %NAME% %TAN%[%ILVL%]
-ItemDisplay[ID (MAG OR RARE OR SET OR UNI) (EQ4 OR EQ5 OR EQ6 OR WP5 OR WP6) ETH]: %GRAY%[ETH] %BLUE%%NAME% %TAN%[%ILVL%]
+ItemDisplay[ID (MAG OR RARE OR SET OR UNI) (EQ4 OR EQ5 OR EQ6 OR WP5 OR WP6) !ETH]: %NAME% %TAN%[%ILVL%]
+ItemDisplay[ID (MAG OR RARE OR SET OR UNI) (EQ4 OR EQ5 OR EQ6 OR WP5 OR WP6) !ETH]: %NAME% %TAN%[%ILVL%]
+ItemDisplay[ID MAG (EQ4 OR EQ5 OR EQ6 OR WP5 OR WP6) ETH]: %GRAY%[ETH] %BLUE%%NAME% %TAN%[%ILVL%]
+ItemDisplay[ID RARE (EQ4 OR EQ5 OR EQ6 OR WP5 OR WP6) ETH]: %GRAY%[ETH] %YELLOW%%NAME% %TAN%[%ILVL%]
+ItemDisplay[ID SET (EQ4 OR EQ5 OR EQ6 OR WP5 OR WP6) ETH]: %GRAY%[ETH] %GREEN%%NAME% %TAN%[%ILVL%]
+ItemDisplay[ID UNI (EQ4 OR EQ5 OR EQ6 OR WP5 OR WP6) ETH]: %GRAY%[ETH] %GOLD%%NAME% %TAN%[%ILVL%]
 ItemDisplay[ID (MAG OR RARE OR SET OR UNI) (SOCK=0 OR !SOCK=0) !ETH]: %NAME% %RED%[%SOCKETS%] %TAN%[%ILVL%]
-ItemDisplay[ID (MAG OR RARE OR SET OR UNI) (SOCK=0 OR !SOCK=0) ETH]: %GRAY%[ETH] %BLUE%%NAME% %RED%[%SOCKETS%] %TAN%[%ILVL%]
+ItemDisplay[ID MAG (SOCK=0 OR !SOCK=0) ETH]: %GRAY%[ETH] %BLUE%%NAME% %RED%[%SOCKETS%] %TAN%[%ILVL%]
+ItemDisplay[ID RARE (SOCK=0 OR !SOCK=0) ETH]: %GRAY%[ETH] %YELLOW%%NAME% %RED%[%SOCKETS%] %TAN%[%ILVL%]
+ItemDisplay[ID SET (SOCK=0 OR !SOCK=0) ETH]: %GRAY%[ETH] %GREEN%%NAME% %RED%[%SOCKETS%] %TAN%[%ILVL%]
+ItemDisplay[ID UNI (SOCK=0 OR !SOCK=0) ETH]: %GRAY%[ETH] %GOLD%%NAME% %RED%[%SOCKETS%] %TAN%[%ILVL%]
 //
 //╔═══════════════╗
 //║ Magical Items ║
