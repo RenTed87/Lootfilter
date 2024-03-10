@@ -656,8 +656,8 @@ ItemDisplay[UNI !ID 6lw]: %MAPICON(74)%%NOTIFY(ITEM)%%GREEN%******** %PURPLE%%NA
 // WP10
 ItemDisplay[UNI !ID (rxb OR 8hx)]: %MAPICON(74)%%NOTIFY(ITEM)%%RED%****** %PURPLE%%NAME% %RED%****** %TAN%[%ILVL%]
 // WP11
-ItemDisplay[UNI !ID (6ws OR 6cs OR 81s) !ETH]: %MAPICON(74)%%NOTIFY(ITEM)%%RED%****** %PURPLE%%NAME% %RED%****** %TAN%[%ILVL%]
-ItemDisplay[UNI !ID (6ws OR 6cs OR 81s) ETH]: %MAPICON(74)%%NOTIFY(ITEM)%%RED%*** %GRAY%[ETH] %ORANGE%%NAME% %RED%*** %TAN%[%ILVL%]
+ItemDisplay[UNI !ID (6ws OR 6cs OR 8ls) !ETH]: %MAPICON(74)%%NOTIFY(ITEM)%%RED%****** %PURPLE%%NAME% %RED%****** %TAN%[%ILVL%]
+ItemDisplay[UNI !ID (6ws OR 6cs OR 8ls) ETH]: %MAPICON(74)%%NOTIFY(ITEM)%%RED%*** %GRAY%[ETH] %ORANGE%%NAME% %RED%*** %TAN%[%ILVL%]
 // WP12
 ItemDisplay[UNI !ID (7gw OR 9bw) !ETH]: %MAPICON(74)%%NOTIFY(ITEM)%%GREEN%******** %PURPLE%%NAME% %GREEN%******** %TAN%[%ILVL%]
 ItemDisplay[UNI !ID (7gw OR 9bw) ETH]: %MAPICON(74)%%NOTIFY(ITEM)%%RED%*** %GRAY%[ETH] %ORANGE%%NAME% %RED%*** %TAN%[%ILVL%]
