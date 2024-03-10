@@ -109,6 +109,7 @@ ItemDisplay[ear]: %NAME%
 ItemDisplay[yps AREALVL<86]: %WHITE%!%GREEN%Ant
 ItemDisplay[CLVL<50 wms]: %WHITE%!%YELLOW%Thaw
 ItemDisplay[CLVL<20 vps]: %WHITE%!%GRAY%Stam
+ItemDisplay[opl OR opm OR ops OR gpl OR gpm OR gps]:
 //
 //╔══════════════╗
 //║ Vendor Items ║
