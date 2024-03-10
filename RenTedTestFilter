@@ -273,14 +273,14 @@ ItemDisplay[MAG (xit OR uit) ILVL>70]: %NAME% %ORANGE%Safety Shield %TAN%[%ILVL%
 //╚═════════════════════╝
 //
 ItemDisplay[!ID NMAG]: %NAME%
+ItemDisplay[ID MAG (cm1 OR cm3)]: %ORANGE%**** %BLUE%%NAME% %ORANGE%**** %TAN%[%ILVL%]
+ItemDisplay[ID MAG cm2]: %ORANGE%** %BLUE%%NAME% %ORANGE%** %TAN%[%ILVL%]
+ItemDisplay[ID UNI (cm1 OR cm2 OR cm3)]: %NAME% %TAN%[%ILVL%]
 ItemDisplay[ID (MAG OR RARE OR SET OR UNI) (amu OR ring OR jew OR aq2 OR cq2 OR aq2 OR cq2)]: %NAME% %TAN%[%ILVL%]
 ItemDisplay[ID (MAG OR RARE OR SET OR UNI) (EQ4 OR EQ5 OR EQ6 OR WP5 OR WP6) !ETH]: %NAME% %TAN%[%ILVL%]
 ItemDisplay[ID (MAG OR RARE OR SET OR UNI) (EQ4 OR EQ5 OR EQ6 OR WP5 OR WP6) ETH]: %GRAY%[ETH] %BLUE%%NAME% %TAN%[%ILVL%]
 ItemDisplay[ID (MAG OR RARE OR SET OR UNI) (SOCK=0 OR !SOCK=0) !ETH]: %NAME% %RED%[%SOCKETS%] %TAN%[%ILVL%]
 ItemDisplay[ID (MAG OR RARE OR SET OR UNI) (SOCK=0 OR !SOCK=0) ETH]: %GRAY%[ETH] %BLUE%%NAME% %RED%[%SOCKETS%] %TAN%[%ILVL%]
-ItemDisplay[ID MAG (cm1 OR cm3)]: %ORANGE%**** %BLUE%%NAME% %ORANGE%**** %TAN%[%ILVL%]
-ItemDisplay[ID MAG cm2]: %ORANGE%** %BLUE%%NAME% %ORANGE%** %TAN%[%ILVL%]
-ItemDisplay[ID UNI (cm1 OR cm2 OR cm3)]: %NAME% %TAN%[%ILVL%]
 //
 //╔═══════════════╗
 //║ Magical Items ║
