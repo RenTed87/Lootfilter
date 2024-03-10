@@ -280,7 +280,7 @@ ItemDisplay[ID (MAG OR RARE OR SET OR UNI) (SOCK=0 OR !SOCK=0) !ETH]: %NAME% %RE
 ItemDisplay[ID (MAG OR RARE OR SET OR UNI) (SOCK=0 OR !SOCK=0) ETH]: %GRAY%[ETH] %BLUE%%NAME% %RED%[%SOCKETS%] %TAN%[%ILVL%]
 ItemDisplay[ID MAG (cm1 OR cm3)]: %ORANGE%**** %BLUE%%NAME% %ORANGE%**** %TAN%[%ILVL%]
 ItemDisplay[ID MAG cm2]: %ORANGE%** %BLUE%%NAME% %ORANGE%** %TAN%[%ILVL%]
-ItemDisplay[ID UNI (cm1 OR cm2 OR cm3]: %NAME% %TAN%[%ILVL%]
+ItemDisplay[ID UNI (cm1 OR cm2 OR cm3)]: %NAME% %TAN%[%ILVL%]
 //
 //╔═══════════════╗
 //║ Magical Items ║
