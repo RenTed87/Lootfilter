@@ -706,9 +706,9 @@ ItemDisplay[UNI !ID ETH AREALVL<86]: %GRAY%[ETH] %GOLD%%NAME% %TAN%[%ILVL%]
 //║ Leveling & Global Hideall ║
 //╚═══════════════════════════╝
 //
-ItemDisplay[CLVL<16 !(EQ4 OR EQ5 OR EQ6) !ETH]: %NAME% %TAN%[%ILVL%]
+ItemDisplay[CLVL<16 (EQ4 OR EQ5 OR EQ6) !ETH]: %NAME% %TAN%[%ILVL%]
 ItemDisplay[CLVL<16 !ETH]: %NAME% %RED%[%SOCKETS%] %TAN%[%ILVL%]
-ItemDisplay[CLVL<16 !(EQ4 OR EQ5 OR EQ6) ETH]: %GRAY%[ETH] %WHITE%%NAME% %TAN%[%ILVL%]
+ItemDisplay[CLVL<16 (EQ4 OR EQ5 OR EQ6) ETH]: %GRAY%[ETH] %WHITE%%NAME% %TAN%[%ILVL%]
 ItemDisplay[CLVL<16 ETH]: %GRAY%[ETH] %WHITE%%NAME% %RED%[%SOCKETS%] %TAN%[%ILVL%]
 ItemDisplay[CLVL>15]:
 //
