@@ -89,13 +89,13 @@ ItemDisplay[hp5]: %WHITE%!%RED%HP%WHITE%+
 ItemDisplay[mp5]: %WHITE%!%BLUE%MP%WHITE%+
 ItemDisplay[rvs]: %WHITE%!%PURPLE%35%
 ItemDisplay[rvl]: %WHITE%!%PURPLE%70%
-ItemDisplay[CLVL>79 hp4]:
-ItemDisplay[CLVL>48 hp3]:
+ItemDisplay[CLVL>69 hp4]:
+ItemDisplay[CLVL>49 hp3]:
 ItemDisplay[CLVL>24 hp2]:
-ItemDisplay[CLVL>12 hp1]:
-ItemDisplay[CLVL>79 mp4]:
-ItemDisplay[CLVL>60 mp3]:
-ItemDisplay[CLVL>30 mp2]:
+ItemDisplay[CLVL>15 hp1]:
+ItemDisplay[CLVL>69 mp4]:
+ItemDisplay[CLVL>49 mp3]:
+ItemDisplay[CLVL>24 mp2]:
 ItemDisplay[CLVL>15 mp1]:
 ItemDisplay[CLVL<71 hp4]: %WHITE%Great !%RED%HP
 ItemDisplay[CLVL<51 hp3]: %WHITE%Normal !%RED%HP
