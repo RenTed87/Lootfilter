@@ -97,14 +97,14 @@ ItemDisplay[CLVL>69 mp4]:
 ItemDisplay[CLVL>49 mp3]:
 ItemDisplay[CLVL>24 mp2]:
 ItemDisplay[CLVL>15 mp1]:
-ItemDisplay[CLVL<71 hp4]: %WHITE%Great !%RED%HP
-ItemDisplay[CLVL<51 hp3]: %WHITE%Normal !%RED%HP
+ItemDisplay[CLVL<70 hp4]: %WHITE%Great !%RED%HP
+ItemDisplay[CLVL<50 hp3]: %WHITE%Normal !%RED%HP
 ItemDisplay[CLVL<25 hp2]: %WHITE%Light !%RED%HP
-ItemDisplay[CLVL<12 hp1]: %WHITE%Minor !%RED%HP
-ItemDisplay[CLVL<71 mp4]: %WHITE%Great !%BLUE%MP
-ItemDisplay[CLVL<51 mp3]: %WHITE%Normal !%BLUE%MP
+ItemDisplay[CLVL<16 hp1]: %WHITE%Minor !%RED%HP
+ItemDisplay[CLVL<70 mp4]: %WHITE%Great !%BLUE%MP
+ItemDisplay[CLVL<50 mp3]: %WHITE%Normal !%BLUE%MP
 ItemDisplay[CLVL<25 mp2]: %WHITE%Light !%BLUE%MP
-ItemDisplay[CLVL<12 mp1]: %WHITE%Minor !%BLUE%MP
+ItemDisplay[CLVL<16 mp1]: %WHITE%Minor !%BLUE%MP
 ItemDisplay[ear]: %NAME%
 ItemDisplay[yps AREALVL<86]: %WHITE%!%GREEN%Ant
 ItemDisplay[CLVL<50 wms]: %WHITE%!%YELLOW%Thaw
