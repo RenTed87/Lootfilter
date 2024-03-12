@@ -41,8 +41,8 @@ ItemDisplay[leg ETH]: %GRAY%[ETH] %WHITE%%NAME% %RED%[%SOCKETS%] %TAN%[%ILVL%]
 //╚══════╝
 //
 ItemDisplay[GOLD>2499 AREALVL>85]: %NAME%
-ItemDisplay[GOLD<1500 CLVL<80]: %NAME%
-ItemDisplay[GOLD>1499 CLVL>79]: %NAME%
+ItemDisplay[GOLD<1500 CLVL<70]: %NAME%
+ItemDisplay[GOLD>1499 CLVL>69]: %NAME%
 ItemDisplay[GOLD]:
 //
 //╔═══════════╗
