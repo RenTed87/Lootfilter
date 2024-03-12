@@ -56,8 +56,10 @@ ItemDisplay[(ma1 OR ma2 OR ma3 OR ma4 OR ma5 OR ma6 OR ma7 OR ma8 OR ma9 OR ma10
 //CatchAll PoD Items
 ItemDisplay[MAP !ID]: %MAPICON(74)%%NOTIFY(ITEM)%%GREEN%****** %PURPLE%%NAME% %RED%T%MAPTIER% %GREEN%******
 ItemDisplay[MAP !ID]: %PURPLE%%NAME% %GREEN%T%MAPTIER%
-ItemDisplay[SPECIAL !ID]: %MAPICON(74)%%NOTIFY(ITEM)%%GREEN%****** %PURPLE%%NAME% %GREEN%******
-ItemDisplay[SPECIAL ID]: %NAME% %RED%[%SOCKETS%] %TAN%[%ILVL%]
+ItemDisplay[SPECIAL !ID !ETH]: %MAPICON(74)%%NOTIFY(ITEM)%%GREEN%****** %PURPLE%%NAME% %GREEN%******
+ItemDisplay[SPECIAL !ID ETH]: %MAPICON(74)%%NOTIFY(ITEM)%%GREEN%****** %GRAY%[ETH] %PURPLE%%NAME% %GREEN%******
+ItemDisplay[SPECIAL ID !ETH]: %NAME% %RED%[%SOCKETS%] %TAN%[%ILVL%]
+ItemDisplay[SPECIAL ID ETH]: %GRAY%[ETH] %GOLD%%NAME% %RED%[%SOCKETS%] %TAN%[%ILVL%]
 //
 //╔════════════╗
 //║ Uber Items ║
