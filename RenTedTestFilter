@@ -296,8 +296,8 @@ ItemDisplay[MAG !ID (amu OR rin)]: %NAME% %TAN%[%ILVL%]
 ItemDisplay[MAG !ID (cm1 OR cm3)]: %MAPICON(74)%%NOTIFY(ITEM)%%ORANGE%**** %BLUE%%NAME% %ORANGE%**** %TAN%[%ILVL%]
 ItemDisplay[MAG !ID cm2]: %ORANGE%** %BLUE%%NAME% %ORANGE%** %TAN%[%ILVL%]
 ItemDisplay[MAG !ID jew]: %MAPICON(74)%%NOTIFY(ITEM)%%RED%**** %BLUE%%NAME% %RED%**** %TAN%[%ILVL%]
-ItemDisplay[MAG !ID (CL1 OR (CL5 !(ces OR 9cs OR 7cs)) OR ama OR amf OR ci0 OR ci1 OR ci2 OR ci3)]: %RED%** %BLUE%%NAME% %RED%** %TAN%[%ILVL%]
-ItemDisplay[MAG !ID (CL2 OR CL4 OR CL6)]: %NAME% %RED%[%SOCKETS%] %TAN%[%ILVL%]
+ItemDisplay[MAG !ID (CL1 OR (CL5 !(ces OR axf OR 9cs OR 9xf OR 7cs OR 7xf)) OR ama OR amf OR ci0 OR ci1 OR ci2 OR ci3) AREALVL<86]: %RED%* %BLUE%%NAME% %RED%* %TAN%[%ILVL%]
+ItemDisplay[MAG !ID (CL2 OR CL4 OR CL6) AREALVL<86]: %NAME% %RED%[%SOCKETS%] %TAN%[%ILVL%]
 // MAG Catchall
 ItemDisplay[MAG CLVL<51 !ID]: %NAME% %TAN%[%ILVL%]
 //
@@ -305,20 +305,12 @@ ItemDisplay[MAG CLVL<51 !ID]: %NAME% %TAN%[%ILVL%]
 //║ Rare Items ║
 //╚════════════╝
 //
-ItemDisplay[RARE !ID aq2]: %MAPICON(74)%%NOTIFY(ITEM)%%RED%**** %YELLOW%%NAME% %RED%**** %TAN%[%ILVL%]
-ItemDisplay[RARE !ID cq2]: %RED%** %YELLOW%%NAME% %RED%** %TAN%[%ILVL%]
-ItemDisplay[RARE !ID (amu OR rin OR jew)]: %MAPICON(74)%%NOTIFY(ITEM)%%RED%****** %YELLOW%%NAME% %RED%****** %TAN%[%ILVL%]
-// Class
-ItemDisplay[RARE !ID (CL1 OR (CL5 !(ces OR 9cs OR 7cs)) OR ama OR amf OR ci0 OR ci1 OR ci2 OR ci3) !ETH]: %MAPICON(74)%%NOTIFY(ITEM)%%RED%*** %YELLOW%%NAME% %RED%*** %TAN%[%ILVL%]
-ItemDisplay[RARE !ID (CL1 OR (CL5 !(ces OR 9cs OR 7cs)) OR ama OR amf OR ci0 OR ci1 OR ci2 OR ci3)  ETH]: %MAPICON(74)%%NOTIFY(ITEM)%%RED%*** %GRAY%[ETH] %YELLOW%%NAME% %RED%*** %TAN%[%ILVL%]
-// Equip
-ItemDisplay[RARE !ID (EQ4 OR EQ5 OR EQ7) !ETH]: %MAPICON(74)%%NOTIFY(ITEM)%%RED%***** %YELLOW%%NAME% %RED%***** %TAN%[%ILVL%]
-ItemDisplay[RARE !ID (EQ4 OR EQ5 OR EQ7) ETH]: %MAPICON(74)%%NOTIFY(ITEM)%%RED%***** %GRAY%[ETH] %YELLOW%%NAME% %RED%***** %TAN%[%ILVL%]
-ItemDisplay[RARE !ID EQ6 !ETH]: %RED%** %YELLOW%%NAME% %RED%** %TAN%[%ILVL%]
-ItemDisplay[RARE !ID EQ6 ETH]: %RED%** %GRAY%[ETH] %YELLOW%%NAME% %RED%** %TAN%[%ILVL%]
-// Axe
-ItemDisplay[RARE !ID 7wa !ETH]: %RED%** %YELLOW%%NAME% %RED%** %TAN%[%ILVL%]
-ItemDisplay[RARE !ID 7wa ETH]: %RED%** %GRAY%[ETH] %YELLOW%%NAME% %RED%** %TAN%[%ILVL%]
+// Good Rares
+ItemDisplay[RARE !ID (EQ4 OR EQ5 OR EQ7 OR amu OR rin OR jew OR aq2) !ETH]: %MAPICON(74)%%NOTIFY(ITEM)%%RED%***** %YELLOW%%NAME% %RED%***** %TAN%[%ILVL%]
+ItemDisplay[RARE !ID (EQ4 OR EQ5 OR EQ7 OR amu OR rin OR jew OR aq2) ETH]: %MAPICON(74)%%NOTIFY(ITEM)%%RED%***** %GRAY%[ETH] %YELLOW%%NAME% %RED%***** %TAN%[%ILVL%]
+// Other Rares
+ItemDisplay[RARE !ID (CL1 OR EQ6 OR (CL5 !(ces OR axf OR 9cs OR 9xf OR 7cs OR 7xf)) OR ama OR amf OR 7wa) !ETH]: %RED%** %YELLOW%%NAME% %RED%** %TAN%[%ILVL%]
+ItemDisplay[RARE !ID (CL1 OR EQ6 OR (CL5 !(ces OR axf OR 9cs OR 9xf OR 7cs OR 7xf)) OR ama OR amf OR 7wa)  ETH]: %RED%** %GRAY%[ETH] %YELLOW%%NAME% %RED%** %TAN%[%ILVL%]
 // RARE Catchall
 ItemDisplay[RARE !ID !ETH]: %YELLOW%%NAME% %TAN%[%ILVL%]
 ItemDisplay[RARE !ID ETH]: %GRAY%[ETH] %YELLOW%%NAME% %TAN%[%ILVL%]
