@@ -95,7 +95,7 @@ ItemDisplay[tsc AREALVL<86]: %WHITE%!%BLUE%TP
 ItemDisplay[key AREALVL<86]: %WHITE%!%TAN%K
 ItemDisplay[hp5]: %WHITE%!%RED%HP%WHITE%+
 ItemDisplay[mp5]: %WHITE%!%BLUE%MP%WHITE%+
-ItemDisplay[rvs AREALVL<86]: %WHITE%!%PURPLE%35%
+ItemDisplay[rvs]: %WHITE%!%PURPLE%35%
 ItemDisplay[rvl]: %WHITE%!%PURPLE%70%
 ItemDisplay[CLVL>69 hp4]:
 ItemDisplay[CLVL>49 hp3]:
