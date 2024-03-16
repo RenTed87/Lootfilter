@@ -51,11 +51,9 @@ ItemDisplay[GOLD]:
 //
 ItemDisplay[cx5]: %MAPICON(74)%%NOTIFY(ITEM)%%GREEN%****** %PURPLE%Orb of Corruption %GREEN%******
 ItemDisplay[maz]: %MAPICON(74)%%NOTIFY(ITEM)%%GREEN%****** %RED%Infernal Trial %GREEN%******
-//Map Test
-//ItemDisplay[MAP ID]: %PURPLE%%NAME% %GREEN%T%MAPTIER% {%WHITE%Resists: %BLUE%50 %RED%120 %YELLOW%120 %ORANGE%70 %GOLD%100 %GREEN%120} 
 //Maps
-ItemDisplay[(ma1 OR ma2 OR ma3 OR ma4 OR ma5 OR ma6 OR ma7 OR ma8 OR ma9 OR ma10) !ID]: %MAPICON(74)%%NOTIFY(ITEM)%%GREEN%****** %PURPLE%%NAME% %RED%T%MAPTIER% %GREEN%******
-ItemDisplay[(ma1 OR ma2 OR ma3 OR ma4 OR ma5 OR ma6 OR ma7 OR ma8 OR ma9 OR ma10) ID]: %PURPLE%%NAME% %GREEN%T%MAPTIER%
+ItemDisplay[(ma1 OR ma2 OR ma3 OR ma4 OR ma5 OR ma6 OR ma7 OR ma8 OR ma9 OR ma10 OR map11 OR map12 OR map13 OR map14 OR map15) !ID]: %MAPICON(74)%%NOTIFY(ITEM)%%GREEN%****** %PURPLE%%NAME% %RED%T%MAPTIER% %GREEN%******
+ItemDisplay[(ma1 OR ma2 OR ma3 OR ma4 OR ma5 OR ma6 OR ma7 OR ma8 OR ma9 OR ma10 OR map11 OR map12 OR map13 OR map14 OR map15) ID]: %PURPLE%%NAME% %GREEN%T%MAPTIER%
 ItemDisplay[SYNTH !ID !ETH]: %MAPICON(74)%%NOTIFY(ITEM)%%GREEN%****** %PURPLE%%NAME% %GREEN%******
 ItemDisplay[SYNTH !ID ETH]: %MAPICON(74)%%NOTIFY(ITEM)%%GREEN%****** %GRAY%[ETH] %PURPLE%%NAME% %GREEN%******
 ItemDisplay[SYNTH ID !ETH]: %NAME% %RED%[%SOCKETS%] %TAN%[%ILVL%]
@@ -150,27 +148,27 @@ ItemDisplay[(WP12 OR CL4) ((CLSK2=2 AND SKILL("Hemorrhage")=3) OR (TABSK16=3 AND
 //║ Gems ║
 //╚══════╝
 //
-ItemDisplay[gcv DIFFICULTY>0]:
-ItemDisplay[gcw DIFFICULTY>0]:
-ItemDisplay[gcg DIFFICULTY>0]:
-ItemDisplay[gcr DIFFICULTY>0]:
-ItemDisplay[gcb DIFFICULTY>0]:
-ItemDisplay[gcy DIFFICULTY>0]:
-ItemDisplay[skc DIFFICULTY>0]:
-ItemDisplay[gfv DIFFICULTY>0]:
-ItemDisplay[gfw DIFFICULTY>0]:
-ItemDisplay[gfg DIFFICULTY>0]:
-ItemDisplay[gfr DIFFICULTY>0]:
-ItemDisplay[gfb DIFFICULTY>0]:
-ItemDisplay[gfy DIFFICULTY>0]:
-ItemDisplay[skf DIFFICULTY>0]:
-ItemDisplay[gsv DIFFICULTY>1]:
-ItemDisplay[gsw DIFFICULTY>1]:
-ItemDisplay[gsg DIFFICULTY>1]:
-ItemDisplay[gsr DIFFICULTY>1]:
-ItemDisplay[gsb DIFFICULTY>1]:
-ItemDisplay[gsy DIFFICULTY>1]:
-ItemDisplay[sku DIFFICULTY>1]:
+ItemDisplay[gcv (DIFFICULTY>0 OR CLVL>29)]:
+ItemDisplay[gcw (DIFFICULTY>0 OR CLVL>29)]:
+ItemDisplay[gcg (DIFFICULTY>0 OR CLVL>29)]:
+ItemDisplay[gcr (DIFFICULTY>0 OR CLVL>29)]:
+ItemDisplay[gcb (DIFFICULTY>0 OR CLVL>29)]:
+ItemDisplay[gcy (DIFFICULTY>0 OR CLVL>29)]:
+ItemDisplay[skc (DIFFICULTY>0 OR CLVL>29)]:
+ItemDisplay[gfv (DIFFICULTY>0 OR CLVL>29)]:
+ItemDisplay[gfw (DIFFICULTY>0 OR CLVL>29)]:
+ItemDisplay[gfg (DIFFICULTY>0 OR CLVL>29)]:
+ItemDisplay[gfr (DIFFICULTY>0 OR CLVL>29)]:
+ItemDisplay[gfb (DIFFICULTY>0 OR CLVL>29)]:
+ItemDisplay[gfy (DIFFICULTY>0 OR CLVL>29)]:
+ItemDisplay[skf (DIFFICULTY>0 OR CLVL>29)]:
+ItemDisplay[gsv (DIFFICULTY>1 OR CLVL>59)]:
+ItemDisplay[gsw (DIFFICULTY>1 OR CLVL>59)]:
+ItemDisplay[gsg (DIFFICULTY>1 OR CLVL>59)]:
+ItemDisplay[gsr (DIFFICULTY>1 OR CLVL>59)]:
+ItemDisplay[gsb (DIFFICULTY>1 OR CLVL>59)]:
+ItemDisplay[gsy (DIFFICULTY>1 OR CLVL>59)]:
+ItemDisplay[sku (DIFFICULTY>1 OR CLVL>59)]:
 ItemDisplay[gcv]: %PURPLE%O %WHITE%Chipped Amethyst %PURPLE%O
 ItemDisplay[gcw]: %WHITE%O %WHITE%Chipped Diamond %WHITE%O
 ItemDisplay[gcg]: %GREEN%O %WHITE%Chipped Emerald %GREEN%O
