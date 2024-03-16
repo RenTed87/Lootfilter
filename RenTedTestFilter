@@ -52,7 +52,7 @@ ItemDisplay[GOLD]:
 ItemDisplay[cx5]: %MAPICON(74)%%NOTIFY(ITEM)%%GREEN%****** %PURPLE%Orb of Corruption %GREEN%******
 ItemDisplay[maz]: %MAPICON(74)%%NOTIFY(ITEM)%%GREEN%****** %RED%Infernal Trial %GREEN%******
 //Map Test
-ItemDisplay[MAP ID]: %PURPLE%%NAME% %GREEN%T%MAPTIER% {%WHITE%Resists: %BLUE%50 %RED%120 %YELLOW%120 %ORANGE%70 %GOLD%100 %GREEN%120} 
+//ItemDisplay[MAP ID]: %PURPLE%%NAME% %GREEN%T%MAPTIER% {%WHITE%Resists: %BLUE%50 %RED%120 %YELLOW%120 %ORANGE%70 %GOLD%100 %GREEN%120} 
 //Maps
 ItemDisplay[(ma1 OR ma2 OR ma3 OR ma4 OR ma5 OR ma6 OR ma7 OR ma8 OR ma9 OR ma10) !ID]: %MAPICON(74)%%NOTIFY(ITEM)%%GREEN%****** %PURPLE%%NAME% %RED%T%MAPTIER% %GREEN%******
 ItemDisplay[(ma1 OR ma2 OR ma3 OR ma4 OR ma5 OR ma6 OR ma7 OR ma8 OR ma9 OR ma10) ID]: %PURPLE%%NAME% %GREEN%T%MAPTIER%
