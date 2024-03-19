@@ -122,8 +122,6 @@ ItemDisplay[opl OR opm OR ops OR gpl OR gpm OR gps]:
 //║ Vendor Items ║
 //╚══════════════╝
 //
-//Notify Test
-ItemDisplay[(WP12 OR CL4) (CLSK2=2 OR TABSK16=3)]: %NOTIFY(ITEM)%%GREEN%** %PURPLE%%NAME% %ORANGE%Test Wand %GREEN%** %RED%[%SOCKETS%] %TAN%[%ILVL%]
 //Bo Sticks
 ItemDisplay[MAG WP5 ID TABSK34=3]: %NOTIFY(ITEM)%%GREEN%**** %PURPLE%%NAME% %ORANGE%Battle Order  %GREEN%**** %TAN%[%ILVL%]
 // +3/20 Gloves
