@@ -54,10 +54,8 @@ ItemDisplay[maz]: %MAPICON(74)%%NOTIFY(ITEM)%%GREEN%****** %RED%Infernal Trial %
 //Maps
 ItemDisplay[(ma1 OR ma2 OR ma3 OR ma4 OR ma5 OR ma6 OR ma7 OR ma8 OR ma9 OR ma10) !ID]: %MAPICON(74)%%NOTIFY(ITEM)%%GREEN%****** %PURPLE%%NAME% %RED%T%MAPTIER% %GREEN%******
 ItemDisplay[(ma1 OR ma2 OR ma3 OR ma4 OR ma5 OR ma6 OR ma7 OR ma8 OR ma9 OR ma10) ID]: %PURPLE%%NAME% %GREEN%T%MAPTIER%
-ItemDisplay[SYNTH !ID !ETH]: %MAPICON(74)%%NOTIFY(ITEM)%%GREEN%****** %PURPLE%%NAME% %GREEN%******
-ItemDisplay[SYNTH !ID ETH]: %MAPICON(74)%%NOTIFY(ITEM)%%GREEN%****** %GRAY%[ETH] %PURPLE%%NAME% %GREEN%******
-ItemDisplay[SYNTH ID !ETH]: %NAME% %RED%[%SOCKETS%] %TAN%[%ILVL%]
-ItemDisplay[SYNTH ID ETH]: %GRAY%[ETH] %GOLD%%NAME% %RED%[%SOCKETS%] %TAN%[%ILVL%]
+ItemDisplay[SYNTH !ETH]: %MAPICON(74)%%NOTIFY(ITEM)%%NAME% %RED%[%SOCKETS%] %TAN%[%ILVL%]
+ItemDisplay[SYNTH ETH]: %MAPICON(74)%%NOTIFY(ITEM)%%GRAY%[ETH] %GOLD%%NAME% %RED%[%SOCKETS%] %TAN%[%ILVL%]
 //CatchAll PoD Items
 ItemDisplay[MAP !ID]: %MAPICON(74)%%NOTIFY(ITEM)%%GREEN%****** %PURPLE%%NAME% %RED%T%MAPTIER% %GREEN%******
 ItemDisplay[MAP ID]: %PURPLE%%NAME% %GREEN%T%MAPTIER%
