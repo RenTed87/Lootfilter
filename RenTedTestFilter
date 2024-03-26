@@ -51,7 +51,6 @@ ItemDisplay[GOLD]:
 //
 ItemDisplay[cx5]: %MAPICON(74)%%NOTIFY(ITEM)%%GREEN%****** %PURPLE%Orb of Corruption %GREEN%******
 ItemDisplay[maz]: %MAPICON(74)%%NOTIFY(ITEM)%%GREEN%****** %RED%Infernal Trial %GREEN%******
-//Maps
 ItemDisplay[(ma1 OR ma2 OR ma3 OR ma4 OR ma5 OR ma6 OR ma7 OR ma8 OR ma9 OR ma10) !ID]: %MAPICON(74)%%NOTIFY(ITEM)%%GREEN%****** %PURPLE%%NAME% %RED%T%MAPTIER% %GREEN%******
 ItemDisplay[(ma1 OR ma2 OR ma3 OR ma4 OR ma5 OR ma6 OR ma7 OR ma8 OR ma9 OR ma10) ID]: %PURPLE%%NAME% %GREEN%T%MAPTIER%
 ItemDisplay[SYNTH !ETH]: %MAPICON(74)%%NOTIFY(ITEM)%%NAME% %RED%[%SOCKETS%] %TAN%[%ILVL%]%PURPLE%
@@ -94,7 +93,7 @@ ItemDisplay[tsc AREALVL<86]: %WHITE%!%BLUE%TP
 ItemDisplay[key AREALVL<86]: %WHITE%!%TAN%K
 ItemDisplay[hp5]: %WHITE%!%RED%HP%WHITE%+
 ItemDisplay[mp5]: %WHITE%!%BLUE%MP%WHITE%+
-ItemDisplay[rvs AREALVL<86]: %WHITE%!%PURPLE%35%
+ItemDisplay[rvs]: %WHITE%!%PURPLE%35%
 ItemDisplay[rvl]: %WHITE%!%PURPLE%70%
 ItemDisplay[CLVL>69 hp4]:
 ItemDisplay[CLVL>49 hp3]:
@@ -146,27 +145,27 @@ ItemDisplay[(WP12 OR CL4) ((CLSK2=2 AND SKILL("Hemorrhage")=3) OR (TABSK16=3 AND
 //║ Gems ║
 //╚══════╝
 //
-ItemDisplay[gcv (DIFFICULTY>0 OR CLVL>29)]:
-ItemDisplay[gcw (DIFFICULTY>0 OR CLVL>29)]:
-ItemDisplay[gcg (DIFFICULTY>0 OR CLVL>29)]:
-ItemDisplay[gcr (DIFFICULTY>0 OR CLVL>29)]:
-ItemDisplay[gcb (DIFFICULTY>0 OR CLVL>29)]:
-ItemDisplay[gcy (DIFFICULTY>0 OR CLVL>29)]:
-ItemDisplay[skc (DIFFICULTY>0 OR CLVL>29)]:
-ItemDisplay[gfv (DIFFICULTY>0 OR CLVL>29)]:
-ItemDisplay[gfw (DIFFICULTY>0 OR CLVL>29)]:
-ItemDisplay[gfg (DIFFICULTY>0 OR CLVL>29)]:
-ItemDisplay[gfr (DIFFICULTY>0 OR CLVL>29)]:
-ItemDisplay[gfb (DIFFICULTY>0 OR CLVL>29)]:
-ItemDisplay[gfy (DIFFICULTY>0 OR CLVL>29)]:
-ItemDisplay[skf (DIFFICULTY>0 OR CLVL>29)]:
-ItemDisplay[gsv (DIFFICULTY>1 OR CLVL>59)]:
-ItemDisplay[gsw (DIFFICULTY>1 OR CLVL>59)]:
-ItemDisplay[gsg (DIFFICULTY>1 OR CLVL>59)]:
-ItemDisplay[gsr (DIFFICULTY>1 OR CLVL>59)]:
-ItemDisplay[gsb (DIFFICULTY>1 OR CLVL>59)]:
-ItemDisplay[gsy (DIFFICULTY>1 OR CLVL>59)]:
-ItemDisplay[sku (DIFFICULTY>1 OR CLVL>59)]:
+ItemDisplay[gcv DIFFICULTY>0]:
+ItemDisplay[gcw DIFFICULTY>0]:
+ItemDisplay[gcg DIFFICULTY>0]:
+ItemDisplay[gcr DIFFICULTY>0]:
+ItemDisplay[gcb DIFFICULTY>0]:
+ItemDisplay[gcy DIFFICULTY>0]:
+ItemDisplay[skc DIFFICULTY>0]:
+ItemDisplay[gfv DIFFICULTY>0]:
+ItemDisplay[gfw DIFFICULTY>0]:
+ItemDisplay[gfg DIFFICULTY>0]:
+ItemDisplay[gfr DIFFICULTY>0]:
+ItemDisplay[gfb DIFFICULTY>0]:
+ItemDisplay[gfy DIFFICULTY>0]:
+ItemDisplay[skf DIFFICULTY>0]:
+ItemDisplay[gsv DIFFICULTY>1]:
+ItemDisplay[gsw DIFFICULTY>1]:
+ItemDisplay[gsg DIFFICULTY>1]:
+ItemDisplay[gsr DIFFICULTY>1]:
+ItemDisplay[gsb DIFFICULTY>1]:
+ItemDisplay[gsy DIFFICULTY>1]:
+ItemDisplay[sku DIFFICULTY>1]:
 ItemDisplay[gcv]: %PURPLE%O %WHITE%Chipped Amethyst %PURPLE%O
 ItemDisplay[gcw]: %WHITE%O %WHITE%Chipped Diamond %WHITE%O
 ItemDisplay[gcg]: %GREEN%O %WHITE%Chipped Emerald %GREEN%O
@@ -296,7 +295,7 @@ ItemDisplay[MAG !ID (cm1 OR cm3)]: %MAPICON(74)%%NOTIFY(ITEM)%%ORANGE%**** %BLUE
 ItemDisplay[MAG !ID cm2]: %ORANGE%** %BLUE%%NAME% %ORANGE%** %TAN%[%ILVL%]
 ItemDisplay[MAG !ID jew]: %MAPICON(74)%%NOTIFY(ITEM)%%RED%**** %BLUE%%NAME% %RED%**** %TAN%[%ILVL%]
 ItemDisplay[MAG !ID (CL1 OR (CL5 !(ces OR axf OR 9cs OR 9xf OR 7cs OR 7xf)) OR ama OR amf OR ci0 OR ci1 OR ci2 OR ci3) AREALVL<86]: %RED%* %BLUE%%NAME% %RED%* %TAN%[%ILVL%]
-ItemDisplay[MAG !ID (CL2 OR CL4 OR CL6) AREALVL<86]: %NAME% %RED%[%SOCKETS%] %TAN%[%ILVL%]
+ItemDisplay[MAG !ID (CL2 OR CL4 OR CL6) AREALVL<86]: %NAME% %TAN%[%ILVL%]
 // MAG Catchall
 ItemDisplay[MAG CLVL<51 !ID]: %NAME% %TAN%[%ILVL%]
 //
@@ -670,10 +669,6 @@ ItemDisplay[NMAG CL6 SK64>1 (SOCK=0 OR SOCK>1) ETH CLVL<71]: %GRAY%[ETH] %DARK_G
 ItemDisplay[NMAG CL6 SK65>1 (SOCK=0 OR SOCK>1) ETH]: %GRAY%[ETH] %DARK_GREEN%%NAME% %ORANGE%Cold Mastery %RED%[%SOCKETS%] %TAN%[%ILVL%]
 ItemDisplay[NMAG CL6 SKILL("Freezing Pulse")>1 (SOCK=0 OR SOCK>1) ETH CLVL<71]: %GRAY%[ETH] %DARK_GREEN%%NAME% %ORANGE%Freezing Pulse %RED%[%SOCKETS%] %TAN%[%ILVL%]
 // CL7 - Amazon Bows
-ItemDisplay[NMAG (am6 OR am7 OR amb OR amc) SOCK>2 TABSK0>1 ED>9 STAT(119)>0]: %DARK_GREEN%%NAME% %ORANGE%Bow+DMG+AR %RED%[%SOCKETS%] %TAN%[%ILVL%]
-ItemDisplay[NMAG (am6 OR am7 OR amb OR amc) SOCK>2 TABSK0>1 ED>9]: %DARK_GREEN%%NAME% %ORANGE%Bow+DMG %RED%[%SOCKETS%] %TAN%[%ILVL%]
-ItemDisplay[NMAG (am6 OR am7 OR amb OR amc) SOCK>2 TABSK0>1 STAT(119)>0]: %DARK_GREEN%%NAME% %ORANGE%Bow+AR %RED%[%SOCKETS%] %TAN%[%ILVL%]
-ItemDisplay[NMAG (am6 OR am7 OR amb OR amc) SOCK>2 TABSK0>1 !INF]: %DARK_GREEN%%NAME% %ORANGE%Bow %RED%[%SOCKETS%] %TAN%[%ILVL%]
 ItemDisplay[NMAG (am1 OR am2 OR am6 OR am7) (SOCK=0 OR SOCK>1) TABSK0>0 ED>9 STAT(119)>0 CLVL<71]: %DARK_GREEN%%NAME% %ORANGE%Bow+DMG+AR %RED%[%SOCKETS%] %TAN%[%ILVL%]
 ItemDisplay[NMAG (am1 OR am2 OR am6 OR am7) (SOCK=0 OR SOCK>1) TABSK0>0 ED>9 CLVL<71]: %DARK_GREEN%%NAME% %ORANGE%Bow+DMG %RED%[%SOCKETS%] %TAN%[%ILVL%]
 ItemDisplay[NMAG (am1 OR am2 OR am6 OR am7) (SOCK=0 OR SOCK>1) TABSK0>0 STAT(119)>0 CLVL<71]: %DARK_GREEN%%NAME% %ORANGE%Bow+AR %RED%[%SOCKETS%] %TAN%[%ILVL%]
@@ -791,7 +786,7 @@ ItemDisplay[NMAG ((brn CLVL<51) OR (9br CLVL<71) OR 7br OR (pik CLVL<51) OR (9p9
 ItemDisplay[NMAG ((brn CLVL<51) OR (9br CLVL<71) OR 7br OR (pik CLVL<51) OR (9p9 CLVL<71) OR 7p7) (SOCK=0 OR SOCK>3) ETH STAT(119)>0]: %GRAY%[ETH] %DARK_GREEN%%NAME% %ORANGE%AR %RED%[%SOCKETS%] %TAN%[%ILVL%]
 ItemDisplay[NMAG ((brn CLVL<51) OR (9br CLVL<71) OR 7br OR (pik CLVL<51) OR (9p9 CLVL<71) OR 7p7) (SOCK=0 OR SOCK>3) ETH !INF]: %GRAY%[ETH] %DARK_GREEN%%NAME% %RED%[%SOCKETS%] %TAN%[%ILVL%]
 // WP8 - Polearms
-ItemDisplay[NMAG ((pax CLVL<51) OR (scy CLVL<51) OR (9vo CLVL<71) OR (9pa CLVL<71) OR (9s8 CLVL<71)  OR 7vo OR 7s8 OR 7wc OR 7pa) (SOCK=0 OR SOCK>3) ILVL>25 !ETH ED>9 STAT(119)>0]: %DARK_GREEN%%NAME% %ORANGE%AR+DMG %RED%[%SOCKETS%] %TAN%[%ILVL%]
+ItemDisplay[NMAG ((pax CLVL<51) OR (scy CLVL<51) OR (9vo CLVL<71) OR (9pa CLVL<71) OR (9s8 CLVL<71) OR 7vo OR 7s8 OR 7wc OR 7pa) (SOCK=0 OR SOCK>3) ILVL>25 !ETH ED>9 STAT(119)>0]: %DARK_GREEN%%NAME% %ORANGE%AR+DMG %RED%[%SOCKETS%] %TAN%[%ILVL%]
 ItemDisplay[NMAG ((pax CLVL<51) OR (scy CLVL<51) OR (9vo CLVL<71) OR (9pa CLVL<71) OR (9s8 CLVL<71) OR 7vo OR 7s8 OR 7wc OR 7pa) (SOCK=0 OR SOCK>3) ILVL>25 !ETH ED>9]: %DARK_GREEN%%NAME% %ORANGE%DMG %RED%[%SOCKETS%] %TAN%[%ILVL%]
 ItemDisplay[NMAG ((pax CLVL<51) OR (scy CLVL<51) OR (9vo CLVL<71) OR (9pa CLVL<71) OR (9s8 CLVL<71) OR 7vo OR 7s8 OR 7wc OR 7pa) (SOCK=0 OR SOCK>3) ILVL>25 !ETH STAT(119)>0]: %DARK_GREEN%%NAME% %ORANGE%AR %RED%[%SOCKETS%] %TAN%[%ILVL%]
 ItemDisplay[NMAG ((pax CLVL<51) OR (scy CLVL<51) OR (9vo CLVL<71) OR (9pa CLVL<71) OR (9s8 CLVL<71) OR 7vo OR 7s8 OR 7wc OR 7pa) (SOCK=0 OR SOCK>3) ILVL>25 !ETH !INF]: %DARK_GREEN%%NAME% %RED%[%SOCKETS%] %TAN%[%ILVL%]
@@ -804,10 +799,10 @@ ItemDisplay[NMAG (cbw OR sbb OR 8cb OR 8s8 OR 6cb OR 6s7) (SOCK=0 OR SOCK>1) ILV
 ItemDisplay[NMAG (cbw OR sbb OR 8cb OR 8s8 OR 6cb OR 6s7) (SOCK=0 OR SOCK>1) ILVL>25 ED>9 CLVL<71]: %DARK_GREEN%%NAME% %ORANGE%DMG %RED%[%SOCKETS%] %TAN%[%ILVL%]
 ItemDisplay[NMAG (cbw OR sbb OR 8cb OR 8s8 OR 6cb OR 6s7) (SOCK=0 OR SOCK>1) ILVL>25 STAT(119)>0 CLVL<71]: %DARK_GREEN%%NAME% %ORANGE%AR %RED%[%SOCKETS%] %TAN%[%ILVL%]
 ItemDisplay[NMAG (cbw OR sbb OR 8cb OR 8s8 OR 6cb OR 6s7) (SOCK=0 OR SOCK>1) ILVL>25 !INF CLVL<71]: %DARK_GREEN%%NAME% %RED%[%SOCKETS%] %TAN%[%ILVL%]
-ItemDisplay[NMAG (cbw OR 6hb OR 6s7) (SOCK=0 OR SOCK=4) ILVL>25 ED>9 STAT(119)>0]: %DARK_GREEN%%NAME% %ORANGE%AR+DMG %RED%[%SOCKETS%] %TAN%[%ILVL%]
-ItemDisplay[NMAG (cbw OR 6hb OR 6s7) (SOCK=0 OR SOCK=4) ILVL>25 ED>9]: %DARK_GREEN%%NAME% %ORANGE%DMG %RED%[%SOCKETS%] %TAN%[%ILVL%]
-ItemDisplay[NMAG (cbw OR 6hb OR 6s7) (SOCK=0 OR SOCK=4) ILVL>25 STAT(119)>0]: %DARK_GREEN%%NAME% %ORANGE%AR %RED%[%SOCKETS%] %TAN%[%ILVL%]
-ItemDisplay[NMAG (cbw OR 6hb OR 6s7) (SOCK=0 OR SOCK=4) ILVL>25 !INF]: %DARK_GREEN%%NAME% %RED%[%SOCKETS%] %TAN%[%ILVL%]
+ItemDisplay[NMAG (cbw OR 6hb OR 6s7) (SOCK=0 OR SOCK=4) ILVL>25 ED>9 STAT(119)>0 AREALVL<86]: %DARK_GREEN%%NAME% %ORANGE%AR+DMG %RED%[%SOCKETS%] %TAN%[%ILVL%]
+ItemDisplay[NMAG (cbw OR 6hb OR 6s7) (SOCK=0 OR SOCK=4) ILVL>25 ED>9 AREALVL<86]: %DARK_GREEN%%NAME% %ORANGE%DMG %RED%[%SOCKETS%] %TAN%[%ILVL%]
+ItemDisplay[NMAG (cbw OR 6hb OR 6s7) (SOCK=0 OR SOCK=4) ILVL>25 STAT(119)>0 AREALVL<86]: %DARK_GREEN%%NAME% %ORANGE%AR %RED%[%SOCKETS%] %TAN%[%ILVL%]
+ItemDisplay[NMAG (cbw OR 6hb OR 6s7) (SOCK=0 OR SOCK=4) ILVL>25 !INF AREALVL<86]: %DARK_GREEN%%NAME% %RED%[%SOCKETS%] %TAN%[%ILVL%]
 //
 //╔═══════════════╗
 //║ Sell Me Items ║
