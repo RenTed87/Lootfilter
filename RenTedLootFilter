@@ -52,8 +52,6 @@ ItemDisplay[GOLD]:
 ItemDisplay[cx5]: %MAPICON(74)%%NOTIFY(ITEM)%%GREEN%****** %PURPLE%Orb of Corruption %GREEN%******
 ItemDisplay[cx9]: %MAPICON(74)%%NOTIFY(ITEM)%%PURPLE%****** %GREEN%Orb of Alteration %PURPLE%******
 ItemDisplay[maz]: %MAPICON(74)%%NOTIFY(ITEM)%%GREEN%****** %RED%Infernal Trial %GREEN%******
-ItemDisplay[(ma1 OR ma2 OR ma3 OR ma4 OR ma5 OR ma6 OR ma7 OR ma8 OR ma9 OR ma10) !ID]: %MAPICON(74)%%NOTIFY(ITEM)%%GREEN%****** %PURPLE%%NAME% %RED%T%MAPTIER% %GREEN%******
-ItemDisplay[(ma1 OR ma2 OR ma3 OR ma4 OR ma5 OR ma6 OR ma7 OR ma8 OR ma9 OR ma10) ID]: %PURPLE%%NAME% %GREEN%T%MAPTIER%
 ItemDisplay[SYNTH !ETH]: %MAPICON(74)%%NOTIFY(ITEM)%%NAME% %RED%[%SOCKETS%] %TAN%[%ILVL%]%PURPLE%
 ItemDisplay[SYNTH ETH]: %MAPICON(74)%%NOTIFY(ITEM)%%GRAY%[ETH] %GOLD%%NAME% %RED%[%SOCKETS%] %TAN%[%ILVL%]%PURPLE%
 //CatchAll PoD Items
