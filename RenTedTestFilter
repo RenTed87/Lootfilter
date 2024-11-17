@@ -11,11 +11,11 @@ Attribute[Name]: RenTedLootFilter TEST FILTER
 //╚══════════════╝
 //
 FilterLevel[1]: ÿc1.Standard
-FilterLevel[2]: ÿc1+Hide HP/MP
-FilterLevel[3]: ÿc1+Hide Craft
-FilterLevel[4]: ÿc1+Hide Craft+Show Quiver
-FilterLevel[5]: ÿc1+Hide Craft+HP/MP
-FilterLevel[6]: ÿc1+Hide Craft+HP/MP+Show Quiver
+FilterLevel[2]: ÿc1+HideHP/MP
+FilterLevel[3]: ÿc1+HideCraft
+FilterLevel[4]: ÿc1+HideCraft+ShowQuiver
+FilterLevel[5]: ÿc1+HideCraft+HP/MP
+FilterLevel[6]: ÿc1+HideCraft+HP/MP+ShowQuiver
 //
 //
 //╔══════════════════════╗
@@ -269,8 +269,8 @@ ItemDisplay[r33]: %MAPICON(74)%%NOTIFY(ITEM)%%GREEN%******** %PURPLE%%RUNENAME% 
 // Craft Display
 ItemDisplay[CRAFT !ETH (amu OR rin OR aq2 OR cq2 OR EQ4 OR EQ5 OR EQ6 OR WP5 OR WP6)]: %ORANGE%%NAME% %TAN%[%ILVL%]
 ItemDisplay[CRAFT ETH (amu OR rin OR aq2 OR cq2 OR EQ4 OR EQ5 OR EQ6 OR WP5 OR WP6)]: %GRAY%[ETH] %ORANGE%%NAME% %TAN%[%ILVL%]
-ItemDisplay[CRAFT !ETH ((WEAPONS AND !(WP5 OR WP6)) OR EQ1 OR EQ2 OR EQ3 OR EQ7)]: %ORANGE%%NAME% %RED%[%SOCKETS%] %TAN%[%ILVL%]
-ItemDisplay[CRAFT ETH ((WEAPONS AND !(WP5 OR WP6)) OR EQ1 OR EQ2 OR EQ3 OR EQ7)]: %GRAY%[ETH] %ORANGE%%NAME% %RED%[%SOCKETS%] %TAN%[%ILVL%]
+ItemDisplay[CRAFT !ETH ((WEAPON AND !(WP5 OR WP6)) OR EQ1 OR EQ2 OR EQ3 OR EQ7)]: %ORANGE%%NAME% %RED%[%SOCKETS%] %TAN%[%ILVL%]
+ItemDisplay[CRAFT ETH ((WEAPON AND !(WP5 OR WP6)) OR EQ1 OR EQ2 OR EQ3 OR EQ7)]: %GRAY%[ETH] %ORANGE%%NAME% %RED%[%SOCKETS%] %TAN%[%ILVL%]
 // Crafting Items (go "Magical Items" section)
 //ItemDisplay[MAG !ID ELT !ETH ILVL>84]: %BLUE%%NAME% %ORANGE%Craft Base %TAN%[%ILVL%]
 //ItemDisplay[MAG !ID ELT ETH ILVL>84]: %GRAY%[ETH] %BLUE%%NAME% %ORANGE%Craft Base %TAN%[%ILVL%]
