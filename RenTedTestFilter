@@ -10,12 +10,12 @@ Attribute[Name]: RenTedLootFilter TEST FILTER
 //║ Filter Level ║
 //╚══════════════╝
 //
-FilterLevel[1]: %RED%.Standard
-FilterLevel[2]: %RED%+Hide HP/MP
-FilterLevel[3]: %RED%+Hide Craft
-FilterLevel[4]: %RED%+Hide Craft+Show Quivers
-FilterLevel[5]: %RED%+Hide Craft+HP/MP
-FilterLevel[6]: %RED%+Hide Craft+HP/MP+Show Quivers
+FilterLevel[1]: ÿc1.Standard
+FilterLevel[2]: ÿc1+Hide HP/MP
+FilterLevel[3]: ÿc1+Hide Craft
+FilterLevel[4]: ÿc1+Hide Craft+Show Quivers
+FilterLevel[5]: ÿc1+Hide Craft+HP/MP
+FilterLevel[6]: ÿc1+Hide Craft+HP/MP+Show Quivers
 //
 //
 //╔══════════════════════╗
