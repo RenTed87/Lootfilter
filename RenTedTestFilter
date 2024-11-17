@@ -24,9 +24,9 @@ FilterLevel[6]: Above +Show Arrows/Bolts
 //
 ItemDisplay[(hp5 OR mp5) FILTERLVL=2]:
 ItemDisplay[MAG !ID ILVL>84 FILTERLVL=3]:
-ItemDisplay[MAG !ID !(aq2 OR cq2) ILVL>84 FILTERLVL=5]:
-ItemDisplay[(MAG !ID ILVL>84) AND (hp5 OR mp5) FILTERLVL=4]:
-ItemDisplay[(MAG !ID !(aq2 OR cq2) ILVL>84) AND (hp5 OR mp5) FILTERLVL=5]:
+ItemDisplay[MAG !ID !(aq2 OR cq2) ILVL>84 FILTERLVL=4]:
+ItemDisplay[(MAG !ID ILVL>84) AND (hp5 OR mp5) FILTERLVL=5]:
+ItemDisplay[(MAG !ID !(aq2 OR cq2) ILVL>84) AND (hp5 OR mp5) FILTERLVL=6]:
 //
 //╔══════════════╗
 //║ Quests Items ║
