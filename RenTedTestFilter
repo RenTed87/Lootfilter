@@ -267,11 +267,13 @@ ItemDisplay[r33]: %MAPICON(74)%%NOTIFY(ITEM)%%GREEN%******** %PURPLE%%RUNENAME% 
 //╚════════════════╝
 //
 // Craft Display
-ItemDisplay[!(NMAG OR MAG OR RARE OR SET OR UNI) (amu OR rin)]: %NAME% %TAN%[%ILVL%]
-ItemDisplay[!(NMAG OR MAG OR RARE OR SET OR UNI) (WEAPON OR ARMOR OR EQ1 OR EQ2 OR EQ3 OR EQ7 OR aq2 OR cq2)]: %NAME% %RED%[%SOCKETS%] %TAN%[%ILVL%]
-// Crafting Items
-ItemDisplay[MAG !ID ELT !ETH ILVL>84]: %BLUE%%NAME% %ORANGE%Craft Base %TAN%[%ILVL%]
-ItemDisplay[MAG !ID ELT ETH ILVL>84]: %GRAY%[ETH] %BLUE%%NAME% %ORANGE%Craft Base %TAN%[%ILVL%]
+ItemDisplay[CRAFT !ETH (amu OR rin OR aq2 OR cq2 OR EQ4 OR EQ5 OR EQ6 OR WP5 OR WP6)]: %ORANGE%%NAME% %TAN%[%ILVL%]
+ItemDisplay[CRAFT ETH (amu OR rin OR aq2 OR cq2 OR EQ4 OR EQ5 OR EQ6 OR WP5 OR WP6)]: %GRAY%[ETH] %ORANGE%%NAME% %TAN%[%ILVL%]
+ItemDisplay[CRAFT !ETH ((WEAPONS AND !(WP5 OR WP6)) OR EQ1 OR EQ2 OR EQ3 OR EQ7)]: %ORANGE%%NAME% %RED%[%SOCKETS%] %TAN%[%ILVL%]
+ItemDisplay[CRAFT ETH ((WEAPONS AND !(WP5 OR WP6)) OR EQ1 OR EQ2 OR EQ3 OR EQ7)]: %GRAY%[ETH] %ORANGE%%NAME% %RED%[%SOCKETS%] %TAN%[%ILVL%]
+// Crafting Items (go "Magical Items" section)
+//ItemDisplay[MAG !ID ELT !ETH ILVL>84]: %BLUE%%NAME% %ORANGE%Craft Base %TAN%[%ILVL%]
+//ItemDisplay[MAG !ID ELT ETH ILVL>84]: %GRAY%[ETH] %BLUE%%NAME% %ORANGE%Craft Base %TAN%[%ILVL%]
 //
 //╔═════════════════════╗
 //║ Global Items Naming ║
@@ -305,8 +307,12 @@ ItemDisplay[MAG !ID (amu OR rin)]: %NAME% %TAN%[%ILVL%]
 ItemDisplay[MAG !ID (cm1 OR cm3)]: %MAPICON(74)%%NOTIFY(ITEM)%%ORANGE%**** %BLUE%%NAME% %ORANGE%**** %TAN%[%ILVL%]
 ItemDisplay[MAG !ID cm2]: %ORANGE%** %BLUE%%NAME% %ORANGE%** %TAN%[%ILVL%]
 ItemDisplay[MAG !ID jew]: %MAPICON(74)%%NOTIFY(ITEM)%%RED%**** %BLUE%%NAME% %RED%**** %TAN%[%ILVL%]
-ItemDisplay[MAG !ID (CL1 OR (CL5 !(ces OR axf OR 9cs OR 9xf OR 7cs OR 7xf)) OR ama OR amf OR ci0 OR ci1 OR ci2 OR ci3) AREALVL<86]: %RED%* %BLUE%%NAME% %RED%* %TAN%[%ILVL%]
-ItemDisplay[MAG !ID (CL2 OR CL4 OR CL6) AREALVL<86]: %NAME% %TAN%[%ILVL%]
+ItemDisplay[MAG !ID !ETH (CL1 OR (CL5 !(ces OR axf OR 9cs OR 9xf OR 7cs OR 7xf)) OR ama OR amf OR ci0 OR ci1 OR ci2 OR ci3)]: %RED%* %BLUE%%NAME% %RED%* %TAN%[%ILVL%]
+ItemDisplay[MAG !ID ETH (CL1 OR (CL5 !(ces OR axf OR 9cs OR 9xf OR 7cs OR 7xf)) OR ama OR amf OR ci0 OR ci1 OR ci2 OR ci3)]: %RED%* %GRAY%[ETH] %BLUE%%NAME% %RED%* %TAN%[%ILVL%]
+ItemDisplay[MAG !ID (CL2 OR CL4 OR CL6)]: %NAME% %TAN%[%ILVL%]
+// Crafting Base Carchall
+ItemDisplay[MAG ELT ILVL<84 !ID !ETH]: %BLUE%%NAME% %ORANGE%Crafting Base %TAN%[%ILVL%]
+ItemDisplay[MAG ELT ILVL<84 !ID ETH]: %GRAY%[ETH] %BLUE%%NAME% %ORANGE%Crafting Base %TAN%[%ILVL%]
 // MAG Catchall
 ItemDisplay[MAG CLVL<51 !ID !ETH]: %BLUE%%NAME% %TAN%[%ILVL%]
 ItemDisplay[MAG CLVL<51 !ID ETH]: %GRAY%[ETH] %BLUE%%NAME% %TAN%[%ILVL%]
