@@ -13,9 +13,9 @@ Attribute[Name]: RenTedLootFilter TEST FILTER
 FilterLevel[1]: ÿc1.Standard
 FilterLevel[2]: ÿc1+Hide HP/MP
 FilterLevel[3]: ÿc1+Hide Craft
-FilterLevel[4]: ÿc1+Hide Craft+Show Quivers
+FilterLevel[4]: ÿc1+Hide Craft+Show Quiver
 FilterLevel[5]: ÿc1+Hide Craft+HP/MP
-FilterLevel[6]: ÿc1+Hide Craft+HP/MP+Show Quivers
+FilterLevel[6]: ÿc1+Hide Craft+HP/MP+Show Quiver
 //
 //
 //╔══════════════════════╗
