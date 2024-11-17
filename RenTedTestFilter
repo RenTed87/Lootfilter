@@ -1,10 +1,32 @@
-//RenTedTestFilter
+//RenTedLootFilter
 //Please take a screenshot when reporting an issue, it will greatly help me fixing it.
 //If something is missing, let me know I will add it.
-//DISCORD Name: RenTed
+//DISCORD Name: RenTed (renteds)
 //
 Attribute[Author]: RenTed.
-Attribute[Name]: RenTed--TEST--Filter, a Loot Filter for PoD,
+Attribute[Name]: RenTedLootFilter TEST FILTER
+//
+//╔══════════════╗
+//║ Filter Level ║
+//╚══════════════╝
+//
+FilterLevel[1]: Standard
+FilterLevel[2]: +Hide HP/MP
+FilterLevel[3]: +Hide Craft
+FilterLevel[4]: +Hide Craft +Show Arrows/Bolts
+FilterLevel[5]: +Hide Craft+HP/MP
+FilterLevel[6]: +Hide Craft+HP/MP +Show Arrows/Bolts
+//
+//
+//╔══════════════════════╗
+//║ Filter Level Remover ║
+//╚══════════════════════╝
+//
+ItemDisplay[(hp5 OR mp5) FILTERLVL=2]:
+ItemDisplay[MAG !ID ILVL>84 FILTERLVL=3]:
+ItemDisplay[MAG !ID !(aq2 OR cq2) ILVL>84 FILTERLVL=5]:
+ItemDisplay[(MAG !ID ILVL>84) AND (hp5 OR mp5) FILTERLVL=4]:
+ItemDisplay[(MAG !ID !(aq2 OR cq2) ILVL>84) AND (hp5 OR mp5) FILTERLVL=5]:
 //
 //╔══════════════╗
 //║ Quests Items ║
@@ -50,9 +72,8 @@ ItemDisplay[GOLD]:
 //╚═══════════╝
 //
 ItemDisplay[cx5]: %MAPICON(74)%%NOTIFY(ITEM)%%GREEN%****** %PURPLE%Orb of Corruption %GREEN%******
+ItemDisplay[cx9]: %MAPICON(74)%%NOTIFY(ITEM)%%PURPLE%****** %GREEN%Orb of Alteration %PURPLE%******
 ItemDisplay[maz]: %MAPICON(74)%%NOTIFY(ITEM)%%GREEN%****** %RED%Infernal Trial %GREEN%******
-ItemDisplay[(ma1 OR ma2 OR ma3 OR ma4 OR ma5 OR ma6 OR ma7 OR ma8 OR ma9 OR ma10) !ID]: %MAPICON(74)%%NOTIFY(ITEM)%%GREEN%****** %PURPLE%%NAME% %RED%T%MAPTIER% %GREEN%******
-ItemDisplay[(ma1 OR ma2 OR ma3 OR ma4 OR ma5 OR ma6 OR ma7 OR ma8 OR ma9 OR ma10) ID]: %PURPLE%%NAME% %GREEN%T%MAPTIER%
 ItemDisplay[SYNTH !ETH]: %MAPICON(74)%%NOTIFY(ITEM)%%NAME% %RED%[%SOCKETS%] %TAN%[%ILVL%]%PURPLE%
 ItemDisplay[SYNTH ETH]: %MAPICON(74)%%NOTIFY(ITEM)%%GRAY%[ETH] %GOLD%%NAME% %RED%[%SOCKETS%] %TAN%[%ILVL%]%PURPLE%
 //CatchAll PoD Items
@@ -114,7 +135,7 @@ ItemDisplay[CLVL<15 mp1]: %WHITE%Minor !%BLUE%MP
 ItemDisplay[ear]: %NAME%
 ItemDisplay[yps AREALVL<86]: %WHITE%!%GREEN%Ant
 ItemDisplay[CLVL<50 wms]: %WHITE%!%YELLOW%Thaw
-ItemDisplay[CLVL<15 vps]: %WHITE%!%GRAY%Stam
+ItemDisplay[CLVL<10 vps]: %WHITE%!%GRAY%Stam
 ItemDisplay[opl OR opm OR ops OR gpl OR gpm OR gps]:
 //
 //╔══════════════╗
@@ -207,25 +228,25 @@ ItemDisplay[skz]: %MAPICON(74)%%NOTIFY(ITEM)%%GRAY%O %ORANGE%PRF %WHITE%Skull %G
 //╚═══════╝
 //
 ItemDisplay[RW]: %NAME% %RED%[%SOCKETS%] %TAN%[%ILVL%]
-ItemDisplay[r01]: %ORANGE%%RUNENAME% %TAN%[1]
-ItemDisplay[r02]: %ORANGE%%RUNENAME% %TAN%[2]
-ItemDisplay[r03]: %ORANGE%%RUNENAME% %TAN%[3]
-ItemDisplay[r04]: %ORANGE%%RUNENAME% %TAN%[4]
-ItemDisplay[r05]: %ORANGE%%RUNENAME% %TAN%[5]
-ItemDisplay[r06]: %ORANGE%%RUNENAME% %TAN%[6]
-ItemDisplay[r07]: %ORANGE%%RUNENAME% %TAN%[7]
+ItemDisplay[r01]: %MAPICON(74)%%NOTIFY(ITEM)%%ORANGE%%RUNENAME% %TAN%[1]
+ItemDisplay[r02]: %MAPICON(74)%%NOTIFY(ITEM)%%ORANGE%%RUNENAME% %TAN%[2]
+ItemDisplay[r03]: %MAPICON(74)%%NOTIFY(ITEM)%%ORANGE%%RUNENAME% %TAN%[3]
+ItemDisplay[r04]: %MAPICON(74)%%NOTIFY(ITEM)%%ORANGE%%RUNENAME% %TAN%[4]
+ItemDisplay[r05]: %MAPICON(74)%%NOTIFY(ITEM)%%ORANGE%%RUNENAME% %TAN%[5]
+ItemDisplay[r06]: %MAPICON(74)%%NOTIFY(ITEM)%%ORANGE%%RUNENAME% %TAN%[6]
+ItemDisplay[r07]: %MAPICON(74)%%NOTIFY(ITEM)%%ORANGE%%RUNENAME% %TAN%[7]
 ItemDisplay[r08]: %MAPICON(74)%%NOTIFY(ITEM)%%RED%**** %ORANGE%%RUNENAME% %RED%**** %TAN%[8]
-ItemDisplay[r09]: %ORANGE%%RUNENAME% %TAN%[9]
-ItemDisplay[r10]: %ORANGE%%RUNENAME% %TAN%[10]
+ItemDisplay[r09]: %MAPICON(74)%%NOTIFY(ITEM)%%ORANGE%%RUNENAME% %TAN%[9]
+ItemDisplay[r10]: %MAPICON(74)%%NOTIFY(ITEM)%%ORANGE%%RUNENAME% %TAN%[10]
 ItemDisplay[r11]: %MAPICON(74)%%NOTIFY(ITEM)%%RED%**** %ORANGE%%RUNENAME% %RED%**** %TAN%[11]
 ItemDisplay[r12]: %MAPICON(74)%%NOTIFY(ITEM)%%RED%**** %ORANGE%%RUNENAME% %RED%**** %TAN%[12]
-ItemDisplay[r13]: %ORANGE%%RUNENAME% %TAN%[13]
-ItemDisplay[r14]: %ORANGE%%RUNENAME% %TAN%[14]
+ItemDisplay[r13]: %MAPICON(74)%%NOTIFY(ITEM)%%ORANGE%%RUNENAME% %TAN%[13]
+ItemDisplay[r14]: %MAPICON(74)%%NOTIFY(ITEM)%%ORANGE%%RUNENAME% %TAN%[14]
 ItemDisplay[r15]: %MAPICON(74)%%NOTIFY(ITEM)%%RED%**** %ORANGE%%RUNENAME% %RED%**** %TAN%[15]
-ItemDisplay[r16]: %ORANGE%%RUNENAME% %TAN%[16]
-ItemDisplay[r17]: %ORANGE%%RUNENAME% %TAN%[17]
+ItemDisplay[r16]: %MAPICON(74)%%NOTIFY(ITEM)%%ORANGE%%RUNENAME% %TAN%[16]
+ItemDisplay[r17]: %MAPICON(74)%%NOTIFY(ITEM)%%ORANGE%%RUNENAME% %TAN%[17]
 ItemDisplay[r18]: %MAPICON(74)%%NOTIFY(ITEM)%%RED%**** %ORANGE%%RUNENAME% %RED%**** %TAN%[18]
-ItemDisplay[r19]: %ORANGE%%RUNENAME% %TAN%[19]
+ItemDisplay[r19]: %MAPICON(74)%%NOTIFY(ITEM)%%ORANGE%%RUNENAME% %TAN%[19]
 ItemDisplay[r20]: %MAPICON(74)%%NOTIFY(ITEM)%%RED%****** %PURPLE%%RUNENAME% %RED%****** %TAN%[20]
 ItemDisplay[r21]: %MAPICON(74)%%NOTIFY(ITEM)%%RED%****** %PURPLE%%RUNENAME% %RED%****** %TAN%[21]
 ItemDisplay[r22]: %MAPICON(74)%%NOTIFY(ITEM)%%RED%****** %PURPLE%%RUNENAME% %RED%****** %TAN%[22]
@@ -247,20 +268,10 @@ ItemDisplay[r33]: %MAPICON(74)%%NOTIFY(ITEM)%%GREEN%******** %PURPLE%%RUNENAME% 
 //
 // Craft Display
 ItemDisplay[!(NMAG OR MAG OR RARE OR SET OR UNI) (amu OR rin)]: %NAME% %TAN%[%ILVL%]
-ItemDisplay[!(NMAG OR MAG OR RARE OR SET OR UNI) (WEAPON OR ARMOR OR EQ1 OR EQ2 OR EQ3 OR EQ7)]: %NAME% %RED%[%SOCKETS%] %TAN%[%ILVL%]
-// Hit Power
-//Hit Power Items: 6ws, 7ws, 7m7, 7gm, 7wh, 7fl, umg, xmg, uld, uts.
-// Blood
-//Other Blood Items: 7wa, 7mp, 72a , 7gi, 7ga, 7bt, ult, upk, ulm, utb, xtb.
-ItemDisplay[MAG (mbl OR zmb OR umc) ILVL>70]: %NAME% %ORANGE%Blood Belt %TAN%[%ILVL%]
-ItemDisplay[MAG (vgl OR xvg OR uvg) ILVL>70]: %NAME% %ORANGE%Blood Gloves %TAN%[%ILVL%]
-// Caster
-//Other Caster Items: 7qs, 6bs, 7gw, usk, xsk, uml, utp, ulg.
-ItemDisplay[MAG (vbl OR zvb OR uvc) ILVL>70]: %NAME% %ORANGE%Caster Belt %TAN%[%ILVL%]
-ItemDisplay[MAG (lbt OR xlb OR ulb) ILVL>70]: %NAME% %ORANGE%Caster Boots %TAN%[%ILVL%]
-// Safety
-//Other Safety Items: 7p7, 7st, amf, urn, urs, uhb, xhb,xhg,ulc.
-ItemDisplay[MAG (xit OR uit) ILVL>70]: %NAME% %ORANGE%Safety Shield %TAN%[%ILVL%]
+ItemDisplay[!(NMAG OR MAG OR RARE OR SET OR UNI) (WEAPON OR ARMOR OR EQ1 OR EQ2 OR EQ3 OR EQ7 OR aq2 OR cq2)]: %NAME% %RED%[%SOCKETS%] %TAN%[%ILVL%]
+// Crafting Items
+ItemDisplay[MAG !ID ELT !ETH ILVL>84]: %BLUE%%NAME% %ORANGE%Craft Base %TAN%[%ILVL%]
+ItemDisplay[MAG !ID ELT ETH ILVL>84]: %GRAY%[ETH] %BLUE%%NAME% %ORANGE%Craft Base %TAN%[%ILVL%]
 //
 //╔═════════════════════╗
 //║ Global Items Naming ║
@@ -297,7 +308,8 @@ ItemDisplay[MAG !ID jew]: %MAPICON(74)%%NOTIFY(ITEM)%%RED%**** %BLUE%%NAME% %RED
 ItemDisplay[MAG !ID (CL1 OR (CL5 !(ces OR axf OR 9cs OR 9xf OR 7cs OR 7xf)) OR ama OR amf OR ci0 OR ci1 OR ci2 OR ci3) AREALVL<86]: %RED%* %BLUE%%NAME% %RED%* %TAN%[%ILVL%]
 ItemDisplay[MAG !ID (CL2 OR CL4 OR CL6) AREALVL<86]: %NAME% %TAN%[%ILVL%]
 // MAG Catchall
-ItemDisplay[MAG CLVL<51 !ID]: %NAME% %TAN%[%ILVL%]
+ItemDisplay[MAG CLVL<51 !ID !ETH]: %BLUE%%NAME% %TAN%[%ILVL%]
+ItemDisplay[MAG CLVL<51 !ID ETH]: %GRAY%[ETH] %BLUE%%NAME% %TAN%[%ILVL%]
 //
 //╔════════════╗
 //║ Rare Items ║
@@ -911,17 +923,17 @@ ItemDisplay[UNI !ID ETH AREALVL<86]: %GRAY%[ETH] %GOLD%%NAME% %TAN%[%ILVL%]
 //║ Leveling & Global Hideall ║
 //╚═══════════════════════════╝
 //
-ItemDisplay[CLVL<16 (EQ4 OR EQ5 OR EQ6 OR WP5 OR WP6 OR aqv OR cqv) !ETH]: %NAME% %TAN%[%ILVL%]
-ItemDisplay[CLVL<16 !ETH]: %NAME% %RED%[%SOCKETS%] %TAN%[%ILVL%]
-ItemDisplay[CLVL<16 (EQ4 OR EQ5 OR EQ6 OR WP5 OR WP6 OR aqv OR cqv) ETH]: %GRAY%[ETH] %WHITE%%NAME% %TAN%[%ILVL%]
-ItemDisplay[CLVL<16 ETH]: %GRAY%[ETH] %WHITE%%NAME% %RED%[%SOCKETS%] %TAN%[%ILVL%]
-ItemDisplay[CLVL>15]:
+ItemDisplay[CLVL<11 (EQ4 OR EQ5 OR EQ6 OR WP5 OR WP6 OR aqv OR cqv) !INF !ETH]: %NAME% %TAN%[%ILVL%]
+ItemDisplay[CLVL<11 !INF !ETH]: %NAME% %RED%[%SOCKETS%] %TAN%[%ILVL%]
+ItemDisplay[CLVL<11 (EQ4 OR EQ5 OR EQ6 OR WP5 OR WP6 OR aqv OR cqv) !INF ETH]: %GRAY%[ETH] %WHITE%%NAME% %TAN%[%ILVL%]
+ItemDisplay[CLVL<11 !INF ETH]: %GRAY%[ETH] %WHITE%%NAME% %RED%[%SOCKETS%] %TAN%[%ILVL%]
+ItemDisplay[CLVL>10]:
 //
 //╔════════════════════╗
 //║ End of Loot Filter ║
 //╚════════════════════╝
 //
-//RenTedTestFilter
+//RenTedLootFilter
 //Please take a screenshot when reporting an issue, it will greatly help me fixing it.
 //If something is missing, let me know I will add it.
-//DISCORD Name: RenTed
+//DISCORD Name: RenTed (renteds)
