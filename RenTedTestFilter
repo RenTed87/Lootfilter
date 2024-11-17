@@ -13,9 +13,9 @@ Attribute[Name]: RenTedLootFilter TEST FILTER
 FilterLevel[1]: Standard
 FilterLevel[2]: +Hide HP/MP
 FilterLevel[3]: +Hide Craft
-FilterLevel[4]: +Hide Craft +Show Arrows/Bolts
+FilterLevel[4]: Above +Show Arrows/Bolts
 FilterLevel[5]: +Hide Craft+HP/MP
-FilterLevel[6]: +Hide Craft+HP/MP +Show Arrows/Bolts
+FilterLevel[6]: Above +Show Arrows/Bolts
 //
 //
 //╔══════════════════════╗
