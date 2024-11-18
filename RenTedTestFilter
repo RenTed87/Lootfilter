@@ -23,10 +23,10 @@ FilterLevel[6]: ÿc1+HideCraft+HP/MP+ShowQuiver
 //╚══════════════════════╝
 //
 ItemDisplay[(hp5 OR mp5) FILTERLVL=2]:
-ItemDisplay[MAG !(cm1 OR cm2 OR cm3 OR jew OR EQ7) !ID ILVL>84 FILTERLVL=3]:
-ItemDisplay[MAG !ID !(cm1 OR cm2 OR cm3 OR jew OR EQ7 OR aq2 OR cq2) ILVL>84 FILTERLVL=4]:
-ItemDisplay[(MAG !(cm1 OR cm2 OR cm3 OR jew OR EQ7) !ID ILVL>84) AND (hp5 OR mp5) FILTERLVL=5]:
-ItemDisplay[(MAG !ID !(cm1 OR cm2 OR cm3 OR jew OR EQ7 OR aq2 OR cq2) ILVL>84) AND (hp5 OR mp5) FILTERLVL=6]:
+ItemDisplay[MAG !ID !(cm1 OR cm2 OR cm3 OR jew OR EQ7) FILTERLVL=3]:
+ItemDisplay[MAG !ID !(cm1 OR cm2 OR cm3 OR jew OR EQ7 OR aq2 OR cq2) FILTERLVL=4]:
+ItemDisplay[(MAG !ID !(cm1 OR cm2 OR cm3 OR jew OR EQ7)) AND (hp5 OR mp5) FILTERLVL=5]:
+ItemDisplay[(MAG !ID !(cm1 OR cm2 OR cm3 OR jew OR EQ7 OR aq2 OR cq2)) AND (hp5 OR mp5) FILTERLVL=6]:
 //
 //╔══════════════╗
 //║ Quests Items ║
