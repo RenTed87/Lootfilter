@@ -316,8 +316,8 @@ ItemDisplay[MAG CLVL<51 !ID ETH]: %GRAY%[ETH] %BLUE%%NAME% %TAN%[%ILVL%]
 //╚════════════╝
 //
 // Good Rares
-ItemDisplay[RARE !ID (EQ4 OR EQ5 OR EQ7 OR amu OR rin OR jew OR aq2) !ETH]: %MAPICON(74)%%NOTIFY(ITEM)%%RED%***** %YELLOW%%NAME% %RED%***** %TAN%[%ILVL%]
-ItemDisplay[RARE !ID (EQ4 OR EQ5 OR EQ7 OR amu OR rin OR jew OR aq2) ETH]: %MAPICON(74)%%NOTIFY(ITEM)%%RED%***** %GRAY%[ETH] %YELLOW%%NAME% %RED%***** %TAN%[%ILVL%]
+ItemDisplay[RARE !ID (EQ4 OR EQ5 OR EQ7 OR amu OR rin OR jew OR aq2) !ETH]: %MAPICON(74)%%NOTIFY(ITEM)%%RED%*** %YELLOW%%NAME% %RED%*** %TAN%[%ILVL%]
+ItemDisplay[RARE !ID (EQ4 OR EQ5 OR EQ7 OR amu OR rin OR jew OR aq2) ETH]: %MAPICON(74)%%NOTIFY(ITEM)%%RED%*** %GRAY%[ETH] %YELLOW%%NAME% %RED%*** %TAN%[%ILVL%]
 // Other Rares
 ItemDisplay[RARE !ID (CL1 OR EQ6 OR (CL5 !(ces OR axf OR 9cs OR 9xf OR 7cs OR 7xf)) OR ama OR amf OR 7wa) !ETH]: %RED%** %YELLOW%%NAME% %RED%** %TAN%[%ILVL%]
 ItemDisplay[RARE !ID (CL1 OR EQ6 OR (CL5 !(ces OR axf OR 9cs OR 9xf OR 7cs OR 7xf)) OR ama OR amf OR 7wa)  ETH]: %RED%** %GRAY%[ETH] %YELLOW%%NAME% %RED%** %TAN%[%ILVL%]
