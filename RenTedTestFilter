@@ -10,12 +10,10 @@ Attribute[Name]: RenTedLootFilter TEST FILTER
 //║ Filter Level ║
 //╚══════════════╝
 //
-FilterLevel[1]: ÿc1.Standard
-FilterLevel[2]: ÿc1+HideHP/MP
-FilterLevel[3]: ÿc1+HideCraft
-FilterLevel[4]: ÿc1+HideCraft+ShowQuiver
-FilterLevel[5]: ÿc1+HideCraft+HP/MP
-FilterLevel[6]: ÿc1+HideCraft+HP/MP+ShowQuiver
+FilterLevel[1]: ÿc1Standard
+FilterLevel[2]: ÿc1HideHP/MP
+FilterLevel[3]: ÿc1ShowAllCraft
+FilterLevel[4]: ÿc1ShowQuiversOnly
 //
 //
 //╔══════════════════════╗
@@ -23,10 +21,9 @@ FilterLevel[6]: ÿc1+HideCraft+HP/MP+ShowQuiver
 //╚══════════════════════╝
 //
 ItemDisplay[(hp5 OR mp5) FILTERLVL=2]:
-ItemDisplay[MAG !ID !(cm1 OR cm2 OR cm3 OR jew OR EQ7) FILTERLVL=3]:
-ItemDisplay[MAG !ID !(cm1 OR cm2 OR cm3 OR jew OR EQ7 OR aq2 OR cq2) FILTERLVL=4]:
-ItemDisplay[(MAG !ID !(cm1 OR cm2 OR cm3 OR jew OR EQ7)) AND (hp5 OR mp5) FILTERLVL=5]:
-ItemDisplay[(MAG !ID !(cm1 OR cm2 OR cm3 OR jew OR EQ7 OR aq2 OR cq2)) AND (hp5 OR mp5) FILTERLVL=6]:
+ItemDisplay[MAG ELT !ID !ETH !(cm1 OR cm2 OR cm3 OR jew OR CL1 OR (CL5 !(ces OR axf OR 9cs OR 9xf OR 7cs OR 7xf)) OR CL2 OR CL4 OR CL6 OR ama OR amf OR EQ7) ILVL>71 FILTERLVL=3]: %BLUE%%NAME% %ORANGE%Crafting Base %TAN%[%ILVL%]
+ItemDisplay[MAG ELT !ID ETH !(cm1 OR cm2 OR cm3 OR jew OR CL1 OR (CL5 !(ces OR axf OR 9cs OR 9xf OR 7cs OR 7xf)) OR CL2 OR CL4 OR CL6 OR ama OR amf OR EQ7) ILVL>71 FILTERLVL=3]: %GRAY%[ETH] %BLUE%%NAME% %ORANGE%Crafting Base %TAN%[%ILVL%]
+ItemDisplay[MAG !ID (aq2 OR cq2) ILVL>71 FILTERLVL=4]: %BLUE%%NAME% %ORANGE%Crafting Base %TAN%[%ILVL%]
 //
 //╔══════════════╗
 //║ Quests Items ║
@@ -271,7 +268,7 @@ ItemDisplay[CRAFT !ETH (amu OR rin OR aq2 OR cq2 OR EQ4 OR EQ5 OR EQ6 OR WP5 OR 
 ItemDisplay[CRAFT ETH (amu OR rin OR aq2 OR cq2 OR EQ4 OR EQ5 OR EQ6 OR WP5 OR WP6)]: %GRAY%[ETH] %ORANGE%%NAME% %TAN%[%ILVL%]
 ItemDisplay[CRAFT !ETH ((WEAPON AND !(WP5 OR WP6)) OR EQ1 OR EQ2 OR EQ3 OR EQ7)]: %ORANGE%%NAME% %RED%[%SOCKETS%] %TAN%[%ILVL%]
 ItemDisplay[CRAFT ETH ((WEAPON AND !(WP5 OR WP6)) OR EQ1 OR EQ2 OR EQ3 OR EQ7)]: %GRAY%[ETH] %ORANGE%%NAME% %RED%[%SOCKETS%] %TAN%[%ILVL%]
-// Crafting Items (go "Magical Items" section)
+// Crafting Items (See Filter Level)
 //ItemDisplay[MAG !ID ELT !ETH ILVL>84]: %BLUE%%NAME% %ORANGE%Craft Base %TAN%[%ILVL%]
 //ItemDisplay[MAG !ID ELT ETH ILVL>84]: %GRAY%[ETH] %BLUE%%NAME% %ORANGE%Craft Base %TAN%[%ILVL%]
 //
@@ -310,9 +307,6 @@ ItemDisplay[MAG !ID jew]: %MAPICON(74)%%NOTIFY(ITEM)%%RED%**** %BLUE%%NAME% %RED
 ItemDisplay[MAG !ID !ETH (CL1 OR (CL5 !(ces OR axf OR 9cs OR 9xf OR 7cs OR 7xf)) OR ama OR amf OR EQ7)]: %RED%* %BLUE%%NAME% %RED%* %TAN%[%ILVL%]
 ItemDisplay[MAG !ID ETH (CL1 OR (CL5 !(ces OR axf OR 9cs OR 9xf OR 7cs OR 7xf)) OR ama OR amf OR EQ7)]: %RED%* %GRAY%[ETH] %BLUE%%NAME% %RED%* %TAN%[%ILVL%]
 ItemDisplay[MAG !ID (CL2 OR CL4 OR CL6)]: %NAME% %TAN%[%ILVL%]
-// Crafting Base Carchall
-ItemDisplay[MAG ELT ILVL<84 !ID !ETH]: %BLUE%%NAME% %ORANGE%Crafting Base %TAN%[%ILVL%]
-ItemDisplay[MAG ELT ILVL<84 !ID ETH]: %GRAY%[ETH] %BLUE%%NAME% %ORANGE%Crafting Base %TAN%[%ILVL%]
 // MAG Catchall
 ItemDisplay[MAG CLVL<51 !ID !ETH]: %BLUE%%NAME% %TAN%[%ILVL%]
 ItemDisplay[MAG CLVL<51 !ID ETH]: %GRAY%[ETH] %BLUE%%NAME% %TAN%[%ILVL%]
