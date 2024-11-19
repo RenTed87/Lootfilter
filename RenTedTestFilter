@@ -4,7 +4,7 @@
 //DISCORD Name: RenTed (renteds)
 //
 Attribute[Author]: RenTed.
-Attribute[Name]: RenTedLootFilter TEST FILTER
+Attribute[Name]: RenTedLootFilter *-* TEST FILTER *-*, Change the Filter LvL for Crafting Base.
 //
 //╔══════════════╗
 //║ Filter Level ║
@@ -21,8 +21,8 @@ FilterLevel[4]: ÿc1ShowQuiversOnly
 //╚══════════════════════╝
 //
 ItemDisplay[(hp5 OR mp5) FILTERLVL=2]:
-ItemDisplay[MAG ELT !ID !ETH !(cm1 OR cm2 OR cm3 OR jew OR CL1 OR (CL5 !(ces OR axf OR 9cs OR 9xf OR 7cs OR 7xf)) OR CL2 OR CL4 OR CL6 OR ama OR amf OR EQ7) ILVL>71 FILTERLVL=3]: %BLUE%%NAME% %ORANGE%Crafting Base %TAN%[%ILVL%]
-ItemDisplay[MAG ELT !ID ETH !(cm1 OR cm2 OR cm3 OR jew OR CL1 OR (CL5 !(ces OR axf OR 9cs OR 9xf OR 7cs OR 7xf)) OR CL2 OR CL4 OR CL6 OR ama OR amf OR EQ7) ILVL>71 FILTERLVL=3]: %GRAY%[ETH] %BLUE%%NAME% %ORANGE%Crafting Base %TAN%[%ILVL%]
+ItemDisplay[MAG (ELT OR (aq2 OR cq2)) !ID !ETH !(cm1 OR cm2 OR cm3 OR jew OR CL1 OR (CL5 !(ces OR axf OR 9cs OR 9xf OR 7cs OR 7xf)) OR CL2 OR CL4 OR CL6 OR ama OR amf OR EQ7) ILVL>71 FILTERLVL=3]: %BLUE%%NAME% %ORANGE%Crafting Base %TAN%[%ILVL%]
+ItemDisplay[MAG (ELT OR (aq2 OR cq2)) !ID ETH !(cm1 OR cm2 OR cm3 OR jew OR CL1 OR (CL5 !(ces OR axf OR 9cs OR 9xf OR 7cs OR 7xf)) OR CL2 OR CL4 OR CL6 OR ama OR amf OR EQ7) ILVL>71 FILTERLVL=3]: %GRAY%[ETH] %BLUE%%NAME% %ORANGE%Crafting Base %TAN%[%ILVL%]
 ItemDisplay[MAG !ID (aq2 OR cq2) ILVL>71 FILTERLVL=4]: %BLUE%%NAME% %ORANGE%Crafting Base %TAN%[%ILVL%]
 //
 //╔══════════════╗
